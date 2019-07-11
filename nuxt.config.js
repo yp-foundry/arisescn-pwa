@@ -38,14 +38,24 @@ export default {
     ]
   },
   meta: {
-    name: 'Arise SCN',
+    name: 'Arise, Shine Christian Network',
     nativeUI: true
+  },
+
+  manifest: {
+    name: 'Arise, Shine Christian Network',
+    lang: 'en',
+    shortName: 'Arise SCN',
+    // eslint-disable-next-line prettier/prettier
+    'short_name': 'Arise SCN',
+    // eslint-disable-next-line prettier/prettier
+    'background_color': '#fcfeff'
   },
 
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#1E88E5' },
+  loading: { color: colors.blue.darken3 },
   /*
    ** Global CSS
    */
@@ -68,6 +78,8 @@ export default {
    */
   vuetify: {
     theme: {
+      primary: colors.blue.darken3,
+      accent: '#151829',
       themes: {
         light: {
           primary: colors.blue.darken3,
@@ -85,7 +97,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Open+Sans:400,500,700&display=swap'] // Loads Lato font with weights 400 and 700
+      families: ['Open+Sans:400,600,700&display=swap'] // Loads Lato font with weights 400 and 700
     }
   },
 

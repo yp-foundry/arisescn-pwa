@@ -42,7 +42,14 @@
       </template>
 
       <template v-slot:item.action="{ item }">
-        <v-btn :href="item.link" target="_blank" color="primary" icon>
+        <v-btn
+          :href="item.link"
+          target="_blank"
+          color="primary"
+          icon
+          :title="item.title"
+          rel="noopener"
+        >
           <v-icon color="primary">
             mdi-download
           </v-icon>

@@ -17,6 +17,7 @@
                 target="_blank"
                 style="text-decoration: none;"
                 class="d-inline-flex align-center white--text"
+                rel="noopener"
               >
                 <!-- eslint-disable-next-line prettier/prettier -->
                 <img :src="item.imgSrc" :alt="item.text" style="width: 24px; height: 24px;">
