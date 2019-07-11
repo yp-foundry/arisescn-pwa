@@ -1,7 +1,7 @@
 <template>
   <header>
     <div
-      class="accent"
+      class="intro-flyer-wrapper"
       style="border-bottom-left-radius: 50% 8px; border-bottom-right-radius: 50% 8px; overflow: hidden;"
     >
       <!-- eslint-disable prettier/prettier -->
@@ -47,4 +47,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.intro-flyer-wrapper {
+  background: url('~assets/img/arise-flyer-blurred.jpg') no-repeat;
+  background-size: cover;
+}
+</style>
