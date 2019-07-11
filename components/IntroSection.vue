@@ -1,7 +1,8 @@
 <template>
   <header>
     <div
-      style="background: #151829; border-bottom-left-radius: 50% 8px; border-bottom-right-radius: 50% 8px; overflow: hidden;"
+      class="accent"
+      style="border-bottom-left-radius: 50% 8px; border-bottom-right-radius: 50% 8px; overflow: hidden;"
     >
       <!-- eslint-disable prettier/prettier -->
       <img
@@ -23,7 +24,7 @@
           lg3
           tag="h3"
           :class="[
-            'display-1 text-xs-center primary--text mb-2',
+            'display-1 text-xs-center primary--text text--darken-1 mb-2',
             $vuetify.breakpoint.mdAndUp ? 'px-3' : ''
           ]"
         >

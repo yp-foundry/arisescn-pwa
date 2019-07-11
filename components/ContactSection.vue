@@ -1,7 +1,7 @@
 <template>
   <div
-    class=" blue-grey--text text--lighten-4"
-    style="background: #151829; border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px;"
+    class="accent blue-grey--text text--lighten-4"
+    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px;"
   >
     <v-container class="mt-5 pt-5 mb-2">
       <v-layout>
@@ -11,30 +11,18 @@
           </h2>
 
           <div class="mt-3">
-            <a
-              href="https://facebook.com/arise.scn"
-              target="_blank"
-              style="text-decoration: none;"
-              class="d-inline-flex align-center mb-3 white--text mx-1"
-            >
-              <!-- eslint-disable-next-line prettier/prettier -->
-              <img src="~assets/img/icons/facebook.png" alt="mixlr" style="width: 24px; height: 24px;">
-              <span class="ml-2">Facebook</span>
-            </a>
-
-            <!-- eslint-disable-next-line prettier/prettier -->
-            <br>
-
-            <a
-              href="http://www.mixlr.com/arise-live"
-              target="_blank"
-              style="text-decoration: none;"
-              class="d-inline-flex align-center mb-3 white--text mx-1"
-            >
-              <!-- eslint-disable-next-line prettier/prettier -->
-              <img src="~assets/img/icons/mixlr.png" alt="facebook" style="width: 24px; height: 24px;">
-              <span class="ml-2">Mixlr - Live Radio</span>
-            </a>
+            <div v-for="item in socialLinks" :key="item.text" class="mb-3 mx-1">
+              <a
+                :href="item.link"
+                target="_blank"
+                style="text-decoration: none;"
+                class="d-inline-flex align-center white--text"
+              >
+                <!-- eslint-disable-next-line prettier/prettier -->
+                <img :src="item.imgSrc" :alt="item.text" style="width: 24px; height: 24px;">
+                <span class="ml-2">{{ item.text }}</span>
+              </a>
+            </div>
           </div>
         </v-flex>
       </v-layout>
@@ -55,12 +43,12 @@ export default {
       socialLinks: [
         {
           text: 'Facebook',
-          imgSrc: '~@assets/img/icons/facebook.png',
+          imgSrc: '/img/icons/facebook.png',
           link: 'https://facebook.com/arise.scn'
         },
         {
           text: 'Mixlr - Live Radio',
-          imgSrc: '~@assets/img/icons/mixlr.png',
+          imgSrc: '/img/icons/mixlr.png',
           link: 'http://www.mixlr.com/arise-live'
         }
       ]

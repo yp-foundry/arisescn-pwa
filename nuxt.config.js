@@ -67,10 +67,12 @@ export default {
    ** https://github.com/nuxt-community/vuetify-module
    */
   vuetify: {
-    themes: {
-      light: {
-        primary: colors.blue.darken4,
-        accent: '#151829'
+    theme: {
+      themes: {
+        light: {
+          primary: colors.blue.darken3,
+          accent: '#151829'
+        }
       }
     },
 
@@ -83,7 +85,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Open+Sans:400:500:700&display=swap'] // Loads Lato font with weights 400 and 700
+      families: ['Open+Sans:400,500,700&display=swap'] // Loads Lato font with weights 400 and 700
     }
   },
 
