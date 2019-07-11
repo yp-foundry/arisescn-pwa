@@ -6,8 +6,9 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: '%s - ' + 'Arise, Shine Christian Network',
-    title: process.env.npm_package_name || '',
+    // titleTemplate: '%s - ' + 'Arise, Shine Christian Network',
+    // title: process.env.npm_package_name || '',
+    title: 'Arise, Shine Christian Network',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

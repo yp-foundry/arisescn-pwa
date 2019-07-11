@@ -1,14 +1,14 @@
 <template>
   <v-container tag="section" class="elevation-2 white rounded-2 mt-4 mb-5">
-    <h2 class="headline mb-2">
+    <h2 class="headline mb-3">
       Here's a list of our messages
     </h2>
 
-    <v-layout justify-end>
+    <v-layout justify-end class="mb-2">
       <v-flex xs12 sm8 md6 lg4>
         <v-text-field
           v-model="search"
-          append-icon="mdi-magnify"
+          prepend-inner-icon="mdi-magnify"
           label="Search"
           single-line
           hide-details
@@ -27,6 +27,8 @@
       :items-per-page="5"
       item-key="title"
       :search="search"
+      :sort-by="['timestamp']"
+      :sort-desc="[true]"
       class="rounded-2"
     >
       <template v-slot:item.timestamp="{ item }">
@@ -40,9 +42,11 @@
       </template>
 
       <template v-slot:item.action="{ item }">
-        <a :href="item.link" target="_blank" style="text-decoration: none;">
-          <v-icon color="primary">mdi-download</v-icon>
-        </a>
+        <v-btn :href="item.link" target="_blank" color="primary" icon>
+          <v-icon color="primary">
+            mdi-download
+          </v-icon>
+        </v-btn>
       </template>
     </v-data-table>
   </v-container>
