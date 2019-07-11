@@ -30,7 +30,7 @@ export default {
       {
         hid: 'og-image',
         name: 'og-image',
-        content: '~/assets/img/arise-flyer.jpg'
+        content: '~/assets/img/arise-flyer/arise-flyer.jpg'
       }
     ],
     link: [
