@@ -59,6 +59,7 @@ export default {
   /*
    ** Global CSS
    */
+  // TODO: Use @Mdi/js and use manual import
   css: ['@mdi/font/css/materialdesignicons.css'],
   /*
    ** Plugins to load before mounting the App

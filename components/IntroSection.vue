@@ -16,20 +16,22 @@
         </h1>
       </div>
 
-      <!-- eslint-disable prettier/prettier -->
-      <picture>
-        <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
-        <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
-        <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg">
-        <!-- <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg"> -->
+      <v-scale-transition appear>
+        <!-- eslint-disable prettier/prettier -->
+        <picture>
+          <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
+          <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
+          <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg">
+          <!-- <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg"> -->
 
-        <img
-          src="~assets/img/arise-flyer/arise-flyer.jpg"
-          style="width: 100%; height: auto; max-height: 90vh; object-fit: contain; position: relative;"
-          alt="arise-flyer"
-        >
-      </picture>
-      <!-- eslint-enable prettier/prettier -->
+          <img
+            src="~assets/img/arise-flyer/arise-flyer.jpg"
+            style="width: 100%; height: auto; max-height: 90vh; object-fit: contain; position: relative;"
+            alt="arise-flyer"
+          >
+        </picture>
+        <!-- eslint-enable prettier/prettier -->
+      </v-scale-transition>
     </div>
 
     <v-container tag="summary" class="my-4">
@@ -69,7 +71,8 @@ export default {
 
 <style lang="scss" scoped>
 .intro-flyer-wrapper {
-  background: url('~assets/img/arise-flyer/arise-flyer-blurred.jpg') no-repeat;
+  background: #0d1931 url('~assets/img/arise-flyer/arise-flyer-blurred.jpg')
+    no-repeat;
   background-size: cover;
   border-bottom-left-radius: 50% 8px;
   border-bottom-right-radius: 50% 8px;
