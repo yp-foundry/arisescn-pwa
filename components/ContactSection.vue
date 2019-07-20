@@ -1,7 +1,7 @@
 <template>
   <div
-    class="accent blue-grey--text text--lighten-4"
-    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px;"
+    class="accent"
+    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px; color: #eeeeee;"
   >
     <v-container class="mt-5 pt-5 mb-2">
       <v-layout>
@@ -20,7 +20,7 @@
                 rel="noopener"
               >
                 <!-- eslint-disable-next-line prettier/prettier -->
-                <img :src="item.imgSrc" :alt="item.text" style="width: 24px; height: 24px;">
+                <img :src="item.imgSrc" :alt="item.text" style="width: 24px; height: auto; max-height: 24px;">
                 <span class="ml-2">{{ item.text }}</span>
               </a>
             </div>
@@ -51,6 +51,11 @@ export default {
           text: 'Mixlr - Live Radio',
           imgSrc: '/img/icons/mixlr.png',
           link: 'http://www.mixlr.com/arise-live'
+        },
+        {
+          text: 'Youtube',
+          imgSrc: '/img/icons/youtube-play.png',
+          link: 'https://www.youtube.com/channel/UC5kh4SGXwp7mWLkR286rnkA'
         }
       ]
     }

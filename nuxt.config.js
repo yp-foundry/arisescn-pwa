@@ -79,8 +79,6 @@ export default {
    */
   vuetify: {
     theme: {
-      primary: colors.blue.darken3,
-      accent: '#151829',
       themes: {
         light: {
           primary: colors.blue.darken3,
