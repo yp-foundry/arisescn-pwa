@@ -138,6 +138,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('July 13, 2019 20:00:00'),
     series: 'Stirring Revivals'
+  },
+  {
+    title: 'Stirring Revivals 3',
+    link: 'https://drive.google.com/open?id=1FXjKnhDskqCUq2B9qvs3y6bhxG-SkZ2V',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 20, 2019 20:00:00'),
+    series: 'Stirring Revivals'
   }
 ]
 
