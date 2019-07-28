@@ -147,7 +147,7 @@ export default [
     series: 'Stirring Revivals'
   },
   {
-    title: 'Stirring Revivals 4',
+    title: 'Stirring Revivals 4 - July 2019 Miracle Service',
     link: 'https://drive.google.com/open?id=1Mahzp-z9t50xVF-MyF_IntNvCqzcESLG',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 27, 2019 20:00:00'),
