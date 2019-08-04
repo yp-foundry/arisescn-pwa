@@ -1,7 +1,7 @@
 <template>
   <header>
-    <div class="intro-flyer-wrapper position-relative">
-      <div class="intro-flyer__text ma-auto text-xs-center">
+    <div class="intro-carousel-wrapper position-relative">
+      <div class="intro__text ma-auto text-center">
         <!-- eslint-disable prettier/prettier -->
         <img
           :src="$icon(192)"
@@ -16,25 +16,72 @@
         </h1>
       </div>
 
-      <v-scale-transition appear>
-        <!-- eslint-disable prettier/prettier -->
-        <picture>
+      <!-- <v-scale-transition appear> -->
+      <!-- eslint-disable prettier/prettier -->
+      <!-- <picture>
           <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
           <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
-          <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg">
-          <!-- <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg"> -->
+          <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg"> -->
+      <!-- <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg"> -->
 
-          <img
+      <!-- <img
             src="~assets/img/arise-flyer/arise-flyer.jpg"
             style="width: 100%; height: auto; max-height: 90vh; object-fit: contain; position: relative;"
             alt="arise-flyer"
+          > -->
+      <!-- </picture> -->
+      <!-- eslint-enable prettier/prettier -->
+      <!-- </v-scale-transition> -->
+
+      <v-carousel class="intro__carousel" hide-delimiters height="100%" cycle>
+        <v-carousel-item>
+          <p
+            class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
           >
-        </picture>
-        <!-- eslint-enable prettier/prettier -->
-      </v-scale-transition>
+            Join us this Saturday at Arise
+          </p>
+
+          <!-- eslint-disable prettier/prettier -->
+          <picture>
+            <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
+            <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
+            <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg">
+            <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg">
+
+            <img
+              src="~assets/img/arise-flyer/arise-flyer.jpg"
+              alt="arise-flyer"
+              class="intro__carousel__img"
+            >
+          </picture>
+          <!-- eslint-enable prettier/prettier -->
+        </v-carousel-item>
+
+        <v-carousel-item>
+          <p
+            class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
+          >
+            Coming up this Wednesday - Friday
+          </p>
+
+          <!-- eslint-disable prettier/prettier -->
+          <picture>
+            <source type="image/webp" srcset="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer.webp">
+            <source type="image/jpeg" media="(max-width: 600px)" srcset="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer-mobile.png">
+            <source type="image/jpeg" media="(max-width: 768px)" srcset="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer-tablet.png">
+
+            <img
+              src="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer.png"
+              alt="gyf-prayer-conference-2019-flyer"
+              class="intro__carousel__img"
+            >
+          </picture>
+          <!-- eslint-enable prettier/prettier -->
+        </v-carousel-item>
+      </v-carousel>
     </div>
 
-    <v-container tag="summary" class="my-4">
+    <v-container tag="summary" class="my-12">
       <v-layout
         wrap
         :justify-center="$vuetify.breakpoint.smAndDown"
@@ -46,8 +93,8 @@
           lg3
           tag="h3"
           :class="[
-            'display-1 text-xs-center primary--text text--darken-1 mb-2',
-            $vuetify.breakpoint.mdAndUp ? 'px-3' : ''
+            'display-1 text-xs-center primary--text text--darken-1 mb-4',
+            $vuetify.breakpoint.mdAndUp ? 'px-6' : ''
           ]"
         >
           <small>About</small> Arise
@@ -70,7 +117,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro-flyer-wrapper {
+.intro-carousel-wrapper {
   background: #0d1931 url('~assets/img/arise-flyer/arise-flyer-blurred.jpg')
     no-repeat;
   background-size: cover;
@@ -78,26 +125,53 @@ export default {
   border-bottom-right-radius: 50% 8px;
   position: relative;
   overflow: hidden;
-  min-height: 40vh;
+  height: 360px;
+
+  @media #{map-get($display-breakpoints, 'sm-only')} {
+    height: 480px;
+  }
+
+  @media #{map-get($display-breakpoints, 'md-and-up')} {
+    height: 600px;
+  }
 }
 
-.intro-flyer {
+.intro {
   &__text {
     position: absolute;
-    bottom: 50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 2.3rem);
+    transform: translate(-50%, -50%);
     width: 224px;
 
     &__img {
-      width: 96px;
-      height: 96px;
+      width: 64px;
+      height: 64px;
       filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
     }
 
     > h1 {
       font-size: 2rem;
       line-height: 2.3rem;
+    }
+  }
+
+  &__carousel {
+    // height: 100% !important;
+
+    &__alert {
+      // height: 52px;
+    }
+
+    &__img {
+      width: 100%;
+      height: calc(100% - 52px);
+      object-fit: contain;
+      position: relative;
+
+      @media #{map-get($display-breakpoints, 'md-and-up')} {
+        height: calc(100% - 60px);
+      }
     }
   }
 }

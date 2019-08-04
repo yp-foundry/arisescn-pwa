@@ -3,15 +3,15 @@
     class="accent"
     style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px; color: #eeeeee;"
   >
-    <v-container class="mt-5 pt-5 mb-2">
+    <v-container class="mt-12 pt-12 mb-4">
       <v-layout>
         <v-flex xs12 md6 lg4>
           <h2 class="display-2">
             Reach Us
           </h2>
 
-          <div class="mt-3">
-            <div v-for="item in socialLinks" :key="item.text" class="mb-3 mx-1">
+          <div class="mt-12">
+            <div v-for="item in socialLinks" :key="item.text" class="mb-3 mx-2">
               <a
                 :href="item.link"
                 target="_blank"
@@ -21,7 +21,7 @@
               >
                 <!-- eslint-disable-next-line prettier/prettier -->
                 <img :src="item.imgSrc" :alt="item.text" style="width: 24px; height: auto; max-height: 24px;">
-                <span class="ml-2">{{ item.text }}</span>
+                <span class="ml-4">{{ item.text }}</span>
               </a>
             </div>
           </div>
@@ -29,7 +29,7 @@
       </v-layout>
     </v-container>
 
-    <div class="text-xs-center pa-2">
+    <div class="text-xs-center pa-4">
       &copy; Arise, Shine Christian Network 2019
     </div>
   </div>

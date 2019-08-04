@@ -1,5 +1,5 @@
 <template>
-  <v-container tag="section" class="elevation-2 white rounded-2 mt-4 mb-5">
+  <v-container tag="section" class="elevation-2 white rounded-2 mt-4 mb-12">
     <h2 class="headline mb-3">
       Here's a list of our messages
     </h2>

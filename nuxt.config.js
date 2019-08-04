@@ -87,7 +87,7 @@ export default {
       }
     },
 
-    customVariables: ['~/assets/style/variables.scss'],
+    customVariables: ['~/assets/styles/_variables.scss'],
 
     defaultAssets: false,
 
@@ -105,6 +105,14 @@ export default {
    ** Build configuration
    */
   build: {
+    loaders: {
+      scss: {
+        data: `
+          @import "~/assets/styles/_variables.scss";
+        `
+      }
+    },
+
     /*
      ** You can extend webpack config here
      */
