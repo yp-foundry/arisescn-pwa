@@ -27,11 +27,11 @@
           </div>
         </v-flex>
       </v-layout>
-    </v-container>
 
-    <div class="text-xs-center pa-4">
-      &copy; Arise, Shine Christian Network 2019
-    </div>
+      <div class="text-xs-center py-4">
+        &copy; Arise, Shine Christian Network 2019
+      </div>
+    </v-container>
   </div>
 </template>
 
