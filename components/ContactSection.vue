@@ -3,7 +3,7 @@
     class="accent"
     style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px; color: #eeeeee;"
   >
-    <v-container class="mt-12 pt-12 mb-4">
+    <v-container class="mt-12 pt-12">
       <v-layout>
         <v-flex xs12 md6 lg4>
           <h2 class="display-2">
@@ -28,7 +28,7 @@
         </v-flex>
       </v-layout>
 
-      <div class="text-xs-center py-4">
+      <div class="text-xs-center pt-8 pb-4">
         &copy; Arise, Shine Christian Network 2019
       </div>
     </v-container>
