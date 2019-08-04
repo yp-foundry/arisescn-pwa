@@ -152,6 +152,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('July 27, 2019 20:00:00'),
     series: 'Stirring Revivals'
+  },
+  {
+    title: 'Spiritual Growth 1',
+    link: 'https://drive.google.com/open?id=1V4YtXG9WR1hQAgxpjOKuNSytzDFDFy-Z',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 3, 2019 20:00:00'),
+    series: 'Spiritual Growth'
   }
 ]
 
