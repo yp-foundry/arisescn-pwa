@@ -38,7 +38,8 @@
           <p
             class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
           >
-            Join us this Saturday at Arise
+            Join us tomorrow at Arise, live online radio at
+            http://mixlr.com/arise-live
           </p>
 
           <!-- eslint-disable prettier/prettier -->
@@ -61,7 +62,7 @@
           <p
             class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
           >
-            Coming up this Wednesday - Friday
+            The last lap starts by 4pm today
           </p>
 
           <!-- eslint-disable prettier/prettier -->
