@@ -38,11 +38,14 @@
           <p
             class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
           >
+            <!-- eslint-disable prettier/prettier -->
             Join us tomorrow at Arise, live online radio at
-            http://mixlr.com/arise-live
+            <a
+              href="http://mixlr.com/arise-live"
+              rel="noopener noreferrer"
+            >http://mixlr.com/arise-live</a>
           </p>
 
-          <!-- eslint-disable prettier/prettier -->
           <picture>
             <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
             <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
@@ -62,7 +65,13 @@
           <p
             class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
           >
-            The last lap starts by 4pm today
+            <!-- eslint-disable prettier/prettier -->
+            The last lap starts by 4pm today, live online radio at
+            <a
+              href="http://mixlr.com/arise-live"
+              rel="noopener noreferrer"
+            >http://mixlr.com/arise-live</a>
+            <!-- eslint-enable prettier/prettier -->
           </p>
 
           <!-- eslint-disable prettier/prettier -->
