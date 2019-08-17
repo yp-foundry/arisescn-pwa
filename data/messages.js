@@ -159,6 +159,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('August 3, 2019 20:00:00'),
     series: 'Spiritual Growth'
+  },
+  {
+    title: 'Spiritual Growth 2',
+    link: 'https://drive.google.com/open?id=1KkfjJNOWDYN7Veb1TgPSW7GFt3XcFDyR',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 10, 2019 20:00:00'),
+    series: 'Spiritual Growth'
   }
 ]
 

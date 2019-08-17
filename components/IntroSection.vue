@@ -33,13 +33,18 @@
       <!-- eslint-enable prettier/prettier -->
       <!-- </v-scale-transition> -->
 
-      <v-carousel class="intro__carousel" hide-delimiters height="100%" cycle>
+      <v-carousel
+        class="intro__carousel"
+        hide-delimiters
+        :show-arrows="false"
+        height="100%"
+      >
         <v-carousel-item>
           <p
             class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
           >
             <!-- eslint-disable prettier/prettier -->
-            Join us tomorrow at Arise, live online radio at
+            Join us {{ daysToSaturdayOffset }} at Arise, live online radio at
             <a
               href="http://mixlr.com/arise-live"
               rel="noopener noreferrer"
@@ -55,34 +60,6 @@
             <img
               src="~assets/img/arise-flyer/arise-flyer.jpg"
               alt="arise-flyer"
-              class="intro__carousel__img"
-            >
-          </picture>
-          <!-- eslint-enable prettier/prettier -->
-        </v-carousel-item>
-
-        <v-carousel-item>
-          <p
-            class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
-          >
-            <!-- eslint-disable prettier/prettier -->
-            The last lap starts by 4pm today, live online radio at
-            <a
-              href="http://mixlr.com/arise-live"
-              rel="noopener noreferrer"
-            >http://mixlr.com/arise-live</a>
-            <!-- eslint-enable prettier/prettier -->
-          </p>
-
-          <!-- eslint-disable prettier/prettier -->
-          <picture>
-            <source type="image/webp" srcset="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer.webp">
-            <source type="image/jpeg" media="(max-width: 600px)" srcset="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer-mobile.png">
-            <source type="image/jpeg" media="(max-width: 768px)" srcset="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer-tablet.png">
-
-            <img
-              src="~assets/img/gyf-flyer/gyf-prayer-conference-2019-flyer.png"
-              alt="gyf-prayer-conference-2019-flyer"
               class="intro__carousel__img"
             >
           </picture>
@@ -122,7 +99,23 @@
 
 <script>
 export default {
-  name: 'IntroSection'
+  name: 'IntroSection',
+
+  computed: {
+    daysToSaturdayOffset() {
+      const dayOfTheWeek = new Date().getDay()
+
+      if (dayOfTheWeek === 6) {
+        return 'today'
+      } else if (dayOfTheWeek === 5) {
+        return 'tomorrow'
+      } else if (dayOfTheWeek === 4) {
+        return 'next tomorrow'
+      } else {
+        return 'this Saturday'
+      }
+    }
+  }
 }
 </script>
 
