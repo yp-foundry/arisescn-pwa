@@ -180,6 +180,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('August 24, 2019 20:00:00'),
     series: 'Spiritual Growth'
+  },
+  {
+    title: 'Understanding the Ways God',
+    link: 'https://drive.google.com/open?id=1xMZAJ6tatQmBU_mlBPFWsMhXVt0zF9lT',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 7, 2019 20:00:00'),
+    series: '-'
   }
 ]
 
