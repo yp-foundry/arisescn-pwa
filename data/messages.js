@@ -187,6 +187,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('September 7, 2019 20:00:00'),
     series: '-'
+  },
+  {
+    title: 'The Power of Track Record',
+    link: 'https://drive.google.com/open?id=1nt6YhyjmwL95c_8G436xSX6JZvwQhlqh',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 14, 2019 20:00:00'),
+    series: '-'
   }
 ]
 
