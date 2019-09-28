@@ -194,6 +194,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('September 14, 2019 20:00:00'),
     series: '-'
+  },
+  {
+    title: 'Dreaming with God',
+    link: 'https://drive.google.com/open?id=1zWWn2mv1DnkBy7okgV3IFxlinue-hy0s',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 21, 2019 20:00:00'),
+    series: '-'
   }
 ]
 
