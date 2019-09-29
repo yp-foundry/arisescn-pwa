@@ -103,10 +103,20 @@ export default {
 
   computed: {
     daysToSaturdayOffset() {
-      const dayOfTheWeek = new Date().getDay()
+      const date = new Date()
+
+      const dayOfTheWeek = date.getDay()
+
+      const timeOfTheDay = date.getHours()
 
       if (dayOfTheWeek === 6) {
-        return 'today'
+        if (timeOfTheDay < 17) {
+          return 'today'
+        } else if (timeOfTheDay >= 17 && timeOfTheDay < 20) {
+          return 'now'
+        } else {
+          return 'next Saturday'
+        }
       } else if (dayOfTheWeek === 5) {
         return 'tomorrow'
       } else if (dayOfTheWeek === 4) {
