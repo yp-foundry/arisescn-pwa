@@ -201,6 +201,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('September 21, 2019 20:00:00'),
     series: '-'
+  },
+  {
+    title: `God's gift to men`,
+    link: 'https://drive.google.com/open?id=1FJ3zaTrUQ28nhhHahJabWvCcqzxLgVcn',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 5, 2019 19:30:00'),
+    series: '-'
   }
 ]
 
