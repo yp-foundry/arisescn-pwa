@@ -215,6 +215,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('October 12, 2019 19:30:00'),
     series: 'Walking with the Spirit'
+  },
+  {
+    title: 'Walking with the Spirit 2',
+    link: 'https://drive.google.com/open?id=1n1Y2mqh-fPC0oVT6I0kjgTBLYgqchLa4',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 19, 2019 19:30:00'),
+    series: 'Walking with the Spirit'
   }
 ]
 
