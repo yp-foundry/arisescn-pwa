@@ -222,6 +222,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('October 19, 2019 19:30:00'),
     series: 'Walking with the Spirit'
+  },
+  {
+    title: 'Establishing the Will of God - October Miracle Service',
+    link: 'https://drive.google.com/open?id=1LvZp7vWkCCQG4IPPMD7PAWA8LQZWQlM5',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 26, 2019 19:30:00'),
+    series: '-'
   }
 ]
 
