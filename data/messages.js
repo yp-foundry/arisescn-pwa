@@ -229,6 +229,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('October 26, 2019 19:30:00'),
     series: '-'
+  },
+  {
+    title: 'This Mystery called Favour',
+    link: 'https://drive.google.com/open?id=1_zvOkgV6R-pog2rARtWLzl2y83J8iFru',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 2, 2019 19:30:00'),
+    series: 'This Mystery called Favour'
   }
 ]
 
