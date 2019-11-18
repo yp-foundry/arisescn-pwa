@@ -231,11 +231,25 @@ export default [
     series: '-'
   },
   {
-    title: 'This Mystery called Favour',
+    title: 'Obtaining Favour 1',
     link: 'https://drive.google.com/open?id=1_zvOkgV6R-pog2rARtWLzl2y83J8iFru',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 2, 2019 19:30:00'),
-    series: 'This Mystery called Favour'
+    series: 'Obtaining Favour'
+  },
+  {
+    title: 'Obtaining Favour 2',
+    link: 'https://drive.google.com/open?id=1cLqoj2UZRLXxvT_dRqiQkE2RV7DFTdrb',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 9, 2019 19:30:00'),
+    series: 'Obtaining Favour'
+  },
+  {
+    title: 'Your Advantage 1',
+    link: 'https://drive.google.com/open?id=1fz_On0MgwS9A1WZzgPzHKXLIzTmI-AM6',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 16, 2019 19:30:00'),
+    series: 'Your Advantage'
   }
 ]
 
