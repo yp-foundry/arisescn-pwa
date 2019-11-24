@@ -250,6 +250,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('November 16, 2019 19:30:00'),
     series: 'Your Advantage'
+  },
+  {
+    title: 'Your Advantage 2',
+    link: 'https://drive.google.com/open?id=1mqSK6Qkj9azJqvR3xcyBiEuF6XcF235X',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 23, 2019 19:30:00'),
+    series: 'Your Advantage'
   }
 ]
 
