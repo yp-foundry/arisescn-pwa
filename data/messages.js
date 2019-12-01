@@ -257,6 +257,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('November 23, 2019 19:30:00'),
     series: 'Your Advantage'
+  },
+  {
+    title: 'Understanding your Fight',
+    link: 'https://drive.google.com/open?id=1SacEZ-n6yBdVKulOO9eJ98KYUjccHge_',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 30, 2019 19:30:00'),
+    series: '-'
   }
 ]
 
