@@ -264,6 +264,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('November 30, 2019 19:30:00'),
     series: '-'
+  },
+  {
+    title: 'Obtaining the Promise 1',
+    link: 'https://drive.google.com/open?id=1NSDTZkebIYCT-bDUi2fq3cRnJfSeCQqZ',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('December 7, 2019 19:30:00'),
+    series: 'Obtaining the Promise'
   }
 ]
 
