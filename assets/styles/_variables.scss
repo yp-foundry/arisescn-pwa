@@ -1,14 +1,12 @@
-@import '~vuetify/src/styles/styles.sass';
 
 $font-size-root: 14px;
 $body-font-family : 'Open Sans', -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+$color-pack: false;
+
+@import '~vuetify/src/styles/styles.sass';
+
 // For updating SASS lists
 $material-light: map-merge($material-light, ( 'background': #fcfeff ));
 
 $font-weights: map-merge($font-weights, ( 'medium': 600 ));
-
-$color-pack: false;
-
-.rounded-2 {
-  border-radius: 12px;
-}
