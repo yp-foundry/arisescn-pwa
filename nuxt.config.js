@@ -47,9 +47,9 @@ export default {
     lang: 'en',
     shortName: 'Arise SCN',
     // eslint-disable-next-line prettier/prettier
-    'short_name': 'Arise SCN',
+    short_name: 'Arise SCN',
     // eslint-disable-next-line prettier/prettier
-    'background_color': '#fcfeff'
+    background_color: '#fcfeff'
   },
 
   /*
@@ -71,7 +71,7 @@ export default {
    */
   modules: ['@nuxtjs/pwa', '@nuxtjs/eslint-module', 'nuxt-webfontloader'],
 
-  devModules: ['@nuxtjs/vuetify'],
+  buildModules: ['@nuxtjs/vuetify'],
 
   /*
    ** vuetify module configuration
