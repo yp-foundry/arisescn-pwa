@@ -181,6 +181,7 @@ export default {
     }
 
     &__img {
+      background: black;
       width: 100%;
       height: calc(100% - 52px);
       object-fit: contain;
