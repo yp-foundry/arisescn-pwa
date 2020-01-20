@@ -69,9 +69,9 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/eslint-module', 'nuxt-webfontloader'],
+  modules: ['@nuxtjs/pwa', 'nuxt-webfontloader'],
 
-  buildModules: ['@nuxtjs/vuetify'],
+  buildModules: ['@nuxtjs/vuetify', '@nuxtjs/eslint-module'],
 
   /*
    ** vuetify module configuration
