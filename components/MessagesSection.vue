@@ -8,13 +8,13 @@
       <v-flex xs12 sm8 md6 lg4>
         <v-text-field
           v-model="search"
+          :height="48"
           prepend-inner-icon="mdi-magnify"
           label="Search"
           single-line
           hide-details
           outlined
           shaped
-          :height="48"
           clearable
         />
       </v-flex>
@@ -24,9 +24,9 @@
       :headers="headers"
       :items="processedMessages"
       :items-per-page="5"
-      item-key="title"
       :search="search"
       :sort-by="['timestamp']"
+      item-key="title"
       sort-desc
       class="rounded-2"
     >
@@ -43,10 +43,10 @@
       <template v-slot:item.action="{ item }">
         <v-btn
           :href="item.link"
+          :title="item.title"
           target="_blank"
           color="primary"
           icon
-          :title="item.title"
           rel="noopener"
         >
           <v-icon color="primary">
@@ -125,4 +125,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.rounded-2 {
+  border-radius: 12px;
+}
+</style>

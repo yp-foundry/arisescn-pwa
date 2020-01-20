@@ -34,14 +34,18 @@
       <!-- </v-scale-transition> -->
 
       <v-carousel
+        :show-arrows="false"
         class="intro__carousel"
         hide-delimiters
-        :show-arrows="false"
         height="100%"
       >
         <v-carousel-item>
           <p
-            class="intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 headline"
+            ref="intro__notification"
+            :class="[
+              'intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 font-weight-regular',
+              $vuetify.breakpoint.smAndUp ? 'headline' : 'title'
+            ]"
           >
             <!-- eslint-disable prettier/prettier -->
             Join us {{ daysToSaturdayOffset }} at Arise, live online radio at
@@ -70,19 +74,19 @@
 
     <v-container tag="summary" class="my-12">
       <v-layout
-        wrap
         :justify-center="$vuetify.breakpoint.smAndDown"
         :justify-space-around="$vuetify.breakpoint.mdAndUp"
+        wrap
       >
         <v-flex
-          xs12
-          md4
-          lg3
-          tag="h3"
           :class="[
             'display-1 text-xs-center primary--text text--darken-1 mb-4',
             $vuetify.breakpoint.mdAndUp ? 'px-6' : ''
           ]"
+          xs12
+          md4
+          lg3
+          tag="h3"
         >
           <small>About</small> Arise
         </v-flex>
@@ -141,7 +145,7 @@ export default {
   height: 360px;
 
   @media #{map-get($display-breakpoints, 'sm-only')} {
-    height: 480px;
+    height: 300px;
   }
 
   @media #{map-get($display-breakpoints, 'md-and-up')} {
