@@ -203,7 +203,7 @@ export default [
     series: '-'
   },
   {
-    title: `God's gift to men`,
+    title: "God's gift to men",
     link: 'https://drive.google.com/open?id=1FJ3zaTrUQ28nhhHahJabWvCcqzxLgVcn',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 5, 2019 19:30:00'),
@@ -270,6 +270,13 @@ export default [
     link: 'https://drive.google.com/open?id=1kQv1CmaC6j4IXrg7DVaOXq5TYSLkm1bA',
     minister: 'Olanrewaju Ilori',
     date: new Date('December 14, 2019 19:30:00'),
+    series: '-'
+  },
+  {
+    title: 'Lovest thou Me more than these',
+    link: 'https://drive.google.com/open?id=1u5Psd1rE2GOHO_wJQflpXt0TAYc1sfal',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('January 18, 2020 19:30:00'),
     series: '-'
   }
 ]
