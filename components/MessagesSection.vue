@@ -4,6 +4,28 @@
       Here's a list of our messages
     </h2>
 
+    <v-layout class="mb-2">
+      <v-flex xs12 sm8 md6 lg4>
+        <v-chip
+          @click="filterByYear('2020')"
+          :input-value="isOnly2020Messages"
+          class="ma-2"
+          filter
+        >
+          2020 Messages
+        </v-chip>
+
+        <v-chip
+          @click="filterByYear('2019')"
+          :input-value="isOnly2019Messages"
+          class="ma-2"
+          filter
+        >
+          2019 Messages
+        </v-chip>
+      </v-flex>
+    </v-layout>
+
     <v-layout justify-end class="mb-2">
       <v-flex xs12 sm8 md6 lg4>
         <v-text-field
@@ -26,6 +48,7 @@
       :items-per-page="5"
       :search="search"
       :sort-by="['timestamp']"
+      group-desc
       item-key="title"
       sort-desc
       class="rounded-2"
@@ -78,7 +101,12 @@ export default {
           text: 'Date',
           value: 'timestamp',
           align: 'center',
-          sortable: true
+          sortable: true,
+          filter: (value, search, item) => {
+            if (!this.isFilterByYear) return true
+
+            return String(item.date.getFullYear()).includes(this.isFilterByYear)
+          }
         },
         {
           text: 'Minister',
@@ -99,7 +127,10 @@ export default {
           sortable: false
         }
       ],
-      messages
+      messages,
+      isOnly2020Messages: false,
+      isOnly2019Messages: false,
+      isFilterByYear: ''
     }
   },
 
@@ -108,7 +139,8 @@ export default {
       // eslint-disable-next-line prettier/prettier
       return this.messages.map(message =>
         Object.assign(message, {
-          timestamp: message.date.getTime()
+          timestamp: message.date.getTime(),
+          year: message.date.getFullYear()
         })
       )
     }
@@ -120,6 +152,18 @@ export default {
         return '0' + n
       }
       return n
+    },
+
+    filterByYear(year) {
+      if (this[`isOnly${year}Messages`] === true) {
+        this.isFilterByYear = ''
+        this[`isOnly${year}Messages`] = false
+        return
+      }
+      this.isOnly2020Messages = false
+      this.isOnly2019Messages = false
+      this.isFilterByYear = year
+      this[`isOnly${year}Messages`] = true
     }
   }
 }
