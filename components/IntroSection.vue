@@ -93,8 +93,8 @@
 
         <v-flex xs12 md7 lg5 class="title font-weight-regular">
           Arise, a place of Encounter with the Holy Spirit. To prepare the
-          saints saints for the work of the ministry (Ephesians 4:11), which is
-          the ministry of reconciliation (2 Corinthians 5:18)
+          saints for the work of the ministry (Ephesians 4:11), which is the
+          ministry of reconciliation (2 Corinthians 5:18)
         </v-flex>
       </v-layout>
     </v-container>
