@@ -285,6 +285,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 1, 2020 19:30:00'),
     series: 'Call to Worship'
+  },
+  {
+    title: 'Call to Worship 2',
+    link: 'https://drive.google.com/open?id=1TBSEuNSNE5b_0cdWrKvsI_O9MByDWhon',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 8, 2020 19:30:00'),
+    series: 'Call to Worship'
   }
 ]
 
