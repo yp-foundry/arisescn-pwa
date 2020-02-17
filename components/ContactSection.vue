@@ -29,7 +29,7 @@
       </v-layout>
 
       <div class="text-xs-center pt-8 pb-4">
-        &copy; Arise, Shine Christian Network 2019
+        &copy; Arise, Shine Christian Network 2020
       </div>
     </v-container>
   </div>
