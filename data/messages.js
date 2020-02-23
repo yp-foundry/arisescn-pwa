@@ -299,6 +299,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 15, 2020 19:30:00'),
     series: 'In Christ'
+  },
+  {
+    title: 'In Christ 2',
+    link: 'https://drive.google.com/open?id=1CWQVos-uOEmes7sId0yTCs7qzUOTx4Fd',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 22, 2020 19:30:00'),
+    series: 'In Christ'
   }
 ]
 
