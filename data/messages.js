@@ -306,6 +306,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 22, 2020 19:30:00'),
     series: 'In Christ'
+  },
+  {
+    title: 'Father and Son',
+    link: 'https://drive.google.com/open?id=1L3AwR8a8frNi0hKQbzh-AROrMR2XMNy_',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 7, 2020 19:30:00'),
+    series: '-'
   }
 ]
 
