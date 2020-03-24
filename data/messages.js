@@ -313,6 +313,20 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 7, 2020 19:30:00'),
     series: '-'
+  },
+  {
+    title: 'Grow',
+    link: 'https://drive.google.com/open?id=17F2fhKJ-cscebAmP34979E3eBZfq2yD6',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 14, 2020 19:30:00'),
+    series: '-'
+  },
+  {
+    title: 'Comforter',
+    link: 'https://drive.google.com/open?id=1g9fq66ZG1sOyNv-W6kCz54Yj_dCDvRls',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 21, 2020 19:30:00'),
+    series: '-'
   }
 ]
 
