@@ -322,7 +322,7 @@ export default [
     series: '-'
   },
   {
-    title: 'Comforter',
+    title: 'The Comforter',
     link: 'https://drive.google.com/open?id=1g9fq66ZG1sOyNv-W6kCz54Yj_dCDvRls',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 21, 2020 19:30:00'),
