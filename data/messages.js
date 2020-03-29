@@ -327,6 +327,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 21, 2020 19:30:00'),
     series: '-'
+  },
+  {
+    title: 'March Worship Service (with Question and Answer)',
+    link: 'https://drive.google.com/open?id=1EGeZFIjBZd3egCO67KFmjlgm6p5x0Tob',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 28, 2020 18:00:00'),
+    series: '-'
   }
 ]
 
