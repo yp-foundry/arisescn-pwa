@@ -81,6 +81,14 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
     [
+      'storyblok-nuxt',
+      {
+        accessToken: 'bBST5VQ1LY5JjdkotXvAwAtt',
+        cacheProvider: 'memory'
+      }
+    ],
+
+    [
       '@nuxtjs/google-analytics',
       {
         id: 'UA-162414467-1'
