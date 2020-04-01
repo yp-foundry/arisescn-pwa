@@ -43,7 +43,7 @@
           <p
             ref="intro__notification"
             :class="[
-              'intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 font-weight-regular d-none',
+              'intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 font-weight-regular',
               $vuetify.breakpoint.smAndUp ? 'headline' : 'title'
             ]"
           >
