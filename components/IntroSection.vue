@@ -43,16 +43,17 @@
           <p
             ref="intro__notification"
             :class="[
-              'intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 font-weight-regular',
+              'intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 font-weight-regular d-none',
               $vuetify.breakpoint.smAndUp ? 'headline' : 'title'
             ]"
           >
             <!-- eslint-disable prettier/prettier -->
-            Join us {{ daysToSaturdayOffset }} at Arise, live online radio at
-            <a
+            <!-- Join us {{ daysToSaturdayOffset }} at Arise, live online radio at -->
+            <!-- <a
               href="http://mixlr.com/arise-live"
               rel="noopener noreferrer"
-            >http://mixlr.com/arise-live</a>
+            >http://mixlr.com/arise-live</a> -->
+            Due to the laws of the State, Arise is on hold till further notice, Thanks.
           </p>
 
           <picture>
