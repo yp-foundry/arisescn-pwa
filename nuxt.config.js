@@ -31,6 +31,11 @@ export default {
         hid: 'og-image',
         name: 'og-image',
         content: '~/assets/img/arise-flyer/arise-flyer.jpg'
+      },
+      {
+        hid: 'google-site-verification',
+        name: 'google-site-verification',
+        content: '8D83f7Kyv8icL5vwBbhaT6r2j6A7pp9_Cxd4Wvn7XOM'
       }
     ],
     link: [
@@ -64,6 +69,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
+  // plugins: ['@/plugins/v-composition-api'],
   plugins: [],
 
   /*
@@ -71,7 +77,19 @@ export default {
    */
   modules: ['@nuxtjs/pwa', 'nuxt-webfontloader'],
 
-  buildModules: ['@nuxtjs/vuetify', '@nuxtjs/eslint-module'],
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/vuetify',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-162414467-1'
+      }
+    ],
+
+    /* make sure @nuxtjs/sitemap module is always at the bottom of the modules */
+    '@nuxtjs/sitemap'
+  ],
 
   /*
    ** vuetify module configuration
@@ -101,6 +119,12 @@ export default {
   },
 
   modern: 'client',
+
+  sitemap: {
+    hostname: 'https://www.ariseshinechritiannetwork.com',
+    gzip: true
+  },
+
   /*
    ** Build configuration
    */
