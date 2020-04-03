@@ -160,6 +160,16 @@ export default [
     date: new Date('August 3, 2019 20:00:00'),
     series: 'Spiritual Growth'
   },
+
+  // Olanrewaju Ilori @C&S College Crescent - 1000 Cubits
+  {
+    title: '1000 Cubits - Day 2',
+    link: 'https://drive.google.com/open?id=1fvCSJqf9YVhQVddJz3Uod7cSuc0shqt-',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 8, 2019 20:00:00'),
+    series: '-'
+  },
+
   {
     title: 'Spiritual Growth 2',
     link: 'https://drive.google.com/open?id=1KkfjJNOWDYN7Veb1TgPSW7GFt3XcFDyR',
