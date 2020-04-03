@@ -61,11 +61,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: { color: colors.blue.darken3 },
-  /*
-   ** Global CSS
-   */
-  // TODO: Use @Mdi/js and use manual import
-  css: ['@mdi/font/css/materialdesignicons.css'],
+
   /*
    ** Plugins to load before mounting the App
    */
@@ -110,12 +106,20 @@ export default {
           primary: colors.blue.darken3,
           accent: '#151829'
         }
+      },
+
+      options: {
+        customProperties: true
       }
     },
 
     customVariables: ['~/assets/styles/_variables.scss'],
 
     defaultAssets: false,
+
+    icons: {
+      iconfont: 'mdiSvg'
+    },
 
     treeShake: true
   },
