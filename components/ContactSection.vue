@@ -1,7 +1,11 @@
 <template>
   <div
     class="accent"
-    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px; color: #eeeeee;"
+    style="
+      border-top-left-radius: 50% 4px;
+      border-top-right-radius: 50% 50px;
+      color: #eeeeee;
+    "
   >
     <v-container class="mt-12 pt-12">
       <v-layout>

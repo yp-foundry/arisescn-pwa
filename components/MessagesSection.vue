@@ -7,19 +7,19 @@
     <v-layout class="mb-2">
       <v-flex xs12 sm8 md6 lg4>
         <v-chip
-          @click="filterByYear('2020')"
           :input-value="isOnly2020Messages"
           class="ma-2"
           filter
+          @click="filterByYear('2020')"
         >
           2020 Messages
         </v-chip>
 
         <v-chip
-          @click="filterByYear('2019')"
           :input-value="isOnly2019Messages"
           class="ma-2"
           filter
+          @click="filterByYear('2019')"
         >
           2019 Messages
         </v-chip>
@@ -56,10 +56,10 @@
       <template v-slot:item.timestamp="{ item }">
         {{
           appendLeadingZeroes(item.date.getDate()) +
-            '-' +
-            appendLeadingZeroes(item.date.getMonth() + 1) +
-            '-' +
-            item.date.getFullYear()
+          '-' +
+          appendLeadingZeroes(item.date.getMonth() + 1) +
+          '-' +
+          item.date.getFullYear()
         }}
       </template>
 
@@ -103,7 +103,9 @@ export default {
           align: 'center',
           sortable: true,
           filter: (value, search, item) => {
-            if (!this.isFilterByYear) return true
+            if (!this.isFilterByYear) {
+              return true
+            }
 
             return String(item.date.getFullYear()).includes(this.isFilterByYear)
           }
