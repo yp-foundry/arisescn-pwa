@@ -344,6 +344,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 28, 2020 18:00:00'),
     series: '-'
+  },
+  {
+    title: 'Glory in this...',
+    link: 'https://drive.google.com/open?id=172SqoAOCpEnoUAF9jNJQBiML_hU6kMUg',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('April 4, 2020 18:00:00'),
+    series: '-'
   }
 ]
 
