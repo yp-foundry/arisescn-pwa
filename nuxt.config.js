@@ -143,7 +143,7 @@ export default {
   build: {
     loaders: {
       scss: {
-        data: `
+        prependData: `
           @import "~/assets/styles/_variables.scss";
         `
       }
