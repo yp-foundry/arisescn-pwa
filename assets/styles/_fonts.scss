@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Metropolis'; /* Define the custom font name */
+  src:  url('~assets/fonts/metropolis/metropolis-regular.woff2') format('woff2'),
+        url('~assets/fonts/metropolis/metropolis-regular.woff') format('woff'),
+        url('~assets/fonts/metropolis/metropolis-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: fallback;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis'; /* Define the custom font name */
+  src:  url('~assets/fonts/metropolis/metropolis-bold.woff2') format('woff2'),
+  url('~assets/fonts/metropolis/metropolis-bold.woff') format('woff'),
+  url('~assets/fonts/metropolis/metropolis-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: fallback;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis'; /* Define the custom font name */
+  src:  url('~assets/fonts/metropolis/metropolis-regular.woff2') format('woff2'),
+        url('~assets/fonts/metropolis/metropolis-regular.woff') format('woff'),
+        url('~assets/fonts/metropolis/metropolis-regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: fallback;
+  font-weight: lighter;
+  font-style: normal;
+}
