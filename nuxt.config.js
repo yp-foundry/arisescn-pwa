@@ -57,16 +57,27 @@ export default {
     background_color: '#fcfeff'
   },
 
+  pwa: {
+    icon: {
+      iconFileName: 'icon.jpg'
+    }
+  },
+
   /*
    ** Customize the progress-bar color
    */
   loading: { color: colors.blue.darken3 },
 
   /*
+   ** Global CSS
+   */
+  css: ['~/assets/styles/main.scss'],
+
+  /*
    ** Plugins to load before mounting the App
    */
   // plugins: ['@/plugins/v-composition-api'],
-  plugins: [],
+  plugins: ['@/plugins/v-composition-api', '@/plugins/vue-observe-visibility'],
 
   /*
    ** Nuxt.js modules
