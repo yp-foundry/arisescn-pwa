@@ -53,7 +53,13 @@
               href="http://mixlr.com/arise-live"
               rel="noopener noreferrer"
             >http://mixlr.com/arise-live</a> -->
-            Due to the laws of the State, Arise is on hold till further notice, Thanks.
+
+            <!-- eslint-disable prettier/prettier -->
+            Join us live on Mixlr this evening by 6 PM at
+            <a
+              href="http://mixlr.com/arise-live"
+              rel="noopener noreferrer"
+            >http://mixlr.com/arise-live</a>
           </p>
 
           <picture>
@@ -107,7 +113,7 @@ export default {
   name: 'IntroSection',
 
   computed: {
-    daysToSaturdayOffset() {
+    daysToSaturdayOffset () {
       const date = new Date()
 
       const dayOfTheWeek = date.getDay()
