@@ -67,7 +67,7 @@
           </div>
         </v-btn>
 
-        <v-app-bar-nav-icon class="ml-4" @click="toggleAppDrawer()">
+        <!-- <v-app-bar-nav-icon class="ml-4" @click="toggleAppDrawer()">
           <div :class="{ 'hamburger-menu': true, close: appDrawerIsShown }">
             <div class="hamburger-menu__bars transition-swing">
               <div
@@ -83,11 +83,11 @@
               />
             </div>
           </div>
-        </v-app-bar-nav-icon>
+        </v-app-bar-nav-icon> -->
       </div>
 
-      <nav class="hidden-sm-and-down">
-        <!-- FIXME: exact-active-class -->
+      <!-- <nav class="hidden-sm-and-down">
+        FIXME: exact-active-class
         <v-btn
           v-for="route in mainRoutes"
           :key="route.route"
@@ -100,7 +100,7 @@
         >
           {{ route.title }}
         </v-btn>
-      </nav>
+      </nav> -->
     </div>
   </v-app-bar>
 </template>
