@@ -1,25 +1,36 @@
 <template>
   <v-app-bar
-    :scroll-threshold="32"
-    flat
+    :scroll-threshold="64"
     clipped-right
     fixed
     hide-on-scroll
     elevate-on-scroll
+    dark
     :height="!$vuetify.breakpoint.xsOnly ? 112 : 104"
-    class="app-bar white py-4 py-sm-5"
+    class="app-bar transition-ease-in-out"
   >
     <div class="app-bar__left">
-      <nuxt-link to="/" exact class="app-link shrink align-center" title="home">
+      <nuxt-link
+        to="/"
+        exact
+        class="app-link shrink align-center"
+        title="home"
+        style="text-decoration: none !important;"
+      >
         <div class="d-flex align-center">
           <v-img
-            :src="$icon(192)"
+            :src="$icon(120)"
             alt="Arise, Shine Christian Network logo"
-            class="h-100"
+            class="h-100 mr-2"
             :aspect-ratio="1"
+            :height="72"
+            :width="72"
           />
 
-          <h1 class="subtitle-1 text-uppercase" style="line-height: 1.35;">
+          <h1
+            class="subtitle-1 dark-text--primary text-uppercase"
+            style="line-height: 1.35;"
+          >
             Arise, Shine<br />
             Christian <br />
             Network
@@ -30,67 +41,131 @@
 
     <v-spacer />
 
-    <nav class="hidden-sm-and-down">
-      <!-- FIXME: exact-active-class -->
-      <v-btn
-        v-for="route in routes"
-        :key="route.link"
-        class="text-capitalize"
-        text
-        :href="route.link"
-        exact-active-class="secondary lighten-4"
-        @click.stop="$vuetify.goTo(route.link)"
-      >
-        {{ route.text }}
-      </v-btn>
-    </nav>
-
-    <v-spacer />
-
-    <div class="app-bar__right">
-      <v-btn
-        color="secondary"
-        class="hidden-sm-and-down"
-        rounded
-        @click.stop="$vuetify.goTo('#contact')"
-      >
-        Request a Quote
-      </v-btn>
-
-      <!-- <v-app-bar-nav-icon class="hidden-md-and-up">
-        <div :class="{ 'hamburger-menu': true, close: appDrawerIsShown }">
-          <div class="hamburger-menu__bars transition-swing">
-            <div
-              class="hamburger-menu__bar hamburger-menu__bar--1 transition-swing"
-            />
-
-            <div
-              class="hamburger-menu__bar hamburger-menu__bar--2 transition-swing"
-            />
-
-            <div
-              class="hamburger-menu__bar hamburger-menu__bar--3 transition-swing"
-            />
+    <div
+      class="app-bar__right fill-height d-flex flex-column align-end justify-space-around"
+    >
+      <div>
+        <v-btn
+          color="secondary"
+          class="hidden-sm-and-down"
+          x-large
+          :href="latestMessage.link"
+          target="_blank"
+          rel="noopener"
+          @click.stop="$vuetify.goTo('#contact')"
+        >
+          <div class="d-inline-flex">
+            <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />
+            <div class="d-inline-flex flex-column align-start">
+              <span class="body-1">Download the latest message</span>
+              <span
+                style="max-width: 320px;"
+                class="overline text-truncate"
+                v-text="latestMessage.title"
+              />
+            </div>
           </div>
-        </div>
-      </v-app-bar-nav-icon> -->
+        </v-btn>
+
+        <v-app-bar-nav-icon class="ml-4" @click="toggleAppDrawer()">
+          <div :class="{ 'hamburger-menu': true, close: appDrawerIsShown }">
+            <div class="hamburger-menu__bars transition-swing">
+              <div
+                class="hamburger-menu__bar hamburger-menu__bar--1 transition-swing"
+              />
+
+              <div
+                class="hamburger-menu__bar hamburger-menu__bar--2 transition-swing"
+              />
+
+              <div
+                class="hamburger-menu__bar hamburger-menu__bar--3 transition-swing"
+              />
+            </div>
+          </div>
+        </v-app-bar-nav-icon>
+      </div>
+
+      <nav class="hidden-sm-and-down">
+        <!-- FIXME: exact-active-class -->
+        <v-btn
+          v-for="route in mainRoutes"
+          :key="route.route"
+          class="text-capitalize dark-text--secondary"
+          text
+          nuxt
+          :to="route.route"
+          small
+          exact-active-class="primary-gradient--stripped dark-text--primary"
+        >
+          {{ route.title }}
+        </v-btn>
+      </nav>
     </div>
   </v-app-bar>
 </template>
 
 <script>
+import { mdiCloudDownloadOutline } from '@mdi/js'
+import { useMedia } from '@/composables/media'
+import { useRoutes } from '@/composables/routes'
+import { useAppDrawer } from '@/composables/ui/app-drawer'
+
 export default {
-  name: 'FAppBar',
+  name: 'AppBar',
 
-  props: {
-    appDrawerIsShown: {
-      required: true,
-      type: Boolean
-    },
+  setup() {
+    const { latestMessage } = useMedia()
+    const { main: mainRoutes } = useRoutes()
+    const { isShown: appDrawerIsShown, toggleAppDrawer } = useAppDrawer()
 
-    routes: {
-      required: true,
-      type: Array
+    /* console.dir({
+      appDrawerIsShown,
+      toggleAppDrawer
+    }) */
+
+    return {
+      latestMessage,
+      mainRoutes,
+      appDrawerIsShown,
+      toggleAppDrawer
+    }
+  },
+
+  data() {
+    return {
+      isTransparent: true,
+      isElevated: false,
+      mdiCloudDownloadOutline
+    }
+  },
+
+  mounted() {
+    window.addEventListener('scroll', this.onScroll, false)
+  },
+
+  destroyed() {
+    window.removeEventListener('scroll', this.onScroll)
+  },
+
+  onScroll() {
+    // eslint-disable-next-line no-console
+    // console.dir(document)
+    const threshold = 200
+
+    const passedThreshold =
+      document.body.scrollTop > threshold ||
+      document.documentElement.scrollTop > threshold
+
+    // eslint-disable-next-line no-console
+    // console.info(passedThreshold)
+
+    if (passedThreshold && this.isTransparent) {
+      this.isTransparent = false
+      this.isElevated = true
+    } else if (!passedThreshold && !this.isTransparent) {
+      this.isTransparent = true
+      this.isElevated = false
     }
   }
 }
@@ -98,40 +173,19 @@ export default {
 
 <style lang="scss" scoped>
 .app-bar {
+  background: transparent !important;
   border-bottom-right-radius: 16px;
+  border-bottom: 1px solid #666666;
 
-  &__left,
-  &__right {
-    @media #{map-get($display-breakpoints, 'md-and-up')} {
-      width: 180px;
-    }
-  }
-
-  &::before {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-45%, -50%) rotateZ(90deg);
-    width: 250px;
-    height: 300px;
-    border-radius: 50%;
-    background: var(--v-black-purple-base);
-    transition: $primary-transition;
-
-    @media #{map-get($display-breakpoints, 'md-and-up')} {
-      transform: translate(-50%, -50%) rotateZ(90deg);
-      width: 400px;
-      height: 450px;
-    }
-  }
-}
-
-.app-bar.v-app-bar--is-scrolled::before {
-  transform: translate(-45%, -100%) rotateZ(90deg);
-
-  @media #{map-get($display-breakpoints, 'md-and-up')} {
-    transform: translate(-50%, -100%) rotateZ(90deg);
+  // &__left,
+  // &__right {
+  //   @media #{map-get($display-breakpoints, 'md-and-up')} {
+  //     width: 180px;
+  //   }
+  // }
+  &.v-app-bar--is-scrolled {
+    background: var(--v-tertiary-base) !important;
+    border-bottom: 1px solid transparent;
   }
 }
 
@@ -147,7 +201,7 @@ export default {
 
 .hamburger-menu {
   &__bars {
-    height: 15px;
+    height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -155,18 +209,12 @@ export default {
   }
 
   &__bar {
-    height: 2.2px;
-    background: var(--v-black-purple-base);
-
-    &--1 {
-      width: 20px;
-    }
-
-    &--2 {
-      width: 12px;
-    }
+    height: 4px;
+    width: 30px;
+    background: #eeeeee;
 
     &--3 {
+      height: 1.5px;
       width: 16px;
     }
   }
@@ -187,17 +235,17 @@ export default {
 
     &--1 {
       transform-origin: top left;
-      transform: rotate(45deg);
+      transform: rotate(45deg) translate(1px, -1px);
     }
 
     &--2 {
-      transform: rotate(180deg) scale(0);
+      transform-origin: center;
+      transform: rotate(-45deg) translate(-4px, -1px);
     }
 
     &--3 {
-      transform-origin: bottom left;
-      transform: rotate(-45deg) translate(-1px);
-      width: 20px;
+      transform: translate(100%);
+      opacity: 0;
     }
   }
 }

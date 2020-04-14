@@ -1,16 +1,12 @@
 <template>
   <div
-    class="accent"
-    style="
-      border-top-left-radius: 50% 4px;
-      border-top-right-radius: 50% 50px;
-      color: #eeeeee;
-    "
+    class="secondary darken-2 dark-text--secondary"
+    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px;"
   >
     <v-container class="mt-12 pt-12">
       <v-layout>
         <v-flex xs12 md6 lg4>
-          <h2 class="display-2">
+          <h2 class="display-2 dark-text--primary">
             Reach Us
           </h2>
 

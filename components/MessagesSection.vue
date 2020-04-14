@@ -44,7 +44,7 @@
 
     <v-data-table
       :headers="headers"
-      :items="processedMessages"
+      :items="messages"
       :items-per-page="5"
       :search="search"
       :sort-by="['timestamp']"
@@ -82,10 +82,17 @@
 </template>
 
 <script>
-import messages from '~/data/messages.js'
+import { useMedia } from '@/composables/media'
+// import messages from '@/data/messages'
 
 export default {
   name: 'MessagesSection',
+
+  setup() {
+    const { messages } = useMedia()
+
+    return { messages }
+  },
 
   data() {
     return {
@@ -129,7 +136,7 @@ export default {
           sortable: false
         }
       ],
-      messages,
+      // messages,
       isOnly2020Messages: false,
       isOnly2019Messages: false,
       isFilterByYear: ''
@@ -137,15 +144,15 @@ export default {
   },
 
   computed: {
-    processedMessages() {
-      // eslint-disable-next-line prettier/prettier
-      return this.messages.map(message =>
-        Object.assign(message, {
-          timestamp: message.date.getTime(),
-          year: message.date.getFullYear()
-        })
-      )
-    }
+    // processedMessages() {
+    //   // eslint-disable-next-line prettier/prettier
+    //   return this.messages.map(message =>
+    //     Object.assign(message, {
+    //       timestamp: message.date.getTime(),
+    //       year: message.date.getFullYear()
+    //     })
+    //   )
+    // }
   },
 
   methods: {

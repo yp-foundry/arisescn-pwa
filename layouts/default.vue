@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <app-bar :app-drawer-is-shown="appDrawerIsShown" :routes="routes" />
+    <app-bar :routes="routes" />
 
     <v-content>
       <nuxt />
@@ -10,9 +10,12 @@
     <v-btn
       fixed
       dark
-      style="bottom: 24px; right: 24px; width: 84px; height: 84px;"
+      style="bottom: 24px; right: 24px; width: 84px; height: 84px; z-index: 10;"
       class="rounded-50 elevation-20 hidden-md-and-up fab-transition"
       color="black"
+      :href="latestMessage.link"
+      target="_blank"
+      rel="noopener"
     >
       <div class="d-flex flex-column align-center justify-center">
         <v-icon v-text="mdiCloudDownload"></v-icon>
@@ -29,10 +32,19 @@ import { mdiCloudDownload } from '@mdi/js'
 
 import AppBar from '@/components/AppBar'
 
+import { useMedia } from '@/composables/media'
+
 export default {
   components: {
     AppBar
   },
+
+  setup() {
+    const { latestMessage } = useMedia()
+
+    return { latestMessage }
+  },
+
   data() {
     return {
       appDrawerIsShown: false,

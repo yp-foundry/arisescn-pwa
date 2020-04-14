@@ -1,37 +1,8 @@
 <template>
   <header>
     <div class="intro-carousel-wrapper position-relative">
-      <div class="intro__text ma-auto text-center">
-        <!-- eslint-disable prettier/prettier -->
-        <img
-          :src="$icon(192)"
-          alt="arise-logo"
-          class="intro-flyer__text__img mb-1"
-        >
-        <!-- eslint-enable prettier/prettier -->
-
-        <h1 class="primary--text">
-          Arise, Shine
-          <small class="grey--text text--lighten-3">Christian Network</small>
-        </h1>
-      </div>
-
-      <!-- <v-scale-transition appear> -->
-      <!-- eslint-disable prettier/prettier -->
-      <!-- <picture>
-          <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
-          <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
-          <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg"> -->
-      <!-- <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg"> -->
-
-      <!-- <img
-            src="~assets/img/arise-flyer/arise-flyer.jpg"
-            style="width: 100%; height: auto; max-height: 90vh; object-fit: contain; position: relative;"
-            alt="arise-flyer"
-          > -->
-      <!-- </picture> -->
-      <!-- eslint-enable prettier/prettier -->
-      <!-- </v-scale-transition> -->
+      <div class="intro__background w-100 h-100"></div>
+      <div class="intro__text ma-auto text-center"></div>
 
       <v-carousel
         :show-arrows="false"
@@ -39,38 +10,54 @@
         hide-delimiters
         height="100%"
       >
-        <v-carousel-item>
-          <p
-            ref="intro__notification"
-            :class="[
-              'intro__carousel__text mb-0 warning text-center px-3 py-3 py-md-4 font-weight-regular',
-              $vuetify.breakpoint.smAndUp ? 'headline' : 'title'
-            ]"
-          >
-            <!-- eslint-disable prettier/prettier -->
-            <!-- Join us {{ daysToSaturdayOffset }} at Arise, live online radio at -->
-            <!-- <a
-              href="http://mixlr.com/arise-live"
-              rel="noopener noreferrer"
-            >http://mixlr.com/arise-live</a> -->
-            Due to the laws of the State, Arise is on hold till further notice, Thanks.
-          </p>
-
-          <picture>
-            <source type="image/webp" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.webp">
-            <source type="image/webp" media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.webp">
-            <source type="image/jpeg" media="(max-width: 512px)" srcset="~assets/img/arise-flyer/arise-flyer-512.jpg">
-            <source media="(min-width: 513px)" srcset="~assets/img/arise-flyer/arise-flyer.jpg">
-
-            <img
-              src="~assets/img/arise-flyer/arise-flyer.jpg"
-              alt="arise-flyer"
-              class="intro__carousel__img"
+        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+          <v-container>
+            <v-row
+              justify="center"
+              justify-md="space-between"
+              align-md="center"
             >
-          </picture>
-          <!-- eslint-enable prettier/prettier -->
+              <v-col
+                class="max-width-600 px-4 pl-sm-5 pl-md-0 text-center text-md-left"
+              >
+                <h1
+                  class="mt-12 mt-md-0 mb-8 dark-text--primary display-3 font-weight-bold"
+                >
+                  ARISE!
+                </h1>
+
+                <p class="headline font-weight-thin mb-8">
+                  Experience the fellowship of the Spirit at the
+                  non-denominational fellowship of the believers.
+                </p>
+
+                <v-btn nuxt large color="primary" to="/arise" class="mb-12"
+                  >Learn More</v-btn
+                >
+              </v-col>
+
+              <v-col>
+                <v-img
+                  :src="
+                    require('~/assets/img/spoken-words/arise-is-a-place-where-giants-are-born.jpg')
+                  "
+                  :max-height="540"
+                  contain
+                  class="filter-elevation-2"
+                />
+              </v-col>
+            </v-row>
+          </v-container>
         </v-carousel-item>
       </v-carousel>
+
+      <div
+        class="intro__notification secondary lighten-1 pl-4 pl-sm-12 pr-4 py-3 d-flex align-center"
+      >
+        <v-icon color="primary lighten-3" dark class="mr-3" v-text="mdiBell" />
+
+        <span class="subtitle-1 dark-text--primary">Join us today by 6 PM</span>
+      </div>
     </div>
 
     <v-container tag="summary" class="my-12">
@@ -92,7 +79,7 @@
           <small>About</small> Arise
         </v-flex>
 
-        <v-flex xs12 md7 lg5 class="title font-weight-regular">
+        <v-flex xs12 md7 lg5 class="title font-weight-thin">
           Arise, a place of Encounter with the Holy Spirit. To prepare the
           saints for the work of the ministry (Ephesians 4:11), which is the
           ministry of reconciliation (2 Corinthians 5:18)
@@ -103,8 +90,16 @@
 </template>
 
 <script>
+import { mdiBell } from '@mdi/js'
+
 export default {
   name: 'IntroSection',
+
+  data() {
+    return {
+      mdiBell
+    }
+  },
 
   computed: {
     daysToSaturdayOffset() {
@@ -138,23 +133,33 @@ export default {
 .intro-carousel-wrapper {
   background: #0d1931 url('~assets/img/arise-flyer/arise-flyer-blurred.jpg')
     no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url('~assets/img/backgrounds/arise-clouds.jpg');
+  background: var(--v-secondary-darken2)
+    linear-gradient(var(--v-secondary-darken2), var(--v-secondary-darken3));
   background-size: cover;
   border-bottom-left-radius: 50% 8px;
   border-bottom-right-radius: 50% 8px;
-  position: relative;
   overflow: hidden;
-  height: 360px;
+  min-height: 80%;
+  // height: 360px;
 
   @media #{map-get($display-breakpoints, 'sm-only')} {
-    height: 300px;
+    // height: 300px;
   }
 
   @media #{map-get($display-breakpoints, 'md-and-up')} {
-    height: 600px;
+    // height: 600px;
   }
 }
 
 .intro {
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   &__text {
     position: absolute;
     top: 50%;
@@ -175,7 +180,14 @@ export default {
   }
 
   &__carousel {
+    position: relative;
+    padding-top: 80px;
     // height: 100% !important;
+    z-index: 1;
+
+    @media #{map-get($display-breakpoints, 'sm-and-up')} {
+      padding-top: 120px;
+    }
 
     &__alert {
       // height: 52px;
@@ -191,6 +203,19 @@ export default {
       @media #{map-get($display-breakpoints, 'md-and-up')} {
         height: calc(100% - 60px);
       }
+    }
+  }
+
+  &__notification {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    // FIXME: make scss prepend variables
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    @media #{map-get($display-breakpoints, 'md-and-up')} {
+      width: 50%;
     }
   }
 }

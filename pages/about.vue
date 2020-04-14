@@ -3,7 +3,7 @@
     <!-- About header -->
 
     <!-- content -->
-    <v-container class="py-12 title">
+    <v-container class="py-12 title max-width-800">
       <h2 class="mb-2">Constitution</h2>
       <section class="mb-4">
         <section class="mb-2">

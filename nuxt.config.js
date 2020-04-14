@@ -57,12 +57,6 @@ export default {
     background_color: '#fcfeff'
   },
 
-  pwa: {
-    icon: {
-      iconFileName: 'icon.jpg'
-    }
-  },
-
   /*
    ** Customize the progress-bar color
    */
@@ -114,8 +108,10 @@ export default {
     theme: {
       themes: {
         light: {
-          primary: colors.blue.darken3,
-          accent: '#151829'
+          primary: '#1E88E5',
+          secondary: '#252840',
+          tertiary: '#0a0b0f',
+          accent: '#FF8F00'
         }
       },
 

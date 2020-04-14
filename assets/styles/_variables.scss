@@ -19,7 +19,7 @@ $list-item-action-icon-margin: 0;
 
 // For updating SASS lists
 $material-light: map-merge($material-light, (
-  'background': #fcfeff,
+  'background': #f5f7fa,
 
   'text': (
     'theme': map-get($shades, 'white'),
