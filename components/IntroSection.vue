@@ -26,14 +26,14 @@
                   ARISE!
                 </h1>
 
-                <p class="headline font-weight-thin mb-8">
+                <p class="headline font-weight-thin dark-text--primary mb-8">
                   Experience the fellowship of the Spirit at the
                   non-denominational fellowship of the believers.
                 </p>
 
-                <v-btn nuxt large color="primary" to="/arise" class="mb-12"
+                <!-- <v-btn nuxt large color="primary" to="/arise" class="mb-12"
                   >Learn More</v-btn
-                >
+                > -->
               </v-col>
 
               <v-col>
@@ -84,7 +84,7 @@
           <small>About</small> Arise
         </v-flex>
 
-        <v-flex xs12 md7 lg5 class="title font-weight-thin">
+        <v-flex xs12 md7 lg5 class="title font-weight-light">
           Arise, a place of Encounter with the Holy Spirit. To prepare the
           saints for the work of the ministry (Ephesians 4:11), which is the
           ministry of reconciliation (2 Corinthians 5:18)
