@@ -7,19 +7,19 @@
     <v-layout class="mb-2">
       <v-flex xs12 sm8 md6 lg4>
         <v-chip
-          @click="filterByYear('2020')"
           :input-value="isOnly2020Messages"
           class="ma-2"
           filter
+          @click="filterByYear('2020')"
         >
           2020 Messages
         </v-chip>
 
         <v-chip
-          @click="filterByYear('2019')"
           :input-value="isOnly2019Messages"
           class="ma-2"
           filter
+          @click="filterByYear('2019')"
         >
           2019 Messages
         </v-chip>
@@ -44,7 +44,7 @@
 
     <v-data-table
       :headers="headers"
-      :items="processedMessages"
+      :items="messages"
       :items-per-page="5"
       :search="search"
       :sort-by="['timestamp']"
@@ -56,10 +56,10 @@
       <template v-slot:item.timestamp="{ item }">
         {{
           appendLeadingZeroes(item.date.getDate()) +
-            '-' +
-            appendLeadingZeroes(item.date.getMonth() + 1) +
-            '-' +
-            item.date.getFullYear()
+          '-' +
+          appendLeadingZeroes(item.date.getMonth() + 1) +
+          '-' +
+          item.date.getFullYear()
         }}
       </template>
 
@@ -82,10 +82,17 @@
 </template>
 
 <script>
-import messages from '~/data/messages.js'
+import { useMedia } from '@/composables/media'
+// import messages from '@/data/messages'
 
 export default {
   name: 'MessagesSection',
+
+  setup() {
+    const { messages } = useMedia()
+
+    return { messages }
+  },
 
   data() {
     return {
@@ -103,7 +110,9 @@ export default {
           align: 'center',
           sortable: true,
           filter: (value, search, item) => {
-            if (!this.isFilterByYear) return true
+            if (!this.isFilterByYear) {
+              return true
+            }
 
             return String(item.date.getFullYear()).includes(this.isFilterByYear)
           }
@@ -127,7 +136,7 @@ export default {
           sortable: false
         }
       ],
-      messages,
+      // messages,
       isOnly2020Messages: false,
       isOnly2019Messages: false,
       isFilterByYear: ''
@@ -135,15 +144,15 @@ export default {
   },
 
   computed: {
-    processedMessages() {
-      // eslint-disable-next-line prettier/prettier
-      return this.messages.map(message =>
-        Object.assign(message, {
-          timestamp: message.date.getTime(),
-          year: message.date.getFullYear()
-        })
-      )
-    }
+    // processedMessages() {
+    //   // eslint-disable-next-line prettier/prettier
+    //   return this.messages.map(message =>
+    //     Object.assign(message, {
+    //       timestamp: message.date.getTime(),
+    //       year: message.date.getFullYear()
+    //     })
+    //   )
+    // }
   },
 
   methods: {

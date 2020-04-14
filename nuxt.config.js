@@ -61,16 +61,17 @@ export default {
    ** Customize the progress-bar color
    */
   loading: { color: colors.blue.darken3 },
+
   /*
    ** Global CSS
    */
-  // TODO: Use @Mdi/js and use manual import
-  css: ['@mdi/font/css/materialdesignicons.css'],
+  css: ['~/assets/styles/main.scss'],
+
   /*
    ** Plugins to load before mounting the App
    */
   // plugins: ['@/plugins/v-composition-api'],
-  plugins: [],
+  plugins: ['@/plugins/v-composition-api', '@/plugins/vue-observe-visibility'],
 
   /*
    ** Nuxt.js modules
@@ -80,6 +81,14 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
+    [
+      'storyblok-nuxt',
+      {
+        accessToken: 'bBST5VQ1LY5JjdkotXvAwAtt',
+        cacheProvider: 'memory'
+      }
+    ],
+
     [
       '@nuxtjs/google-analytics',
       {
@@ -99,15 +108,25 @@ export default {
     theme: {
       themes: {
         light: {
-          primary: colors.blue.darken3,
-          accent: '#151829'
+          primary: '#1E88E5',
+          secondary: '#252840',
+          tertiary: '#0a0b0f',
+          accent: '#FF8F00'
         }
+      },
+
+      options: {
+        customProperties: true
       }
     },
 
     customVariables: ['~/assets/styles/_variables.scss'],
 
     defaultAssets: false,
+
+    icons: {
+      iconfont: 'mdiSvg'
+    },
 
     treeShake: true
   },
@@ -131,7 +150,7 @@ export default {
   build: {
     loaders: {
       scss: {
-        data: `
+        prependData: `
           @import "~/assets/styles/_variables.scss";
         `
       }
