@@ -72,9 +72,7 @@
           icon
           rel="noopener"
         >
-          <v-icon color="primary">
-            mdi-download
-          </v-icon>
+          <v-icon color="primary" v-text="mdiCloudDownload" />
         </v-btn>
       </template>
     </v-data-table>
@@ -82,6 +80,8 @@
 </template>
 
 <script>
+import { mdiCloudDownload } from '@mdi/js'
+
 import { useMedia } from '@/composables/media'
 // import messages from '@/data/messages'
 
@@ -139,7 +139,8 @@ export default {
       // messages,
       isOnly2020Messages: false,
       isOnly2019Messages: false,
-      isFilterByYear: ''
+      isFilterByYear: '',
+      mdiCloudDownload
     }
   },
 
