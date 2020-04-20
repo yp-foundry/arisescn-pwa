@@ -70,8 +70,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  // plugins: ['@/plugins/v-composition-api'],
-  plugins: ['@/plugins/v-composition-api', '@/plugins/vue-observe-visibility'],
+  plugins: [
+    '@/plugins/v-composition-api',
+    '@/plugins/vue-observe-visibility'
+    // '@/plugins/v-particles'
+  ],
 
   /*
    ** Nuxt.js modules
