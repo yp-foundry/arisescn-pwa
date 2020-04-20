@@ -358,6 +358,13 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('April 11, 2020 18:30:00'),
     series: '-'
+  },
+  {
+    title: 'Sin, Sinner and Righteousness 2',
+    link: 'https://drive.google.com/open?id=1c9wrOv95y7j4wzbae4SLgsoF1CvX4X7J',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('April 18, 2020 18:30:00'),
+    series: '-'
   }
 ]
 
