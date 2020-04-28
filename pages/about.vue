@@ -67,7 +67,7 @@
 
                 <p class="title font-weight-thin mb-8">
                   to raise an army of men who knows God, loves and lives in the
-                  light of God's purpose for their life are raised
+                  light of God's purpose for their life.
                 </p>
               </div>
 

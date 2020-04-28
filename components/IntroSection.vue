@@ -52,10 +52,8 @@
                 </p> -->
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  a place of Encounter with the Holy Spirit. To prepare the men
-                  who know God, loves God, and lives for God for the work of the
-                  ministry (Ephesians 4:11), which is the ministry of
-                  reconciliation (2 Corinthians 5:18)
+                  a place where an army of men who knows God, loves and lives in
+                  the light of God's purpose for their life are raised
                 </p>
 
                 <v-btn nuxt large color="primary" to="/arise" class="mb-12"
