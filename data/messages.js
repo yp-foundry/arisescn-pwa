@@ -378,7 +378,7 @@ export default [
     date: new Date('April 18, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
     imgSrc:
-      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-1.jpg'
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-2.jpg'
   },
   {
     title: 'Arise! The Mission, The Mandate',
