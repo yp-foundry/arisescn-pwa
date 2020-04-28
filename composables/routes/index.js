@@ -1,7 +1,7 @@
 import { reactive, computed } from '@vue/composition-api'
 import state from './state'
 
-export function useRoutes() {
+export const useRoutes = () => {
   const routes = reactive(state)
 
   const basic = computed(() => filterRoutesBy('basic'))

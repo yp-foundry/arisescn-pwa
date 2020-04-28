@@ -1,8 +1,10 @@
+import {} from '@vue/composition-api'
+
 /**
  *
  * @param {Date} date date to convert
  */
-export const formatDateToText = (date) => {
+export const useFormatDateToText = (date) => {
   const months = [
     'Jan',
     'Feb',

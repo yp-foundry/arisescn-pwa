@@ -2,22 +2,26 @@
   <div>
     <intro-section />
 
-    <messages-section />
+    <latest-messages-cards-swiper />
 
-    <contact-section />
+    <messages-section />
   </div>
 </template>
 
 <script>
-import IntroSection from '~/components/IntroSection'
-import MessagesSection from '~/components/MessagesSection'
-import ContactSection from '~/components/ContactSection'
+import IntroSection from '@/components/IntroSection'
+import LatestMessagesCardsSwiper from '@/components/LatestMessagesCardsSwiper'
+// import AHorizontalSwiper from '@/components/core/CoreHorizontalSwiper'
+import MessagesSection from '@/components/MessagesSection'
 
 export default {
+  name: 'HomePage',
+
   components: {
     IntroSection,
-    MessagesSection,
-    ContactSection
+    LatestMessagesCardsSwiper,
+    // AHorizontalSwiper,
+    MessagesSection
   }
 }
 </script>
