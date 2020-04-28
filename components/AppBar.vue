@@ -86,8 +86,8 @@
         </v-app-bar-nav-icon> -->
       </div>
 
-      <!-- <nav class="hidden-sm-and-down">
-        FIXME: exact-active-class
+      <nav class="hidden-sm-and-down">
+        <!-- FIXME: exact-active-class -->
         <v-btn
           v-for="route in mainRoutes"
           :key="route.route"
@@ -100,7 +100,7 @@
         >
           {{ route.title }}
         </v-btn>
-      </nav> -->
+      </nav>
     </div>
   </v-app-bar>
 </template>
