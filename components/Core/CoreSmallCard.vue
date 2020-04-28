@@ -23,7 +23,10 @@
         </span>
       </div> -->
       <!-- meta -->
-      <h3 class="a-small-card__title body-2 mb-2" v-text="title" />
+      <h3
+        class="a-small-card__title text--primary body-2 mb-2"
+        v-text="title"
+      />
 
       <v-layout justify-space-between align-center class="ma-0 pr-1">
         <p
@@ -56,40 +59,18 @@
       <v-icon>{{ mdiDotsVertical }}</v-icon>
     </v-btn> -->
 
-    <v-menu bottom right>
-      <template v-slot:activator="{ on }">
-        <v-btn
-          class="a-small-card__cta light-filter-elevation-1"
-          color="white"
-          icon
-          absolute
-          small
-          v-on="on"
-        >
-          <v-icon>{{ mdiDotsVertical }}</v-icon>
-        </v-btn>
-      </template>
-
-      <v-list>
-        <v-list-item>
-          <v-list-item-icon>
-            <v-icon small v-text="mdiEye"></v-icon>
-          </v-list-item-icon>
-          <v-list-item-content>
-            <v-list-item-title>View</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item :href="link" target="_blank" rel="noopener noreferrer">
-          <v-list-item-icon>
-            <v-icon small v-text="mdiCloudDownload"></v-icon>
-          </v-list-item-icon>
-          <v-list-item-content>
-            <v-list-item-title>Download</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-menu>
+    <v-btn
+      :href="link"
+      class="a-small-card__cta light-filter-elevation-1"
+      color="white"
+      icon
+      absolute
+      small
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <v-icon small v-text="mdiCloudDownload" />
+    </v-btn>
 
     <img :src="imgSrc" :alt="imgSrc" class="a-small-card__img flex-shrink-0" />
   </div>

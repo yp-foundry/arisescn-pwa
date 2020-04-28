@@ -32,54 +32,20 @@
 
     <div class="a-card__content px-3 pb-3">
       <v-layout justify-space-between align-center class="ma-0">
-        <h3 class="a-card__title body-1 mr-1" v-text="title" />
+        <h3 class="a-card__title text--primary body-1 mr-1" v-text="title" />
 
-        <v-menu>
-          <template v-slot:activator="{ on }">
-            <v-btn
-              class="a-card__primary-cta transition-ease-in-out primary-transition-time"
-              color="primary"
-              text
-              icon
-              large
-              v-on="on"
-            >
-              <v-icon>{{ mdiDotsVertical }}</v-icon>
-            </v-btn>
-          </template>
-
-          <v-list>
-            <v-list-item>
-              <v-list-item-icon>
-                <v-icon small v-text="mdiEye"></v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>View</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-
-            <v-list-item :href="link" target="_blank" rel="noopener noreferrer">
-              <v-list-item-icon>
-                <v-icon small v-text="mdiCloudDownload"></v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title>Download</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
-        </v-menu>
-
-        <!-- <v-btn
+        <v-btn
           :href="link"
-          color="primary"
-          icon
           target="_blank"
           rel="noopener noreferrer"
+          class="a-card__primary-cta transition-ease-in-out primary-transition-time"
+          color="primary"
+          text
+          icon
           large
-          class="a-card__primary-cta elevation-4 white"
         >
-          <v-icon>{{ mdiDotsVertical }}</v-icon>
-        </v-btn> -->
+          <v-icon>{{ mdiCloudDownload }}</v-icon>
+        </v-btn>
       </v-layout>
 
       <v-layout justify-space-between align-center class="ma-0 mt-1">
