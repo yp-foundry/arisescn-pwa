@@ -1,10 +1,10 @@
 import {
   mdiHome,
-  mdiMusicBox,
-  mdiPlaylistMusic,
-  mdiAccountCash,
-  mdiRadio,
-  mdiFrequentlyAskedQuestions,
+  // mdiMusicBox,
+  // mdiPlaylistMusic,
+  // mdiAccountCash,
+  // mdiRadio,
+  // mdiFrequentlyAskedQuestions,
   mdiInformationVariant,
 
   // socialIcons
@@ -28,7 +28,7 @@ export default {
       route: '/',
       type: ['basic', 'main']
     },
-    {
+    /* {
       title: 'Listen Online',
       icon: mdiRadio,
       route: '/live',
@@ -61,7 +61,7 @@ export default {
       icon: mdiFrequentlyAskedQuestions,
       route: '/faq',
       type: ['other', 'main']
-    },
+    }, */
     {
       title: 'About',
       icon: mdiInformationVariant,
