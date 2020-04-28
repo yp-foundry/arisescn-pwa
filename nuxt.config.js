@@ -70,13 +70,16 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  // plugins: ['@/plugins/v-composition-api'],
-  plugins: ['@/plugins/v-composition-api', '@/plugins/vue-observe-visibility'],
+  plugins: [
+    '@/plugins/v-composition-api',
+    '@/plugins/vue-observe-visibility'
+    // '@/plugins/v-particles'
+  ],
 
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', 'nuxt-webfontloader'],
+  modules: ['@nuxtjs/pwa'],
 
   buildModules: [
     '@nuxtjs/eslint-module',
@@ -129,12 +132,6 @@ export default {
     },
 
     treeShake: true
-  },
-
-  webfontloader: {
-    google: {
-      families: ['Open+Sans:400,600,700&display=swap'] // Loads Lato font with weights 400 and 700
-    }
   },
 
   modern: 'client',

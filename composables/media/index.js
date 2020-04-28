@@ -1,7 +1,7 @@
 import { computed } from '@vue/composition-api'
 import messagesData from '@/data/messages'
 
-export function useMedia() {
+export const useMedia = () => {
   // const messages = reactive(messagesData)
 
   // const social = computed(() => filterRoutesBy('basic'))

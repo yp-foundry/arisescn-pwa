@@ -1,6 +1,6 @@
 import { ref } from '@vue/composition-api'
 
-export function useAppDrawer() {
+export const useAppDrawer = () => {
   const isShown = ref(false)
 
   // const isShown = computed(() => state.value)

@@ -1,7 +1,7 @@
 {
   "name": "arise-scn",
   "version": "1.0.0",
-  "description": "Arise, a place of Encounter with the Holy Spirit. To prepare the saints for the work of the ministry (Ephesians 4:11), which is the ministry of reconciliation (2 Corinthians 5:18)",
+  "description": "Arise, a place of Encounter with the Holy Spirit. To prepare the men who knows God, loves God and lives for Him for the work of the ministry (Ephesians 4:11), which is the ministry of reconciliation (2 Corinthians 5:18)",
   "author": "Opeyemi David",
   "private": true,
   "scripts": {
@@ -45,6 +45,7 @@
     "prettier": "^2.0.2",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
-    "storyblok-nuxt": "^1.2.0"
+    "storyblok-nuxt": "^1.2.0",
+    "vue-particles": "^1.0.9"
   }
 }

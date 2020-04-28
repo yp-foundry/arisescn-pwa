@@ -6,6 +6,8 @@
       <nuxt />
     </v-content>
 
+    <contact-section />
+
     <!-- Download latest message button -->
     <v-btn
       fixed
@@ -19,7 +21,7 @@
     >
       <div class="d-flex flex-column align-center justify-center">
         <v-icon v-text="mdiCloudDownload"></v-icon>
-        <span class="pt-1 pb-2 subtitle-2" style="line-height: 1.2;"
+        <span class="text-center pt-1 pb-2 subtitle-2" style="line-height: 1.2;"
           >Latest<br />Message</span
         >
       </div>
@@ -31,12 +33,14 @@
 import { mdiCloudDownload } from '@mdi/js'
 
 import AppBar from '@/components/AppBar'
+import ContactSection from '@/components/ContactSection'
 
 import { useMedia } from '@/composables/media'
 
 export default {
   components: {
-    AppBar
+    AppBar,
+    ContactSection
   },
 
   setup() {

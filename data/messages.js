@@ -287,84 +287,98 @@ export default [
     link: 'https://drive.google.com/open?id=1u5Psd1rE2GOHO_wJQflpXt0TAYc1sfal',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 18, 2020 19:30:00'),
-    series: '-'
+    series: '-',
+    imgSrc: '/img/album-arts/lovest-thou-me-more-than-these.jpg'
   },
   {
     title: 'Call to Worship 1',
     link: 'https://drive.google.com/open?id=1wQ6zcz-s2GmYhmdSLOiDZzVPbI_ivTII',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 1, 2020 19:30:00'),
-    series: 'Call to Worship'
+    series: 'Call to Worship',
+    imgSrc: '/img/album-arts/call-to-worship/call-to-worship-1.jpg'
   },
   {
     title: 'Call to Worship 2',
     link: 'https://drive.google.com/open?id=1TBSEuNSNE5b_0cdWrKvsI_O9MByDWhon',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 8, 2020 19:30:00'),
-    series: 'Call to Worship'
+    series: 'Call to Worship',
+    imgSrc: '/img/album-arts/call-to-worship/call-to-worship-2.jpg'
   },
   {
     title: 'In Christ 1',
     link: 'https://drive.google.com/open?id=15TCjFiaGaRiZNp-n4a_E3SBBbw_YmAUj',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 15, 2020 19:30:00'),
-    series: 'In Christ'
+    series: 'In Christ',
+    imgSrc: '/img/album-arts/in-christ/in-christ-1.jpg'
   },
   {
     title: 'In Christ 2',
     link: 'https://drive.google.com/open?id=1CWQVos-uOEmes7sId0yTCs7qzUOTx4Fd',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 22, 2020 19:30:00'),
-    series: 'In Christ'
+    series: 'In Christ',
+    imgSrc: '/img/album-arts/in-christ/in-christ-2.jpg'
   },
   {
     title: 'Father and Son',
     link: 'https://drive.google.com/open?id=1L3AwR8a8frNi0hKQbzh-AROrMR2XMNy_',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 7, 2020 19:30:00'),
-    series: '-'
+    series: '-',
+    imgSrc: '/img/album-arts/father-and-son.jpg'
   },
   {
     title: 'Grow',
     link: 'https://drive.google.com/open?id=17F2fhKJ-cscebAmP34979E3eBZfq2yD6',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 14, 2020 19:30:00'),
-    series: '-'
+    series: '-',
+    imgSrc: '/img/album-arts/grow.jpg'
   },
   {
     title: 'The Comforter',
     link: 'https://drive.google.com/open?id=1g9fq66ZG1sOyNv-W6kCz54Yj_dCDvRls',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 21, 2020 19:30:00'),
-    series: '-'
+    series: '-',
+    imgSrc: '/img/album-arts/the-comforter.jpg'
   },
   {
     title: 'March Worship Service (with Question and Answer)',
     link: 'https://drive.google.com/open?id=1EGeZFIjBZd3egCO67KFmjlgm6p5x0Tob',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 28, 2020 18:00:00'),
-    series: '-'
+    series: '-',
+    imgSrc: '/img/album-arts/march-2020-worship-service.jpg'
   },
   {
     title: 'Glory in this...',
     link: 'https://drive.google.com/open?id=172SqoAOCpEnoUAF9jNJQBiML_hU6kMUg',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 4, 2020 18:00:00'),
-    series: '-'
+    series: '-',
+    imgSrc: '/img/album-arts/glory-in-this.jpg'
   },
   {
     title: 'Sin, Sinner and Righteousness 1',
     link: 'https://drive.google.com/open?id=1Db0A4qx5P1FP1KN76YpJHirQkH8q3Ihz',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 11, 2020 18:30:00'),
-    series: '-'
+    series: 'Sin, Sinner and Righteousness',
+    imgSrc:
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-1.jpg'
   },
   {
     title: 'Sin, Sinner and Righteousness 2',
     link: 'https://drive.google.com/open?id=1c9wrOv95y7j4wzbae4SLgsoF1CvX4X7J',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 18, 2020 18:30:00'),
-    series: '-'
+    series: 'Sin, Sinner and Righteousness',
+    imgSrc:
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-1.jpg'
   }
 ]
 

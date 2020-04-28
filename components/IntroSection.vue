@@ -1,12 +1,32 @@
 <template>
-  <header>
-    <div class="intro-carousel-wrapper position-relative">
-      <div class="intro__background w-100 h-100"></div>
-      <div class="intro__text ma-auto text-center"></div>
+  <a-intro>
+    <template #background>
+      <!-- <no-ssr>
+            <vue-particles
+              color="#dedede"
+              :particle-opacity="0.7"
+              :particles-number="80"
+              shape-type="circle"
+              :particle-size="4"
+              lines-color="#dedede"
+              :lines-width="1"
+              :line-linked="true"
+              :line-opacity="0.4"
+              :lines-distance="150"
+              :move-speed="3"
+              :hover-effect="true"
+              hover-mode="grab"
+              :click-effect="true"
+              click-mode="push"
+            >
+            </vue-particles>
+          </no-ssr> -->
+    </template>
 
+    <template #default>
       <v-carousel
         :show-arrows="false"
-        class="intro__carousel"
+        class="intro-section__carousel"
         hide-delimiters
         height="100%"
       >
@@ -26,14 +46,21 @@
                   ARISE!
                 </h1>
 
-                <p class="headline font-weight-thin dark-text--primary mb-8">
+                <!-- <p class="headline font-weight-thin dark-text--primary mb-8">
                   Experience the fellowship of the Spirit at the
                   non-denominational fellowship of the believers.
+                </p> -->
+
+                <p class="headline font-weight-thin dark-text--primary mb-8">
+                  a place of Encounter with the Holy Spirit. To prepare the men
+                  who know God, loves God, and lives for God for the work of the
+                  ministry (Ephesians 4:11), which is the ministry of
+                  reconciliation (2 Corinthians 5:18)
                 </p>
 
-                <!-- <v-btn nuxt large color="primary" to="/arise" class="mb-12"
+                <v-btn nuxt large color="primary" to="/arise" class="mb-12"
                   >Learn More</v-btn
-                > -->
+                >
               </v-col>
 
               <v-col>
@@ -52,7 +79,7 @@
       </v-carousel>
 
       <div
-        class="intro__notification secondary lighten-1 pl-4 pl-sm-12 pr-4 py-3 d-flex align-center"
+        class="intro-section__notification secondary lighten-1 pl-4 pl-sm-12 pr-4 py-3 d-flex align-center"
       >
         <v-icon color="primary lighten-3" dark class="mr-3" v-text="mdiBell" />
 
@@ -63,42 +90,21 @@
           >
         </span>
       </div>
-    </div>
-
-    <v-container tag="summary" class="my-12">
-      <v-layout
-        :justify-center="$vuetify.breakpoint.smAndDown"
-        :justify-space-around="$vuetify.breakpoint.mdAndUp"
-        wrap
-      >
-        <v-flex
-          :class="[
-            'display-1 text-xs-center primary--text text--darken-1 mb-4',
-            $vuetify.breakpoint.mdAndUp ? 'px-6' : ''
-          ]"
-          xs12
-          md4
-          lg3
-          tag="h3"
-        >
-          <small>About</small> Arise
-        </v-flex>
-
-        <v-flex xs12 md7 lg5 class="title font-weight-light">
-          Arise, a place of Encounter with the Holy Spirit. To prepare the
-          saints for the work of the ministry (Ephesians 4:11), which is the
-          ministry of reconciliation (2 Corinthians 5:18)
-        </v-flex>
-      </v-layout>
-    </v-container>
-  </header>
+    </template>
+  </a-intro>
 </template>
 
 <script>
+import AIntro from '@/components/AIntro'
+
 import { mdiBell } from '@mdi/js'
 
 export default {
   name: 'IntroSection',
+
+  components: {
+    AIntro
+  },
 
   data() {
     return {
@@ -135,69 +141,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.intro-carousel-wrapper {
-  background: #0d1931 url('~assets/img/arise-flyer/arise-flyer-blurred.jpg')
-    no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url('~assets/img/backgrounds/arise-clouds.jpg');
-  background: var(--v-secondary-darken2)
-    linear-gradient(var(--v-secondary-darken2), var(--v-secondary-darken3));
-  background-size: cover;
-  border-bottom-left-radius: 50% 8px;
-  border-bottom-right-radius: 50% 8px;
-  overflow: hidden;
-  min-height: 80%;
-  // height: 360px;
-
-  @media #{map-get($display-breakpoints, 'sm-only')} {
-    // height: 300px;
-  }
-
-  @media #{map-get($display-breakpoints, 'md-and-up')} {
-    // height: 600px;
-  }
-}
-
-.intro {
-  &__background {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-
-  &__text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 224px;
-
-    &__img {
-      width: 64px;
-      height: 64px;
-      filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
-    }
-
-    > h1 {
-      font-size: 2rem;
-      line-height: 2.3rem;
-    }
-  }
-
+.intro-section {
   &__carousel {
-    position: relative;
-    padding-top: 80px;
-    // height: 100% !important;
-    z-index: 1;
-
-    @media #{map-get($display-breakpoints, 'sm-and-up')} {
-      padding-top: 120px;
-    }
-
-    &__alert {
-      // height: 52px;
-    }
-
     &__img {
       background: black;
       width: 100%;
