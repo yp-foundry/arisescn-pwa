@@ -381,7 +381,7 @@ export default [
       '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-2.jpg'
   },
   {
-    title: 'Arise! The Mission, The Mandate',
+    title: 'Arise! The Movement, The Mandate',
     link: 'https://drive.google.com/open?id=1c9wrOv95y7j4wzbae4SLgsoF1CvX4X7J',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 25, 2020 18:30:00'),
