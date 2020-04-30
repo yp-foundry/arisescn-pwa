@@ -382,7 +382,7 @@ export default [
   },
   {
     title: 'Arise! The Movement, The Mandate',
-    link: 'https://drive.google.com/open?id=1c9wrOv95y7j4wzbae4SLgsoF1CvX4X7J',
+    link: 'https://drive.google.com/open?id=1xPkO1ya5Q38Dj9I-cBU8G5_o6Qo-6TMu',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 25, 2020 18:30:00'),
     series: '-',
