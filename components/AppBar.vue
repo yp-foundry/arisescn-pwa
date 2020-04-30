@@ -52,7 +52,6 @@
           :href="latestMessage.link"
           target="_blank"
           rel="noopener"
-          @click.stop="$vuetify.goTo('#contact')"
         >
           <div class="d-inline-flex">
             <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />
