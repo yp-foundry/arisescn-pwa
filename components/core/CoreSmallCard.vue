@@ -46,18 +46,12 @@
       </v-layout>
     </v-layout>
 
-    <!-- <v-btn
-      :href="link"
-      class="a-small-card__cta"
-      color="primary"
-      icon
-      absolute
-      small
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <v-icon>{{ mdiDotsVertical }}</v-icon>
-    </v-btn> -->
+    <v-img
+      :src="imgSrc"
+      :alt="`${title} image`"
+      class="a-small-card__img flex-shrink-0 flex-grow-0"
+      lazy-src="/img/album-arts/arise-album-art-placeholder.jpg"
+    />
 
     <v-btn
       :href="link"
@@ -71,8 +65,6 @@
     >
       <v-icon small v-text="mdiCloudDownload" />
     </v-btn>
-
-    <img :src="imgSrc" :alt="imgSrc" class="a-small-card__img flex-shrink-0" />
   </div>
 </template>
 
@@ -160,7 +152,7 @@ $cta-width: 40px;
   &__img {
     height: 64px;
     width: 64px;
-    object-fit: cover;
+    // object-fit: cover;
     border-radius: $border-radius / 2;
   }
 

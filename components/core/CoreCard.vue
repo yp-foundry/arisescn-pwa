@@ -12,10 +12,11 @@
     <div class="position-relative">
       <v-img
         :src="imgSrc"
-        :alt="imgSrc"
+        :alt="`${title} image`"
         class="a-card__img elevation-1 mb-2"
         aspect-ratio="1"
         width="100%"
+        lazy-src="/img/album-arts/arise-album-art-placeholder.jpg"
       />
 
       <!-- <v-layout
