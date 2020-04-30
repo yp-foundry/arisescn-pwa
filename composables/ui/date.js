@@ -20,5 +20,5 @@ export const useFormatDateToText = (date) => {
     'Dec'
   ]
 
-  return `${months[date.getMonth()]} ${date.getDay()}, ${date.getFullYear()}`
+  return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`
 }
