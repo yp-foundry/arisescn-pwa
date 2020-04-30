@@ -118,6 +118,7 @@
         :search="search"
         :sort-by="sortBy.toLowerCase()"
         :sort-desc="sortDesc"
+        :custom-filter="filterFn"
         hide-default-footer
       >
         <!-- <template v-slot:header>
@@ -375,13 +376,23 @@ export default {
   },
 
   methods: {
-    filterFn(value, search, item) {
+    filterFn(items, search) {
+      if (!items) {
+        return []
+      }
+
+      return items.filter((item) =>
+        String(item.date.getFullYear()).includes(this.isFilterByYear)
+      )
+    },
+
+    /* filterFn(value, search, item) {
       if (!this.isFilterByYear) {
         return true
       }
 
       return String(item.date.getFullYear()).includes(this.isFilterByYear)
-    },
+    }, */
 
     filterByYear(year) {
       if (this[`isOnly${year}Messages`] === true) {
