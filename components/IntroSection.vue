@@ -25,11 +25,53 @@
 
     <template #default>
       <v-carousel
-        :show-arrows="false"
+        cycle
+        continuous
         class="intro-section__carousel"
         hide-delimiters
         height="100%"
       >
+        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+          <v-container>
+            <v-row
+              justify="center"
+              justify-md="space-between"
+              align-sm="center"
+            >
+              <v-col
+                class="max-width-600 px-4 pl-sm-5 pl-md-0 text-center text-md-left"
+              >
+                <h2
+                  class="mt-12 mt-md-0 mb-8 dark-text--primary display-2 font-weight-bold"
+                >
+                  DESTINY DEFINITION
+                </h2>
+                <p class="title accent white--text py-1 px-2">
+                  This Saturday (May 2, 2020)
+                </p>
+
+                <p class="headline font-weight-thin dark-text--primary mb-8">
+                  Destiny has already been written before we were born, He is
+                  only expecting that we walk in the path of destiny so that we
+                  can bring joy to heaven and fulfillment to our own life.
+                </p>
+              </v-col>
+
+              <v-col cols="12" sm="6">
+                <v-img
+                  src="/img/flyers/arise-may-02-2020-flyer.jpg"
+                  max-width="100%"
+                  width="100%"
+                  :max-height="540"
+                  :aspect-ratio="1"
+                  contain
+                  class="filter-elevation-2"
+                />
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-carousel-item>
+
         <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
             <v-row
@@ -56,9 +98,9 @@
                   the light of God's purpose for their life are raised
                 </p>
 
-                <v-btn nuxt large color="primary" to="/arise" class="mb-12"
+                <!-- <v-btn nuxt large color="primary" to="/arise" class="mb-12"
                   >Learn More</v-btn
-                >
+                > -->
               </v-col>
 
               <v-col>
@@ -82,7 +124,7 @@
         <v-icon color="primary lighten-3" dark class="mr-3" v-text="mdiBell" />
 
         <span class="subtitle-1 dark-text--primary"
-          >Join us {{ daysToSaturdayOffset }} online on at
+          >Join us by 4 PM {{ daysToSaturdayOffset }} online on at
           <a href="https://www.mixlr.com/arise-live"
             >https://mixlr.com/arise-live</a
           >
