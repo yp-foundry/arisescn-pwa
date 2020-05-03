@@ -44,10 +44,10 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-2 font-weight-bold"
                 >
-                  DESTINY DEFINITION
+                  DESTINY DISCOVERY
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday (May 2, 2020)
+                  This Saturday (May 9, 2020)
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
@@ -59,7 +59,7 @@
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/arise-may-02-2020-flyer.jpg"
+                  src="/img/flyers/2020/arise-this-may.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
