@@ -387,6 +387,14 @@ export default [
     date: new Date('April 25, 2020 18:30:00'),
     series: '-',
     imgSrc: '/img/album-arts/arise-the-movement-the-mandate.jpg'
+  },
+  {
+    title: 'Destiny Definition',
+    link: 'https://drive.google.com/open?id=1L9CmPndsr6nDk-VlutRmVjIYxQ4W0tZT',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 2, 2020 18:30:00'),
+    series: 'This Mystery called Destiny',
+    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-definition.jpg'
   }
 ]
 
