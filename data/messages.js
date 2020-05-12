@@ -396,6 +396,14 @@ export default [
     series: 'This Mystery called Destiny',
     imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-definition.jpg'
   }
+  {
+    title: 'Destiny Discovery',
+    link: 'https://drive.google.com/open?id=1FDijChZmSuWyDK6NqwN_NBqZdlyoBtpZ',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 9, 2020 18:30:00'),
+    series: 'This Mystery called Destiny',
+    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-discovery.jpg'
+  }
 ]
 
 // https://drive.google.com/file/d/17F2fhKJ-cscebAmP34979E3eBZfq2yD6/view?usp=drivesdk
