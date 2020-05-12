@@ -50,11 +50,10 @@ export default {
   manifest: {
     name: 'Arise, Shine Christian Network',
     lang: 'en',
-    shortName: 'Arise SCN',
     // eslint-disable-next-line prettier/prettier
     short_name: 'Arise SCN',
     // eslint-disable-next-line prettier/prettier
-    background_color: '#fcfeff'
+    background_color: '#f5f7fa'
   },
 
   /*
