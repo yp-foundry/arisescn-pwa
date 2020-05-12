@@ -395,7 +395,7 @@ export default [
     date: new Date('May 2, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
     imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-definition.jpg'
-  }
+  },
   {
     title: 'Destiny Discovery',
     link: 'https://drive.google.com/open?id=1FDijChZmSuWyDK6NqwN_NBqZdlyoBtpZ',
