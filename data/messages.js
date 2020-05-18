@@ -403,6 +403,14 @@ export default [
     date: new Date('May 9, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
     imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-discovery.jpg'
+  },
+  {
+    title: 'Destiny Activation',
+    link: 'https://drive.google.com/open?id=1GXcukQEosyCVe90XWnYh-2XIhWvj0cno',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 16, 2020 18:30:00'),
+    series: 'This Mystery called Destiny',
+    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-activation.jpg'
   }
 ]
 
