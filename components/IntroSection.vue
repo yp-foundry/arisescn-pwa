@@ -44,10 +44,10 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-2 font-weight-bold"
                 >
-                  DESTINY ACTIVATION
+                  DESTINY DEMANDS
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday (May 16, 2020)
+                  This Saturday (May 23, 2020)
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
