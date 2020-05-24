@@ -47,7 +47,7 @@
                   DESTINY DEMANDS
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday (May 23, 2020)
+                  This Saturday (May 30, 2020)
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
