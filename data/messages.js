@@ -411,6 +411,15 @@ export default [
     date: new Date('May 16, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
     imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-activation.jpg'
+  },
+  {
+    title: 'May 2020 Worship and Encounter Service',
+    link: 'https://drive.google.com/open?id=1JZzk16nz0MG3NJTfKZuzezFzq0vLSL23',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 23, 2020 18:30:00'),
+    series: '-',
+    imgSrc:
+      '/img/album-arts/this-mystery-called-destiny/arise-may-worship-service.jpg'
   }
 ]
 
