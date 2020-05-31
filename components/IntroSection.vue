@@ -42,24 +42,23 @@
                 class="max-width-600 px-4 pl-sm-5 pl-md-0 text-center text-md-left"
               >
                 <h2
-                  class="mt-12 mt-md-0 mb-8 dark-text--primary display-2 font-weight-bold"
+                  class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  DESTINY DEMANDS
+                  UNLEASH YOUR WAR-SHIP FOR THE KING'S DOMINION
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday (May 30, 2020)
+                  This Saturday (June 6, 2020)
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  Destiny has already been written before we were born, He is
-                  only expecting that we walk in the path of destiny so that we
-                  can bring joy to heaven and fulfillment to our own life.
+                  Let's war with our war together with our worship
+                  weapons/equipment
                 </p>
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/2020/arise-this-may.jpg"
+                  src="/img/flyers/2020/arise-flyer-unleash-your-war-ship.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
