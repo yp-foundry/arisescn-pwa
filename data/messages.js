@@ -419,6 +419,15 @@ export default [
     date: new Date('May 23, 2020 18:30:00'),
     series: '-',
     imgSrc: '/img/album-arts/arise-may-worship-service.jpg'
+  },
+  {
+    title: 'Destiny Demands',
+    link:
+      'https://drive.google.com/file/d/1mVKxA5uVkbvsEGPKmuMD4wj0fdviyJ_l/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 30, 2020 18:30:00'),
+    series: 'This Mystery called Destiny',
+    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-demands.jpg'
   }
 ]
 
