@@ -51,8 +51,8 @@
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  Let's war with our war together with our worship
-                  weapons/equipment
+                  Let's war together with our worship weapons/equipment this
+                  Saturday!
                 </p>
               </v-col>
 
