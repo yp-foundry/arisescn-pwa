@@ -4,6 +4,8 @@
 
     <latest-messages-cards-swiper />
 
+    <!-- <live-section /> -->
+
     <messages-section />
   </div>
 </template>
@@ -12,6 +14,7 @@
 import IntroSection from '@/components/IntroSection'
 import LatestMessagesCardsSwiper from '@/components/LatestMessagesCardsSwiper'
 // import AHorizontalSwiper from '@/components/core/CoreHorizontalSwiper'
+// import LiveSection from '@/components/LiveSection'
 import MessagesSection from '@/components/MessagesSection'
 
 export default {
@@ -21,6 +24,7 @@ export default {
     IntroSection,
     LatestMessagesCardsSwiper,
     // AHorizontalSwiper,
+    // LiveSection,
     MessagesSection
   }
 }
