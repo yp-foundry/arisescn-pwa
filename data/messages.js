@@ -428,6 +428,15 @@ export default [
     date: new Date('May 30, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
     imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-demands.jpg'
+  },
+  {
+    title: `Unleash Your War-Ship for the King's Dominion`,
+    link:
+      'https://drive.google.com/file/d/1-49nkuoJIUHCo0zORl2xlOLv4jOnjA6q/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 6, 2020 18:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/unleash-your-war-ship.jpg'
   }
 ]
 
