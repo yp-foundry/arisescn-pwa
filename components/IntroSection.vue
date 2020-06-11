@@ -31,7 +31,7 @@
         hide-delimiters
         height="100%"
       >
-        <!-- <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
             <v-row
               justify="center"
@@ -44,21 +44,22 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  UNLEASH YOUR WAR-SHIP FOR THE KING'S DOMINION
+                  THE ANCIENT PATH OF THE PATRIARCHS
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday (June 6, 2020)
+                  Starting from (June 13, 2020)
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  Let's war together with our worship weapons/equipment this
-                  Saturday!
+                  Another dispensation is upon us, it's 7 Teachings, don't just
+                  anticipate, start engaging! Till we meet at that juncture,
+                  Keep Shining!
                 </p>
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/2020/arise-flyer-unleash-your-war-ship.jpg"
+                  src="/img/flyers/2020/arise-the-ancient-path-of-the-patriarchs.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
@@ -69,7 +70,7 @@
               </v-col>
             </v-row>
           </v-container>
-        </v-carousel-item> -->
+        </v-carousel-item>
 
         <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
