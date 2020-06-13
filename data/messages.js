@@ -437,6 +437,16 @@ export default [
     date: new Date('June 6, 2020 18:30:00'),
     series: '-',
     imgSrc: '/img/album-arts/unleash-your-war-ship.jpg'
+  },
+  {
+    title: 'The Ancient Path of the Patriarchs 1',
+    link:
+      'https://drive.google.com/file/d/11rb6ls0O3u_1VV41eAEjic0e1k0R1Bri/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 13, 2020 18:30:00'),
+    series: 'The Ancient Path of the Patriarchs',
+    imgSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-1.jpg'
   }
 ]
 
