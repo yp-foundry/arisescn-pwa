@@ -45,7 +45,6 @@
     "prettier": "^2.0.2",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
-    "storyblok-nuxt": "^1.2.0",
-    "vue-particles": "^1.0.9"
+    "storyblok-nuxt": "^1.2.0"
   }
 }
