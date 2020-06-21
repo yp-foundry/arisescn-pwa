@@ -439,7 +439,7 @@ export default [
     imgSrc: '/img/album-arts/unleash-your-war-ship.jpg'
   },
   {
-    title: 'The Ancient Path of the Patriarchs 1',
+    title: 'The Ancient Path of the Patriarchs 1 (The Discipline of Daniel)',
     link:
       'https://drive.google.com/file/d/11rb6ls0O3u_1VV41eAEjic0e1k0R1Bri/view?usp=sharing',
     minister: 'Olanrewaju Ilori',
@@ -447,6 +447,16 @@ export default [
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
       '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-1.jpg'
+  },
+  {
+    title: 'The Ancient Path of the Patriarchs 2 (The Dedication of David)',
+    link:
+      'https://drive.google.com/file/d/1PvqscTSTwLZ0T1EztttfG3lImLguo6hk/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 20, 2020 18:30:00'),
+    series: 'The Ancient Path of the Patriarchs',
+    imgSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-2.jpg'
   }
 ]
 
