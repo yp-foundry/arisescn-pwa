@@ -26,6 +26,7 @@ export default {
     linear-gradient(var(--v-secondary-darken2), var(--v-secondary-darken3));
   background-repeat: repeat;
   background-size: auto;
+  background-attachment: fixed;
   border-bottom-left-radius: 50% 8px;
   border-bottom-right-radius: 50% 8px;
   overflow: hidden;
