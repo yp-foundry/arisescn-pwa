@@ -457,6 +457,16 @@ export default [
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
       '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-2.jpg'
+  },
+  {
+    title: 'The Ancient Path of the Patriarchs 3 (The Suffering of Paul)',
+    link:
+      'https://drive.google.com/file/d/1ZHFaToqjPQt5_oRw72YPHPGo9iU51Uzr/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 27, 2020 18:30:00'),
+    series: 'The Ancient Path of the Patriarchs',
+    imgSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-3.jpg'
   }
 ]
 
