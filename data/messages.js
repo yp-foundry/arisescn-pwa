@@ -477,6 +477,16 @@ export default [
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
       '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-4.jpg'
+  },
+  {
+    title: 'The Ancient Path of the Patriarchs 5 (The Meekness of Moses)',
+    link:
+      'https://drive.google.com/file/d/1ZHFaToqjPQt5_oRw72YPHPGo9iU51Uzr/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 11, 2020 18:30:00'),
+    series: 'The Ancient Path of the Patriarchs',
+    imgSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-5.jpg'
   }
 ]
 
