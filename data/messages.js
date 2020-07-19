@@ -487,6 +487,16 @@ export default [
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
       '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-5.jpg'
+  },
+  {
+    title: 'The Ancient Path of the Patriarchs 6 (The Faith of Abraham)',
+    link:
+      'https://drive.google.com/file/d/1wbNFJN69jAiOVENdbGVmyc9Tv9zp_nGD/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 18, 2020 18:30:00'),
+    series: 'The Ancient Path of the Patriarchs',
+    imgSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-6.jpg'
   }
 ]
 
