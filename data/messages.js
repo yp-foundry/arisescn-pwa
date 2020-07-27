@@ -497,6 +497,16 @@ export default [
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
       '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-6.jpg'
+  },
+  {
+    title: 'The Ancient Path of the Patriarchs 7 (The Life of Jesus)',
+    link:
+      'https://drive.google.com/file/d/1ekgZxC9IX_TJIaF01Pfpn2D9xb5IHe6Y/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 25, 2020 18:30:00'),
+    series: 'The Ancient Path of the Patriarchs',
+    imgSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-7.jpg'
   }
 ]
 
