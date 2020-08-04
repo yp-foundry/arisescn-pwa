@@ -507,6 +507,16 @@ export default [
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
       '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-7.jpg'
+  },
+  {
+    title: 'Engaging the Mystery of Mercy (A Charge)',
+    link:
+      'https://drive.google.com/file/d/1-vyv-9c_Gv74Qd_pZfTSmBp_yhvazE-V/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 1, 2020 18:30:00'),
+    series: 'Engaging the Mystery of Mercy',
+    imgSrc:
+      '/img/album-arts/engaging-the-mystery-of-mercy/engaging-the-mystery-of-mercy-a-charge.jpg'
   }
 ]
 
