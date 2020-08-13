@@ -517,6 +517,15 @@ export default [
     series: 'Engaging the Mystery of Mercy',
     imgSrc:
       '/img/album-arts/engaging-the-mystery-of-mercy/engaging-the-mystery-of-mercy-a-charge.jpg'
+  },
+  {
+    title: 'Complete Deliverance 1',
+    link:
+      'https://drive.google.com/file/d/1QkpNIfDgAgxNFi9s4n-qGwj3UC_ZeMiU/view?usp=sharing',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 8, 2020 18:30:00'),
+    series: 'Complete Deliverance',
+    imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-1.jpg'
   }
 ]
 
