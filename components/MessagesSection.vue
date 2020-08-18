@@ -183,8 +183,8 @@
                     :link="item.link"
                     :img-src="
                       item.imgSrc
-                        ? item.imgSrc
-                        : '/img/album-arts/arise-album-art-placeholder.jpg'
+                        ? item.thumbnailSrc
+                        : '/img/album-arts/arise-album-art-placeholder-thumbnail.jpg'
                     "
                     :date="item.date"
                     :class="{
