@@ -288,7 +288,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('January 18, 2020 19:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/lovest-thou-me-more-than-these.jpg'
+    imgSrc: '/img/album-arts/lovest-thou-me-more-than-these.jpg',
+    thumbnailSrc: '/img/album-arts/lovest-thou-me-more-than-these-thumbnail.jpg'
   },
   {
     title: 'Call to Worship 1',
@@ -296,7 +297,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 1, 2020 19:30:00'),
     series: 'Call to Worship',
-    imgSrc: '/img/album-arts/call-to-worship/call-to-worship-1.jpg'
+    imgSrc: '/img/album-arts/call-to-worship/call-to-worship-1.jpg',
+    thumbnailSrc:
+      '/img/album-arts/call-to-worship/call-to-worship-1-thumbnail.jpg'
   },
   {
     title: 'Call to Worship 2',
@@ -304,7 +307,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 8, 2020 19:30:00'),
     series: 'Call to Worship',
-    imgSrc: '/img/album-arts/call-to-worship/call-to-worship-2.jpg'
+    imgSrc: '/img/album-arts/call-to-worship/call-to-worship-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/call-to-worship/call-to-worship-2-thumbnail.jpg'
   },
   {
     title: 'In Christ 1',
@@ -312,7 +317,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 15, 2020 19:30:00'),
     series: 'In Christ',
-    imgSrc: '/img/album-arts/in-christ/in-christ-1.jpg'
+    imgSrc: '/img/album-arts/in-christ/in-christ-1.jpg',
+    thumbnailSrc: '/img/album-arts/in-christ/in-christ-1-thumbnail.jpg'
   },
   {
     title: 'In Christ 2',
@@ -320,7 +326,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 22, 2020 19:30:00'),
     series: 'In Christ',
-    imgSrc: '/img/album-arts/in-christ/in-christ-2.jpg'
+    imgSrc: '/img/album-arts/in-christ/in-christ-2.jpg',
+    thumbnailSrc: '/img/album-arts/in-christ/in-christ-2-thumbnail.jpg'
   },
   {
     title: 'Father and Son',
@@ -328,7 +335,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 7, 2020 19:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/father-and-son.jpg'
+    imgSrc: '/img/album-arts/father-and-son.jpg',
+    thumbnailSrc: '/img/album-arts/father-and-son-thumbnail.jpg'
   },
   {
     title: 'Grow',
@@ -336,7 +344,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 14, 2020 19:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/grow.jpg'
+    imgSrc: '/img/album-arts/grow.jpg',
+    thumbnailSrc: '/img/album-arts/grow-thumbnail.jpg'
   },
   {
     title: 'The Comforter',
@@ -344,7 +353,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 21, 2020 19:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/the-comforter.jpg'
+    imgSrc: '/img/album-arts/the-comforter.jpg',
+    thumbnailSrc: '/img/album-arts/the-comforter-thumbnail.jpg'
   },
   {
     title: 'March Worship Service (with Question and Answer)',
@@ -352,7 +362,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('March 28, 2020 18:00:00'),
     series: '-',
-    imgSrc: '/img/album-arts/march-2020-worship-service.jpg'
+    imgSrc: '/img/album-arts/march-2020-worship-service.jpg',
+    thumbnailSrc: '/img/album-arts/march-2020-worship-service-thumbnail.jpg'
   },
   {
     title: 'Glory in this...',
@@ -360,7 +371,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('April 4, 2020 18:00:00'),
     series: '-',
-    imgSrc: '/img/album-arts/glory-in-this.jpg'
+    imgSrc: '/img/album-arts/glory-in-this.jpg',
+    thumbnailSrc: '/img/album-arts/glory-in-this-thumbnail.jpg'
   },
   {
     title: 'Sin, Sinner and Righteousness 1',
@@ -369,7 +381,9 @@ export default [
     date: new Date('April 11, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
     imgSrc:
-      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-1.jpg'
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-1.jpg',
+    thumbnailSrc:
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-1-thumbnail.jpg'
   },
   {
     title: 'Sin, Sinner and Righteousness 2',
@@ -378,7 +392,9 @@ export default [
     date: new Date('April 18, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
     imgSrc:
-      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-2.jpg'
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/sin-sinner-and-righteousness/sin-sinner-and-righteousness-2-thumbnail.jpg'
   },
   {
     title: 'Arise! The Movement, The Mandate',
@@ -386,7 +402,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('April 25, 2020 18:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/arise-the-movement-the-mandate.jpg'
+    imgSrc: '/img/album-arts/arise-the-movement-the-mandate.jpg',
+    thumbnailSrc: '/img/album-arts/arise-the-movement-the-mandate-thumbnail.jpg'
   },
   {
     title: 'Destiny Definition',
@@ -394,7 +411,10 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('May 2, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
-    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-definition.jpg'
+    imgSrc:
+      '/img/album-arts/this-mystery-called-destiny/destiny-definition.jpg',
+    thumbnailSrc:
+      '/img/album-arts/this-mystery-called-destiny/destiny-definition-thumbnail.jpg'
   },
   {
     title: 'Destiny Discovery',
@@ -402,7 +422,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('May 9, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
-    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-discovery.jpg'
+    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-discovery.jpg',
+    thumbnailSrc:
+      '/img/album-arts/this-mystery-called-destiny/destiny-discovery-thumbnail.jpg'
   },
   {
     title: 'Destiny Activation',
@@ -410,7 +432,10 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('May 16, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
-    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-activation.jpg'
+    imgSrc:
+      '/img/album-arts/this-mystery-called-destiny/destiny-activation.jpg',
+    thumbnailSrc:
+      '/img/album-arts/this-mystery-called-destiny/destiny-activation-thumbnail.jpg'
   },
   {
     title: 'May 2020 Worship and Encounter Service',
@@ -418,7 +443,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('May 23, 2020 18:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/arise-may-worship-service.jpg'
+    imgSrc: '/img/album-arts/arise-may-worship-service.jpg',
+    thumbnailSrc: '/img/album-arts/arise-may-worship-service-thumbnail.jpg'
   },
   {
     title: 'Destiny Demands',
@@ -427,7 +453,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('May 30, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
-    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-demands.jpg'
+    imgSrc: '/img/album-arts/this-mystery-called-destiny/destiny-demands.jpg',
+    thumbnailSrc:
+      '/img/album-arts/this-mystery-called-destiny/destiny-demands-thumbnail.jpg'
   },
   {
     title: `Unleash Your War-Ship for the King's Dominion`,
@@ -436,7 +464,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('June 6, 2020 18:30:00'),
     series: '-',
-    imgSrc: '/img/album-arts/unleash-your-war-ship.jpg'
+    imgSrc: '/img/album-arts/unleash-your-war-ship.jpg',
+    thumbnailSrc: '/img/album-arts/unleash-your-war-ship-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 1 (The Discipline of Daniel)',
@@ -446,7 +475,9 @@ export default [
     date: new Date('June 13, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-1.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-1.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-1-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 2 (The Dedication of David)',
@@ -456,7 +487,9 @@ export default [
     date: new Date('June 20, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-2.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-2-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 3 (The Suffering of Paul)',
@@ -466,7 +499,9 @@ export default [
     date: new Date('June 27, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-3.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-3.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-3-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 4 (The Long Suffering of Noah)',
@@ -476,7 +511,9 @@ export default [
     date: new Date('July 4, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-4.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-4.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-4-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 5 (The Meekness of Moses)',
@@ -486,7 +523,9 @@ export default [
     date: new Date('July 11, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-5.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-5.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-5-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 6 (The Faith of Abraham)',
@@ -496,7 +535,9 @@ export default [
     date: new Date('July 18, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-6.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-6.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-6-thumbnail.jpg'
   },
   {
     title: 'The Ancient Path of the Patriarchs 7 (The Life of Jesus)',
@@ -506,7 +547,9 @@ export default [
     date: new Date('July 25, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
     imgSrc:
-      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-7.jpg'
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-7.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-ancient-path-of-the-patriarchs/the-ancient-path-of-the-patriarchs-7-thumbnail.jpg'
   },
   {
     title: 'Engaging the Mystery of Mercy (A Charge)',
@@ -516,7 +559,9 @@ export default [
     date: new Date('August 1, 2020 18:30:00'),
     series: 'Engaging the Mystery of Mercy',
     imgSrc:
-      '/img/album-arts/engaging-the-mystery-of-mercy/engaging-the-mystery-of-mercy-a-charge.jpg'
+      '/img/album-arts/engaging-the-mystery-of-mercy/engaging-the-mystery-of-mercy-a-charge.jpg',
+    thumbnailSrc:
+      '/img/album-arts/engaging-the-mystery-of-mercy/engaging-the-mystery-of-mercy-a-charge-thumbnail.jpg'
   },
   {
     title: 'Complete Deliverance 1',
@@ -525,7 +570,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('August 8, 2020 18:30:00'),
     series: 'Complete Deliverance',
-    imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-1.jpg'
+    imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-1.jpg',
+    thumbnailSrc:
+      '/img/album-arts/complete-deliverance/complete-deliverance-1-thumbnail.jpg'
   },
   {
     title: 'Complete Deliverance 2',
@@ -534,7 +581,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('August 15, 2020 18:30:00'),
     series: 'Complete Deliverance',
-    imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-2.jpg'
+    imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/complete-deliverance/complete-deliverance-2-thumbnail.jpg'
   }
 ]
 
