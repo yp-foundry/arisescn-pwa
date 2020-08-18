@@ -51,7 +51,7 @@
           x-large
           :href="latestMessage.link"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <div class="d-inline-flex">
             <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />

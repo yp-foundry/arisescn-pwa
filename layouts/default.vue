@@ -17,7 +17,7 @@
       color="black"
       :href="latestMessage.link"
       target="_blank"
-      rel="noopener"
+      rel="noopener noreferrer"
     >
       <div class="d-flex flex-column align-center justify-center">
         <v-icon v-text="mdiCloudDownload"></v-icon>
