@@ -526,6 +526,15 @@ export default [
     date: new Date('August 8, 2020 18:30:00'),
     series: 'Complete Deliverance',
     imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-1.jpg'
+  },
+  {
+    title: 'Complete Deliverance 2',
+    link:
+      'https://a.storyblok.com/f/90098/x/5d2814fb46/complete-deliverance-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 15, 2020 18:30:00'),
+    series: 'Complete Deliverance',
+    imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-2.jpg'
   }
 ]
 
