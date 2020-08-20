@@ -376,7 +376,8 @@ export default [
   },
   {
     title: 'Sin, Sinner and Righteousness 1',
-    link: 'https://drive.google.com/open?id=1Db0A4qx5P1FP1KN76YpJHirQkH8q3Ihz',
+    link:
+      'https://a.storyblok.com/f/90098/x/f2729f74fb/sin-sinner-righteousness-olanrewaju-ilori.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 11, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
@@ -387,7 +388,8 @@ export default [
   },
   {
     title: 'Sin, Sinner and Righteousness 2',
-    link: 'https://drive.google.com/open?id=1c9wrOv95y7j4wzbae4SLgsoF1CvX4X7J',
+    link:
+      'https://a.storyblok.com/f/90098/x/b7e46e9a08/sin-sinner-righteousness-2-olanrewaju-ilori.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 18, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
@@ -398,7 +400,8 @@ export default [
   },
   {
     title: 'Arise! The Movement, The Mandate',
-    link: 'https://drive.google.com/open?id=1xPkO1ya5Q38Dj9I-cBU8G5_o6Qo-6TMu',
+    link:
+      'https://a.storyblok.com/f/90098/x/335b532e5f/arise-the-movement-the-mandate-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 25, 2020 18:30:00'),
     series: '-',
@@ -407,7 +410,8 @@ export default [
   },
   {
     title: 'Destiny Definition',
-    link: 'https://drive.google.com/open?id=1L9CmPndsr6nDk-VlutRmVjIYxQ4W0tZT',
+    link:
+      'https://a.storyblok.com/f/90098/x/a1324cdf42/destiny-definition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 2, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -418,7 +422,8 @@ export default [
   },
   {
     title: 'Destiny Discovery',
-    link: 'https://drive.google.com/open?id=1FDijChZmSuWyDK6NqwN_NBqZdlyoBtpZ',
+    link:
+      'https://a.storyblok.com/f/90098/x/be35304473/destiny-discovery-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 9, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -428,7 +433,8 @@ export default [
   },
   {
     title: 'Destiny Activation',
-    link: 'https://drive.google.com/open?id=1GXcukQEosyCVe90XWnYh-2XIhWvj0cno',
+    link:
+      'https://a.storyblok.com/f/90098/x/f924aa46a8/destiny-activation-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 16, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -449,7 +455,7 @@ export default [
   {
     title: 'Destiny Demands',
     link:
-      'https://drive.google.com/file/d/1mVKxA5uVkbvsEGPKmuMD4wj0fdviyJ_l/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/70d54dcdee/destiny-demands-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 30, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -460,7 +466,7 @@ export default [
   {
     title: `Unleash Your War-Ship for the King's Dominion`,
     link:
-      'https://drive.google.com/file/d/1-49nkuoJIUHCo0zORl2xlOLv4jOnjA6q/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/fb3c545ec1/unleash-your-war-ship-for-the-king-s-dominion.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 6, 2020 18:30:00'),
     series: '-',
@@ -470,7 +476,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 1 (The Discipline of Daniel)',
     link:
-      'https://drive.google.com/file/d/11rb6ls0O3u_1VV41eAEjic0e1k0R1Bri/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/570a4f721a/the-ancient-path-of-the-patriarchs-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 13, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -482,7 +488,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 2 (The Dedication of David)',
     link:
-      'https://drive.google.com/file/d/1PvqscTSTwLZ0T1EztttfG3lImLguo6hk/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/ae2f0cd289/the-ancient-path-of-the-patriarchs-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 20, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -494,7 +500,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 3 (The Suffering of Paul)',
     link:
-      'https://drive.google.com/file/d/1ZHFaToqjPQt5_oRw72YPHPGo9iU51Uzr/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/721b38bd0f/the-ancient-path-of-the-patriarchs-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 27, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -506,7 +512,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 4 (The Long Suffering of Noah)',
     link:
-      'https://drive.google.com/file/d/1ZHFaToqjPQt5_oRw72YPHPGo9iU51Uzr/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/65d33f156c/the-ancient-path-of-the-patriarchs-4-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 4, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -518,7 +524,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 5 (The Meekness of Moses)',
     link:
-      'https://drive.google.com/file/d/1ZHFaToqjPQt5_oRw72YPHPGo9iU51Uzr/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/9818fdc28a/the-ancient-path-of-the-patriarchs-5-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 11, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -530,7 +536,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 6 (The Faith of Abraham)',
     link:
-      'https://drive.google.com/file/d/1wbNFJN69jAiOVENdbGVmyc9Tv9zp_nGD/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/e81150561e/the-ancient-path-of-the-patriarchs-6-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 18, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -542,7 +548,7 @@ export default [
   {
     title: 'The Ancient Path of the Patriarchs 7 (The Life of Jesus)',
     link:
-      'https://drive.google.com/file/d/1ekgZxC9IX_TJIaF01Pfpn2D9xb5IHe6Y/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/22582e6902/the-ancient-path-of-the-patriarchs-7-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 25, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -554,7 +560,7 @@ export default [
   {
     title: 'Engaging the Mystery of Mercy (A Charge)',
     link:
-      'https://drive.google.com/file/d/1-vyv-9c_Gv74Qd_pZfTSmBp_yhvazE-V/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/22e313ef1f/engaging-the-mystery-of-mercy-a-charge-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 1, 2020 18:30:00'),
     series: 'Engaging the Mystery of Mercy',
@@ -566,7 +572,7 @@ export default [
   {
     title: 'Complete Deliverance 1',
     link:
-      'https://drive.google.com/file/d/1QkpNIfDgAgxNFi9s4n-qGwj3UC_ZeMiU/view?usp=sharing',
+      'https://a.storyblok.com/f/90098/x/89416f7f76/complete-deliverance-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 8, 2020 18:30:00'),
     series: 'Complete Deliverance',
