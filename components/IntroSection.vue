@@ -23,22 +23,21 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  THE ANCIENT PATH OF THE PATRIARCHS
+                  COMPLETE DELIVERANCE
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  Starting from (June 13, 2020)
+                  Started August 8, 2020
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  Another dispensation is upon us, it's 7 Teachings, don't just
-                  anticipate, start engaging! Till we meet at that juncture,
-                  Keep Shining!
+                  Deliverance by establishing and enforcing the reality and the
+                  experience of the finished work of Christ in our life!
                 </p>
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/2020/arise-the-ancient-path-of-the-patriarchs.jpg"
+                  src="/img/flyers/2020/complete-deliverance.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
