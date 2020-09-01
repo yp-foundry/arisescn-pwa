@@ -601,6 +601,17 @@ export default [
     imgSrc: '/img/album-arts/complete-deliverance/complete-deliverance-3.jpg',
     thumbnailSrc:
       '/img/album-arts/complete-deliverance/complete-deliverance-3-thumbnail.jpg'
+  },
+  {
+    title: 'The Release of Spiritual Gifts (a Charge)',
+    link:
+      'https://a.storyblok.com/f/90098/x/fa029d0b7f/the-release-of-spiritual-gifts-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 29, 2020 19:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/the-release-of-spiritual-gifts-a-charge.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-release-of-spiritual-gifts-a-charge-thumbnail.jpg'
   }
 ]
 
