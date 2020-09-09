@@ -612,6 +612,17 @@ export default [
     imgSrc: '/img/album-arts/the-release-of-spiritual-gifts-a-charge.jpg',
     thumbnailSrc:
       '/img/album-arts/the-release-of-spiritual-gifts-a-charge-thumbnail.jpg'
+  },
+  {
+    title: 'Re-alignment with the Spirit (a Charge)',
+    link:
+      'https://a.storyblok.com/f/90098/x/468c0b355c/re-alignment-with-the-spirit-a-charge-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 5, 2020 19:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/re-alignment-with-the-spirit-a-charge.jpg',
+    thumbnailSrc:
+      '/img/album-arts/re-alignment-with-the-spirit-a-charge-thumbnail.jpg'
   }
 ]
 
