@@ -50,8 +50,9 @@
           class="hidden-sm-and-down"
           x-large
           :href="latestMessage.link"
-          target="_blank"
           rel="noopener noreferrer"
+          role="download"
+          download
         >
           <div class="d-inline-flex">
             <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />

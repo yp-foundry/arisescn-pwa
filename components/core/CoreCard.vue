@@ -37,13 +37,14 @@
 
         <v-btn
           :href="link"
-          target="_blank"
           rel="noopener noreferrer"
           class="a-card__primary-cta transition-ease-in-out primary-transition-time"
           color="primary"
           text
           icon
           large
+          role="download"
+          download
         >
           <v-icon>{{ mdiCloudDownload }}</v-icon>
         </v-btn>

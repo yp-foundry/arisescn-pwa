@@ -60,8 +60,9 @@
       icon
       absolute
       small
-      target="_blank"
       rel="noopener noreferrer"
+      role="download"
+      download
     >
       <v-icon small v-text="mdiCloudDownload" />
     </v-btn>
