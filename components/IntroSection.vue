@@ -37,7 +37,7 @@
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/album-arts/the-power-of-the-mind-1.jpg"
+                  src="/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-1.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"

@@ -631,8 +631,9 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('September 12, 2020 19:30:00'),
     series: 'The Power of the Mind',
-    imgSrc: '/img/album-arts/the-power-of-the-mind-1.jpg',
-    thumbnailSrc: '/img/album-arts/the-power-of-the-mind-1-thumbnail.jpg'
+    imgSrc: '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-1.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-1-thumbnail.jpg'
   }
 ]
 
