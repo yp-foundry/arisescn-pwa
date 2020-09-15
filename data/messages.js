@@ -623,6 +623,16 @@ export default [
     imgSrc: '/img/album-arts/re-alignment-with-the-spirit-a-charge.jpg',
     thumbnailSrc:
       '/img/album-arts/re-alignment-with-the-spirit-a-charge-thumbnail.jpg'
+  },
+  {
+    title: 'The Power of the Mind 1',
+    link:
+      'https://a.storyblok.com/f/90098/x/aa3307095f/the-power-of-the-mind-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 12, 2020 19:30:00'),
+    series: 'The Power of the Mind',
+    imgSrc: '/img/album-arts/the-power-of-the-mind-1.jpg',
+    thumbnailSrc: '/img/album-arts/the-power-of-the-mind-1-thumbnail.jpg'
   }
 ]
 
