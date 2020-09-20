@@ -634,6 +634,17 @@ export default [
     imgSrc: '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-1.jpg',
     thumbnailSrc:
       '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-1-thumbnail.jpg'
+  },
+  {
+    title: 'The Power of the Mind 2',
+    link:
+      'https://a.storyblok.com/f/90098/x/953bd881dc/the-power-of-the-mind-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 19, 2020 19:30:00'),
+    series: 'The Power of the Mind',
+    imgSrc: '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-2-thumbnail.jpg'
   }
 ]
 
