@@ -78,7 +78,7 @@ export default {
     },
     {
       title: 'Facebook',
-      route: 'https://facebook.com/arise.scn',
+      route: 'https://facebook.com/ariseSCN',
       icon: mdiFacebook,
       type: ['social']
     }
@@ -97,7 +97,7 @@ export default {
     },
     {
       text: 'Facebook',
-      link: 'https://facebook.com/arise.scn',
+      link: 'https://facebook.com/ariseSCN',
       icon: mdiFacebook
     }
   ]

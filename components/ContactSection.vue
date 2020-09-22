@@ -45,12 +45,12 @@ export default {
         {
           text: 'Facebook',
           imgSrc: '/img/icons/facebook.png',
-          link: 'https://facebook.com/arise.scn'
+          link: 'https://facebook.com/ariseSCN'
         },
         {
           text: 'Mixlr - Live Radio',
           imgSrc: '/img/icons/mixlr.png',
-          link: 'http://www.mixlr.com/arise-live'
+          link: 'http://www.mixlr.com/ariseSCN'
         },
         {
           text: 'Youtube',

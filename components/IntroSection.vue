@@ -103,8 +103,8 @@
 
         <span class="subtitle-1 dark-text--primary"
           >Join us by 4 PM {{ daysToSaturdayOffset }} online on at
-          <a href="https://www.mixlr.com/arise-live"
-            >https://mixlr.com/arise-live</a
+          <a href="https://www.mixlr.com/ariseSCN"
+            >https://mixlr.com/ariseSCN</a
           >
         </span>
       </div>
