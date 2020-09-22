@@ -27,7 +27,9 @@
             the button below
           </p>
 
-          <v-btn color="secondary">More Messages</v-btn>
+          <v-btn color="secondary" href="#messages-section"
+            >More Messages</v-btn
+          >
         </div>
       </v-layout>
     </a-horizontal-swiper>

@@ -1,5 +1,5 @@
 <template>
-  <section id="section-messages">
+  <section id="messages-section">
     <v-container class="elevation-2 white rounded-2 mt-12 pt-4 mb-12">
       <h3 shrink class="headline secondary--text mb-5">
         Here is a collection of our Messages
