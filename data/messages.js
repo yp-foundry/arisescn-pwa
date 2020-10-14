@@ -656,6 +656,17 @@ export default [
     imgSrc: '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-3.jpg',
     thumbnailSrc:
       '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-3-thumbnail.jpg'
+  },
+  {
+    title: 'The Sons of God 1',
+    link:
+      'https://a.storyblok.com/f/90098/x/9e14d939fe/the-sons-of-god-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 10, 2020 20:00:00'),
+    series: 'The Sons of God',
+    imgSrc: '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-3.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-sons-of-god/the-sons-of-god-1-thumbnail.jpg'
   }
 ]
 
