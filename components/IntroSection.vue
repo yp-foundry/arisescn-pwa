@@ -23,21 +23,21 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  THE POWER OF THE MIND
+                  THE SONS OF GOD
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  Started September 12, 2020
+                  Started October 10, 2020
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  Man is tripartite in nature: Spirit, Soul and Body, let's dive
-                  deeper into his wiring!
+                  A child is different from a son. Let's dive deeper into how
+                  Sons differ from children in the Kingdom.
                 </p>
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-1.jpg"
+                  src="/img/album-arts/the-sons-of-god/the-sons-of-god-1.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
