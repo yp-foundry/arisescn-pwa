@@ -664,9 +664,20 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('October 10, 2020 20:00:00'),
     series: 'The Sons of God',
-    imgSrc: '/img/album-arts/the-power-of-the-mind/the-power-of-the-mind-3.jpg',
+    imgSrc: '/img/album-arts/the-sons-of-god/the-sons-of-god-1.jpg',
     thumbnailSrc:
       '/img/album-arts/the-sons-of-god/the-sons-of-god-1-thumbnail.jpg'
+  },
+  {
+    title: 'The Sons of God 2',
+    link:
+      'https://a.storyblok.com/f/90098/x/168ed13558/the-sons-of-god-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 17, 2020 20:00:00'),
+    series: 'The Sons of God',
+    imgSrc: '/img/album-arts/the-sons-of-god/the-sons-of-god-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-sons-of-god/the-sons-of-god-2-thumbnail.jpg'
   }
 ]
 
