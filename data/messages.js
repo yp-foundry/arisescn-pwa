@@ -678,6 +678,17 @@ export default [
     imgSrc: '/img/album-arts/the-sons-of-god/the-sons-of-god-2.jpg',
     thumbnailSrc:
       '/img/album-arts/the-sons-of-god/the-sons-of-god-2-thumbnail.jpg'
+  },
+  {
+    title: 'The Sons of God 3',
+    link:
+      'https://a.storyblok.com/f/90098/x/e7d6eeb976/the-sons-of-god-3-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 24, 2020 20:00:00'),
+    series: 'The Sons of God',
+    imgSrc: '/img/album-arts/the-sons-of-god/the-sons-of-god-3.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-sons-of-god/the-sons-of-god-3-thumbnail.jpg'
   }
 ]
 
