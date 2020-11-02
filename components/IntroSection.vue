@@ -23,21 +23,22 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  THE SONS OF GOD
+                  New Season Alert!
                 </h2>
                 <p class="title accent white--text py-1 px-2">
-                  Started October 10, 2020
+                  Kingdom Advancement
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  A child is different from a son. Let's dive deeper into how
-                  Sons differ from children in the Kingdom.
+                  A new dispensation is upon us. Download the message, titled:
+                  <em>"New Season Alert (Kingdom Advancement)"</em> to learn
+                  more.
                 </p>
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/album-arts/the-sons-of-god/the-sons-of-god-1.jpg"
+                  src="/img/album-arts/arise-album-art-placeholder.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
