@@ -689,6 +689,26 @@ export default [
     imgSrc: '/img/album-arts/the-sons-of-god/the-sons-of-god-3.jpg',
     thumbnailSrc:
       '/img/album-arts/the-sons-of-god/the-sons-of-god-3-thumbnail.jpg'
+  },
+  {
+    title: 'October Healing & Miracle Service',
+    link:
+      'https://a.storyblok.com/f/90098/x/ee1d5a14c8/october-healing-miracle-service-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 31, 2020 20:00:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/arise-album-art-placeholder.jpg',
+    thumbnailSrc: '/img/album-arts/arise-album-art-placeholder-thumbnail.jpg'
+  },
+  {
+    title: 'New Season Alert (Kingdom Advancement)',
+    link:
+      'https://a.storyblok.com/f/90098/x/a5084a48ee/new-season-alert-kingdom-advancement-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 31, 2020 20:00:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/arise-album-art-placeholder.jpg',
+    thumbnailSrc: '/img/album-arts/arise-album-art-placeholder-thumbnail.jpg'
   }
 ]
 
