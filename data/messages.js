@@ -720,6 +720,16 @@ export default [
     imgSrc: '/img/album-arts/the-sons-of-god/the-sons-of-god-4.jpg',
     thumbnailSrc:
       '/img/album-arts/the-sons-of-god/the-sons-of-god-4-thumbnail.jpg'
+  },
+  {
+    title: 'Atmosphere of Worship',
+    link:
+      'https://a.storyblok.com/f/90098/x/7c336623f7/the-atmosphere-of-intimacy-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 14, 2020 20:00:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/arise-album-art-placeholder.jpg',
+    thumbnailSrc: '/img/album-arts/arise-album-art-placeholder-thumbnail.jpg'
   }
 ]
 
