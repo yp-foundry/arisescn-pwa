@@ -722,7 +722,7 @@ export default [
       '/img/album-arts/the-sons-of-god/the-sons-of-god-4-thumbnail.jpg'
   },
   {
-    title: 'Atmosphere of Worship',
+    title: 'The Atmosphere of Intimacy',
     link:
       'https://a.storyblok.com/f/90098/x/7c336623f7/the-atmosphere-of-intimacy-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
