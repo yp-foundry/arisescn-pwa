@@ -730,6 +730,17 @@ export default [
     series: '-',
     imgSrc: '/img/album-arts/arise-album-art-placeholder.jpg',
     thumbnailSrc: '/img/album-arts/arise-album-art-placeholder-thumbnail.jpg'
+  },
+  {
+    title: 'Destiny Partner 1',
+    link:
+      'https://a.storyblok.com/f/90098/x/27e8dc40a2/destiny-partner-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 21, 2020 20:00:00'),
+    series: 'Destiny Partner',
+    imgSrc: '/img/album-arts/destiny-partner/destiny-partner-1.jpg',
+    thumbnailSrc:
+      '/img/album-arts/destiny-partner/destiny-partner-1-thumbnail.jpg'
   }
 ]
 
