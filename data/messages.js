@@ -738,9 +738,20 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('November 21, 2020 20:00:00'),
     series: 'Destiny Partner',
-    imgSrc: '/img/album-arts/destiny-partner/destiny-partner-1.jpg',
+    imgSrc: '/img/album-arts/the-destiny-partner/the-destiny-partner-1.jpg',
     thumbnailSrc:
-      '/img/album-arts/destiny-partner/destiny-partner-1-thumbnail.jpg'
+      '/img/album-arts/the-destiny-partner/the-destiny-partner-1-thumbnail.jpg'
+  },
+  {
+    title: 'Destiny Partner 2',
+    link:
+      'https://a.storyblok.com/f/90098/x/47ea45d9d9/the-destiny-partner-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 28, 2020 20:00:00'),
+    series: 'Destiny Partner',
+    imgSrc: '/img/album-arts/the-destiny-partner/the-destiny-partner-2.jpg',
+    thumbnailSrc:
+      '/img/album-arts/the-destiny-partner/the-destiny-partner-2-thumbnail.jpg'
   }
 ]
 
