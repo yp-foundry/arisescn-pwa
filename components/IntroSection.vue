@@ -23,22 +23,26 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  New Season Alert!
+                  INCENSE & HEALING
                 </h2>
+
                 <p class="title accent white--text py-1 px-2">
-                  Kingdom Advancement
+                  This Saturday December 5, 2020
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  A new dispensation is upon us. Download the message, titled:
-                  <em>"New Season Alert (Kingdom Advancement)"</em> to learn
-                  more.
+                  We raise our incense of <em>Worship</em> to the
+                  <em>King of kings</em> and <em>sicknesses</em> find their way
+                  out in <em>the atmosphere of Jesus</em>
+
+                  <br /><br />
+                  Hallelujah!
                 </p>
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/album-arts/arise-album-art-placeholder.jpg"
+                  src="/img/flyers/2020/arise-incense-and-healing-service.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
