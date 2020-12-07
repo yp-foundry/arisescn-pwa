@@ -752,6 +752,16 @@ export default [
     imgSrc: '/img/album-arts/the-destiny-partner/the-destiny-partner-2.jpg',
     thumbnailSrc:
       '/img/album-arts/the-destiny-partner/the-destiny-partner-2-thumbnail.jpg'
+  },
+  {
+    title: 'Incense & Healing',
+    link:
+      'https://a.storyblok.com/f/90098/x/464352f62b/incense-healing-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('December 5, 2020 20:00:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/incense-and-healing.jpg',
+    thumbnailSrc: '/img/album-arts/incense-and-healing-thumbnail.jpg'
   }
 ]
 
