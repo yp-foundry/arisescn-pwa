@@ -14,7 +14,7 @@
     <v-btn
       fixed
       dark
-      style="bottom: 24px; right: 24px; width: 84px; height: 84px; z-index: 10;"
+      style="bottom: 24px; right: 24px; width: 84px; height: 84px; z-index: 10"
       class="rounded-50 elevation-20 hidden-md-and-up fab-transition"
       color="black"
       :href="latestMessage.link"
@@ -23,7 +23,7 @@
     >
       <div class="d-flex flex-column align-center justify-center">
         <v-icon v-text="mdiCloudDownload"></v-icon>
-        <span class="text-center pt-1 pb-2 subtitle-2" style="line-height: 1.2;"
+        <span class="text-center pt-1 pb-2 subtitle-2" style="line-height: 1.2"
           >Latest<br />Message</span
         >
       </div>

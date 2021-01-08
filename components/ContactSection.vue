@@ -1,26 +1,28 @@
 <template>
   <div
     class="secondary darken-2 dark-text--secondary"
-    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px;"
+    style="border-top-left-radius: 50% 4px; border-top-right-radius: 50% 50px"
   >
     <v-container class="mt-12 pt-12">
       <v-layout>
         <v-flex xs12 md6 lg4>
-          <h2 class="display-2 dark-text--primary">
-            Reach Us
-          </h2>
+          <h2 class="display-2 dark-text--primary">Reach Us</h2>
 
           <div class="mt-12">
             <div v-for="item in socialLinks" :key="item.text" class="mb-3 mx-2">
               <a
                 :href="item.link"
                 target="_blank"
-                style="text-decoration: none;"
+                style="text-decoration: none"
                 class="d-inline-flex align-center white--text"
                 rel="noopener noreferrer"
               >
                 <!-- eslint-disable-next-line prettier/prettier -->
-                <img :src="item.imgSrc" :alt="item.text" style="width: 24px; height: auto; max-height: 24px;">
+                <img
+                  :src="item.imgSrc"
+                  :alt="item.text"
+                  style="width: 24px; height: auto; max-height: 24px"
+                />
                 <span class="ml-4">{{ item.text }}</span>
               </a>
             </div>

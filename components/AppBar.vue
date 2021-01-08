@@ -15,7 +15,7 @@
         exact
         class="app-link shrink align-center"
         title="home"
-        style="text-decoration: none !important;"
+        style="text-decoration: none !important"
       >
         <div class="d-flex align-center">
           <v-img
@@ -29,7 +29,7 @@
 
           <h1
             class="subtitle-1 dark-text--primary text-uppercase"
-            style="line-height: 1.35;"
+            style="line-height: 1.35"
           >
             Arise, Shine<br />
             Christian <br />
@@ -61,7 +61,7 @@
               <div class="d-inline-flex flex-column align-start">
                 <span class="body-1">Download the latest message</span>
                 <span
-                  style="max-width: 320px;"
+                  style="max-width: 320px"
                   class="overline text-truncate"
                   v-text="latestMessage.title"
                 />

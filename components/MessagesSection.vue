@@ -4,11 +4,11 @@
       <h2
         shrink
         class="display-2 secondary--text font-weight-bold ml-2 mb-5"
-        style="line-height: 1.2;"
+        style="line-height: 1.2"
       >
         <span
           class="d-inline-block display-1 secondary--text text--lighten-2 font-weight-light ml-1"
-          style="line-height: 1.4;"
+          style="line-height: 1.4"
           >Here is a <br />collection of
         </span>
         <br />
@@ -178,7 +178,7 @@
             </v-toolbar>
           </template>-->
 
-        <template v-slot:default="props">
+        <template #default="props">
           <div class="mx-sm-3">
             <v-row dense>
               <!-- <v-col v-for="item in props.items" :key="item.title">
@@ -198,7 +198,7 @@
                 </v-col> -->
 
               <v-col v-for="item in props.items" :key="item.title">
-                <v-hover v-slot:default="{ hover }">
+                <v-hover v-slot="{ hover }">
                   <a-small-card
                     :title="item.title"
                     :minister="item.minister"
@@ -220,7 +220,7 @@
           </div>
         </template>
 
-        <template v-slot:footer>
+        <template #footer>
           <v-container>
             <v-layout
               mt-2
@@ -232,7 +232,7 @@
             >
               <span>Messages to show at once</span>
               <v-menu offset-y>
-                <template v-slot:activator="{ on }">
+                <template #activator="{ on }">
                   <v-btn dark text color="primary" class="mr-3" v-on="on">
                     {{ itemsPerPage.text }}
                     <v-icon v-text="mdiArrowExpandDown" />

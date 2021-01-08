@@ -41,7 +41,7 @@
             class="px-3 px-sm-12 position-relative"
           >
             <v-col cols="12" md="6" order-md="2">
-              <div style="position: sticky; top: 100px; left: 0;">
+              <div style="position: sticky; top: 100px; left: 0">
                 <v-img
                   :src="
                     require('~/assets/img/backgrounds/arise-global-network.jpg')
@@ -109,13 +109,9 @@
                     preparing the saints for the work ministry.
                   </li>
 
-                  <li>
-                    It is not in the contest of contemporary church.
-                  </li>
+                  <li>It is not in the contest of contemporary church.</li>
 
-                  <li>
-                    It is not a subsidiary of any church or ministry.
-                  </li>
+                  <li>It is not a subsidiary of any church or ministry.</li>
 
                   <li>
                     Our fellowship period is only on Saturdays, except special
@@ -123,9 +119,7 @@
                     waiting on the Lord.
                   </li>
 
-                  <li>
-                    We love and we share.
-                  </li>
+                  <li>We love and we share.</li>
                 </ul>
               </div>
             </v-col>

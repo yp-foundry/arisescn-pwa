@@ -40,7 +40,7 @@
             <div class="d-inline-flex flex-column w-100 align-start">
               <span class="body-1">Latest message</span>
               <span
-                style="max-width: 320px;"
+                style="max-width: 320px"
                 class="overline text-truncate"
                 v-text="latestMessage.title"
               />
@@ -65,7 +65,7 @@
           <v-list
             v-show="isShown"
             class="mt-4"
-            style="background: transparent;"
+            style="background: transparent"
             dark
           >
             <v-list-item
@@ -112,7 +112,7 @@
       </v-flex>
 
       <v-flex
-        style="max-width: 400px;"
+        style="max-width: 400px"
         shrink
         class="mx-3 py-4 d-flex flex-column justify-center align-center"
       >

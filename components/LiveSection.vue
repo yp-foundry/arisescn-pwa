@@ -4,7 +4,7 @@
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 950.36 334.45"
-        style="transform: rotateZ(180);"
+        style="transform: rotateZ(180)"
       >
         <defs>
           <radialGradient
@@ -192,9 +192,9 @@
             <path fill="none" d="M100.33 0h750v500h-750z" />
           </clipPath>
         </defs>
-        <g style="isolation: isolate;">
+        <g style="isolation: isolate">
           <g
-            style="mix-blend-mode: screen;"
+            style="mix-blend-mode: screen"
             fill="none"
             stroke-miterlimit="10"
             stroke-width="2"
@@ -443,9 +443,9 @@
             <path fill="none" d="M100.33 0h750v500h-750z" />
           </clipPath>
         </defs>
-        <g style="isolation: isolate;">
+        <g style="isolation: isolate">
           <g
-            style="mix-blend-mode: screen;"
+            style="mix-blend-mode: screen"
             fill="none"
             stroke-miterlimit="10"
             stroke-width="2"
