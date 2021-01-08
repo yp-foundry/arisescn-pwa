@@ -6,7 +6,7 @@ export const useRoutes = () => {
 
   const basic = computed(() => filterRoutesBy('basic'))
   const main = computed(() => filterRoutesBy('main'))
-  const social = computed(() => filterRoutesBy('basic'))
+  const social = computed(() => filterRoutesBy('social'))
 
   const filterRoutesBy = (query) => {
     return routes.all.filter((route) => {
