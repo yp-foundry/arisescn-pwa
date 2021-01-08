@@ -1,16 +1,37 @@
 <template>
-  <section id="messages-section">
+  <section id="messages" class="section-padding">
     <v-container class="elevation-2 white rounded-2 mt-12 pt-4 mb-12">
-      <h3 shrink class="headline secondary--text mb-5">
-        Here is a collection of our Messages
-      </h3>
+      <h2
+        shrink
+        class="display-2 secondary--text font-weight-bold ml-2 mb-5"
+        style="line-height: 1.2;"
+      >
+        <span
+          class="d-inline-block display-1 secondary--text text--lighten-2 font-weight-light ml-1"
+          style="line-height: 1.4;"
+          >Here is a <br />collection of
+        </span>
+        <br />
+        Our Messages
+      </h2>
 
       <v-layout class="mb-4">
-        <v-flex xs12 sm8 md6 lg4>
+        <v-flex xs12 sm10 md8 lg6>
+          <v-chip
+            :input-value="isOnly2021Messages"
+            class="ma-2"
+            filter
+            color="primary"
+            @click="filterByYear('2021')"
+          >
+            2021 Messages
+          </v-chip>
+
           <v-chip
             :input-value="isOnly2020Messages"
             class="ma-2"
             filter
+            color="primary"
             @click="filterByYear('2020')"
           >
             2020 Messages
@@ -20,6 +41,7 @@
             :input-value="isOnly2019Messages"
             class="ma-2"
             filter
+            color="primary"
             @click="filterByYear('2019')"
           >
             2019 Messages
@@ -343,6 +365,7 @@ export default {
       showFilters: true,
 
       search: '',
+      isOnly2021Messages: false,
       isOnly2020Messages: false,
       isOnly2019Messages: false,
       isFilterByYear: ''
