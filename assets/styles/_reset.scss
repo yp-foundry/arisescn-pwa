@@ -75,6 +75,11 @@ body::-webkit-scrollbar-track {
   height: 100% !important;
 }
 
+.section-padding {
+  padding-top: 72px !important;
+  padding-bottom: 72px !important;
+}
+
 .filter-elevation-1 {
   filter: drop-shadow(0 2px 3px rgba(0, 20, 50, 0.9));
 }
