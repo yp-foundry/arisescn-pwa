@@ -79,13 +79,13 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/vuetify',
-    [
-      'storyblok-nuxt',
-      {
-        accessToken: 'bBST5VQ1LY5JjdkotXvAwAtt',
-        cacheProvider: 'memory'
-      }
-    ],
+    // [
+    //   'storyblok-nuxt',
+    //   {
+    //     accessToken: 'bBST5VQ1LY5JjdkotXvAwAtt',
+    //     cacheProvider: 'memory'
+    //   }
+    // ],
 
     [
       '@nuxtjs/google-analytics',
