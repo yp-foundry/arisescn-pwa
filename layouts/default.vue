@@ -1,10 +1,12 @@
 <template>
   <v-app>
-    <app-bar :routes="routes" />
+    <app-bar />
 
     <v-content>
       <nuxt />
     </v-content>
+
+    <app-drawer />
 
     <contact-section />
 
@@ -33,6 +35,7 @@
 import { mdiCloudDownload } from '@mdi/js'
 
 import AppBar from '@/components/AppBar'
+import AppDrawer from '@/components/AppDrawer'
 import ContactSection from '@/components/ContactSection'
 
 import { useMedia } from '@/composables/media'
@@ -40,6 +43,7 @@ import { useMedia } from '@/composables/media'
 export default {
   components: {
     AppBar,
+    AppDrawer,
     ContactSection
   },
 
@@ -52,24 +56,6 @@ export default {
   data() {
     return {
       appDrawerIsShown: false,
-
-      routes: [
-        {
-          text: 'What We Do',
-          link: '#what-we-do',
-          sectionIsReady: true
-        },
-        {
-          text: 'Core Values',
-          link: '#core-values',
-          sectionIsReady: true
-        },
-        {
-          text: 'Contact',
-          link: '#contact',
-          sectionIsReady: true
-        }
-      ],
 
       mdiCloudDownload
     }
