@@ -31,3 +31,8 @@ $material-light: map-merge($material-light, (
   )
 ));
 
+
+$primary-transition: 0.6s map-get($transition, 'swing');
+$secondary-transition: 0.5s map-get($transition, 'ease-in-out');
+
+$bootable-transition: 0.2s map-get($transition, 'fast-out-slow-in');
