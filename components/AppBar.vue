@@ -41,71 +41,62 @@
 
     <v-spacer />
 
-    <div
-      class="app-bar__right fill-height d-flex flex-column align-end justify-space-around"
-    >
-      <div>
-        <v-btn
-          color="secondary"
-          class="hidden-sm-and-down"
-          x-large
-          :href="latestMessage.link"
-          rel="noopener noreferrer"
-          role="download"
-          download
-        >
-          <div class="d-inline-flex">
-            <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />
-            <div class="d-inline-flex flex-column align-start">
-              <span class="body-1">Download the latest message</span>
-              <span
-                style="max-width: 320px;"
-                class="overline text-truncate"
-                v-text="latestMessage.title"
-              />
+    <transition name="slide-y-reverse-transition" appear>
+      <div
+        v-show="!appDrawerIsShown"
+        class="app-bar__right fill-height d-flex flex-column align-end justify-space-around"
+      >
+        <div>
+          <v-btn
+            color="secondary"
+            class="hidden-sm-and-down"
+            x-large
+            :href="latestMessage.link"
+            rel="noopener noreferrer"
+            role="download"
+            download
+          >
+            <div class="d-inline-flex">
+              <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />
+              <div class="d-inline-flex flex-column align-start">
+                <span class="body-1">Download the latest message</span>
+                <span
+                  style="max-width: 320px;"
+                  class="overline text-truncate"
+                  v-text="latestMessage.title"
+                />
+              </div>
             </div>
-          </div>
-        </v-btn>
+          </v-btn>
 
-        <!-- <v-app-bar-nav-icon class="ml-4" @click="toggleAppDrawer()">
-          <div :class="{ 'hamburger-menu': true, close: appDrawerIsShown }">
-            <div class="hamburger-menu__bars transition-swing">
-              <div
-                class="hamburger-menu__bar hamburger-menu__bar--1 transition-swing"
-              />
+          <v-app-bar-nav-icon class="ml-4" @click="toggleAppDrawer()">
+            <a-hamburger-btn v-model="appDrawerIsShown" />
+          </v-app-bar-nav-icon>
+        </div>
 
-              <div
-                class="hamburger-menu__bar hamburger-menu__bar--2 transition-swing"
-              />
-
-              <div
-                class="hamburger-menu__bar hamburger-menu__bar--3 transition-swing"
-              />
-            </div>
-          </div>
-        </v-app-bar-nav-icon> -->
+        <nav class="hidden-sm-and-down">
+          <!-- FIXME: exact-active-class -->
+          <v-btn
+            v-for="route in mainRoutes"
+            :key="route.route"
+            class="text-capitalize dark-text--secondary"
+            text
+            nuxt
+            :to="route.route"
+            small
+            exact
+            exact-active-class="primary-gradient--stripped dark-text--primary"
+          >
+            {{ route.title }}
+          </v-btn>
+        </nav>
       </div>
-
-      <nav class="hidden-sm-and-down">
-        <!-- FIXME: exact-active-class -->
-        <v-btn
-          v-for="route in mainRoutes"
-          :key="route.route"
-          class="text-capitalize dark-text--secondary"
-          text
-          nuxt
-          :to="route.route"
-          small
-          exact-active-class="primary-gradient--stripped dark-text--primary"
-        >
-          {{ route.title }}
-        </v-btn>
-      </nav>
-    </div>
+    </transition>
   </v-app-bar>
 </template>
 
 <script>
+import AHamburgerBtn from '@/components/AHamburgerBtn.vue'
 import { mdiCloudDownloadOutline } from '@mdi/js'
 import { useMedia } from '@/composables/media'
 import { useRoutes } from '@/composables/routes'
@@ -113,6 +104,8 @@ import { useAppDrawer } from '@/composables/ui/app-drawer'
 
 export default {
   name: 'AppBar',
+
+  components: { AHamburgerBtn },
 
   setup() {
     const { latestMessage } = useMedia()
@@ -195,57 +188,6 @@ export default {
 
     @media #{map-get($display-breakpoints, 'md-and-up')} {
       height: 56px;
-    }
-  }
-}
-
-.hamburger-menu {
-  &__bars {
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  &__bar {
-    height: 4px;
-    width: 30px;
-    background: #eeeeee;
-
-    &--3 {
-      height: 1.5px;
-      width: 16px;
-    }
-  }
-
-  &:hover,
-  &:focus {
-    &__bar {
-      background: var(--v-primary-base);
-    }
-  }
-}
-
-.hamburger-menu.close {
-  .hamburger-menu__bar {
-    &s {
-      transform: translateX(3.8px);
-    }
-
-    &--1 {
-      transform-origin: top left;
-      transform: rotate(45deg) translate(1px, -1px);
-    }
-
-    &--2 {
-      transform-origin: center;
-      transform: rotate(-45deg) translate(-4px, -1px);
-    }
-
-    &--3 {
-      transform: translate(100%);
-      opacity: 0;
     }
   }
 }
