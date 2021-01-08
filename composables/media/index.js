@@ -20,6 +20,8 @@ export const useMedia = () => {
       if (messageA.timestamp < messageB.timestamp) return 1
 
       if (messageA.timestamp > messageB.timestamp) return -1
+
+      return 1
     })
   })
 
