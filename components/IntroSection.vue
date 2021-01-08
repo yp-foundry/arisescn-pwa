@@ -1,5 +1,5 @@
 <template>
-  <a-intro style="background: #000000;">
+  <a-intro>
     <template #background></template>
 
     <template #default>
