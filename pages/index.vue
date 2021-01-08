@@ -1,6 +1,6 @@
 <template>
   <div>
-    <intro-section />
+    <intro-section class="mb-6" />
 
     <latest-messages-cards-swiper />
 
