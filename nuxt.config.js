@@ -1,13 +1,10 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
+  // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  /*
-   ** Headers of the page
-   */
+
+  // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    // titleTemplate: '%s - ' + 'Arise, Shine Christian Network',
-    // title: process.env.npm_package_name || '',
+    titleTemplate: '%s - Arise, Shine Christian Network',
     title: 'Arise, Shine Christian Network',
     meta: [
       { charset: 'utf-8' },
@@ -37,14 +34,8 @@ export default {
         name: 'google-site-verification',
         content: '8D83f7Kyv8icL5vwBbhaT6r2j6A7pp9_Cxd4Wvn7XOM'
       }
-    ],
-    link: [
-      // { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
-  },
-  meta: {
-    name: 'Arise, Shine Christian Network',
-    nativeUI: true
+    // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   manifest: {
@@ -59,26 +50,29 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: colors.blue.darken3 },
+  loading: { color: '#1E88E5' },
 
-  /*
-   ** Global CSS
-   */
+  // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ['~/assets/styles/main.scss'],
 
-  /*
-   ** Plugins to load before mounting the App
-   */
+  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['@/plugins/v-composition-api', '@/plugins/vue-observe-visibility'],
 
-  /*
-   ** Nuxt.js modules
-   */
-  modules: ['@nuxtjs/pwa'],
+  // Auto import components (https://go.nuxtjs.dev/config-components)
+  components: true,
 
+  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@nuxtjs/eslint-module',
+    // https://go.nuxtjs.dev/typescript
+    '@nuxt/typescript-build',
+    // https://go.nuxtjs.dev/stylelint
+    '@nuxtjs/stylelint-module',
+    // https://go.nuxtjs.dev/composition-api
+    '@nuxtjs/composition-api',
+    // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    // https://go.nuxtjs.dev/svg
+    '@nuxtjs/svg',
     // [
     //   'storyblok-nuxt',
     //   {
@@ -98,11 +92,27 @@ export default {
     '@nuxtjs/sitemap'
   ],
 
-  /*
-   ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
-   */
+  // Modules (https://go.nuxtjs.dev/config-modules)
+  modules: [
+    // https://go.nuxtjs.dev/pwa
+    '@nuxtjs/pwa',
+    // https://go.nuxtjs.dev/content
+    '@nuxt/content'
+  ],
+
+  // Content module configuration (https://go.nuxtjs.dev/config-content)
+  content: {},
+
+  pwa: {
+    meta: {
+      name: 'Arise, Shine Christian Network',
+      nativeUI: true
+    }
+  },
+
+  // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
+    customVariables: ['~/assets/styles/_variables.scss'],
     theme: {
       themes: {
         light: {
@@ -118,8 +128,6 @@ export default {
       }
     },
 
-    customVariables: ['~/assets/styles/_variables.scss'],
-
     defaultAssets: false,
 
     icons: {
@@ -129,28 +137,28 @@ export default {
     treeShake: true
   },
 
-  modern: 'client',
-
   sitemap: {
     hostname: 'https://www.ariseshinechritiannetwork.com',
     gzip: true
   },
 
-  /*
-   ** Build configuration
-   */
-  build: {
-    loaders: {
-      scss: {
-        prependData: `
-          @import "~/assets/styles/_variables.scss";
-        `
-      }
-    },
+  modern: 'client',
 
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
+  // Build Configuration (https://go.nuxtjs.dev/config-build)
+
+  build: {
+    // loaders: {
+    //   scss: {
+    //     prependData: `
+    //       @import "~/assets/styles/_variables.scss";
+    //     `
+    //   }
+    // }
+  },
+
+  generate: {
+    // FIXME: we use till @nuxtjs/composition-api issue with
+    // static generation is fixed
+    interval: 2000
   }
 }
