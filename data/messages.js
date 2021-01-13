@@ -770,7 +770,7 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('December 12, 2020 20:00:00'),
     series: '-',
-    imgSrc: '/img/album-arts/question-and-answer-session-dec-edition.jpg',
+    imgSrc: '/img/album-arts/question-and-answer-session-december-edition.jpg',
     thumbnailSrc: '/img/album-arts/question-and-answer-session-december-edition-thumbnail.jpg'
   },
   {
