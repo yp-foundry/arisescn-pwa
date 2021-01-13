@@ -772,6 +772,16 @@ export default [
     series: '-',
     imgSrc: '/img/album-arts/question-and-answer-session-dec-edition.jpg',
     thumbnailSrc: '/img/album-arts/question-and-answer-session-december-edition-thumbnail.jpg'
+  },
+  {
+    title: 'Be Still and Know!',
+    link:
+      'https://a.storyblok.com/f/90098/x/43296cc187/be-still-and-know-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('January 9, 2021 19:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/be-still-and-know.jpg',
+    thumbnailSrc: '/img/album-arts/be-still-and-know-thumbnail.jpg'
   }
 ]
 
