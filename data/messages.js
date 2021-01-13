@@ -771,7 +771,7 @@ export default [
     date: new Date('December 12, 2020 20:00:00'),
     series: '-',
     imgSrc: '/img/album-arts/question-and-answer-session-dec-edition.jpg',
-    thumbnailSrc: '/img/album-arts/question-and-answer-session-dec-edition-thumbnail.jpg'
+    thumbnailSrc: '/img/album-arts/question-and-answer-session-december-edition-thumbnail.jpg'
   }
 ]
 
