@@ -1,9 +1,9 @@
 import { ref, computed } from '@vue/composition-api'
 
-// const _isShown = ref(false)
+const _isShown = ref(false)
 
 export const useAppDrawer = () => {
-  const _isShown = ref(false)
+  // const _isShown = ref(false)
 
   const isShown = computed({
     get: () => _isShown.value,
