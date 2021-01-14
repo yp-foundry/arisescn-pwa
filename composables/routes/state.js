@@ -102,7 +102,7 @@ export default {
     },
     {
       title: 'WhatsApp',
-      route: 'https://whatsapp.me/ariseSCN',
+      route: 'https://wa.me/message/QZK7TXSI7UBUF1',
       icon: mdiWhatsapp,
       type: ['social']
     },
