@@ -48,7 +48,7 @@ export default {
   &__bar {
     height: 4px;
     width: 30px;
-    background: #eeeeee;
+    background: #eee;
 
     &--1 {
       transform-origin: top left;

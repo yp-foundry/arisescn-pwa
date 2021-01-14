@@ -168,7 +168,7 @@ export default {
 .app-bar {
   background: transparent !important;
   border-bottom-right-radius: 16px;
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #666;
 
   // &__left,
   // &__right {

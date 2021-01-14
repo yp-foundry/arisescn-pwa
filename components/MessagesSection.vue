@@ -399,7 +399,7 @@ export default {
   },
 
   methods: {
-    filterFn(items, search) {
+    filterFn(items) {
       if (!items) {
         return []
       }
@@ -443,5 +443,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped></style>
