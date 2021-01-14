@@ -2,9 +2,9 @@
   <v-app>
     <app-bar />
 
-    <v-content>
+    <v-main>
       <nuxt />
-    </v-content>
+    </v-main>
 
     <app-drawer />
 
