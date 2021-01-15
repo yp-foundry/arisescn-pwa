@@ -1,6 +1,8 @@
 <template>
   <header>
-    <div class="intro-carousel-wrapper position-relative">
+    <div
+      class="intro-carousel-wrapper position-relative rounded-b-curve overflow-hidden"
+    >
       <div class="intro__background w-100 h-100">
         <slot name="background" />
       </div>
@@ -28,9 +30,6 @@ export default {
   background-repeat: repeat;
   background-size: auto;
   background-attachment: fixed;
-  border-bottom-left-radius: 50% 8px;
-  border-bottom-right-radius: 50% 8px;
-  overflow: hidden;
   min-height: 80%;
   // height: 360px;
 
