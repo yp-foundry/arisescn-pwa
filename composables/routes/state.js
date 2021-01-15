@@ -1,5 +1,6 @@
 import {
   mdiHome,
+  mdiWeb,
   mdiMusicBox,
   // mdiPlaylistMusic,
   mdiHandHeart,
@@ -40,6 +41,13 @@ export default {
     //   type: ['other', 'main'],
     //   access: ['non-auth']
     // },
+    {
+      title: 'Join us Live Online',
+      icon: mdiWeb,
+      route: '/#join-us-live-online',
+      type: ['basic', 'main'],
+      access: ['non-auth']
+    },
     {
       title: 'Messages',
       icon: mdiMusicBox,
