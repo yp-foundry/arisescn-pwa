@@ -1,15 +1,26 @@
-import { ref } from '@vue/composition-api'
+import { ref, computed } from '@nuxtjs/composition-api'
+
+const _isShown = ref(false)
 
 export const useAppDrawer = () => {
-  const isShown = ref(false)
+  // const _isShown = ref(false)
 
-  // const isShown = computed(() => state.value)
+  const isShown = computed({
+    get: () => _isShown.value,
+    set: (bool) => {
+      if (!bool && typeof bool !== 'boolean') {
+        return
+      }
+
+      _isShown.value = bool
+    }
+  })
 
   const toggleAppDrawer = (bool) => {
     if (bool && typeof bool === 'boolean') {
-      isShown.value = bool
+      _isShown.value = bool
     } else {
-      isShown.value = !isShown.value
+      _isShown.value = !_isShown.value
     }
   }
 

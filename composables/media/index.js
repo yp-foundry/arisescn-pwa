@@ -1,4 +1,4 @@
-import { computed } from '@vue/composition-api'
+import { computed } from '@nuxtjs/composition-api'
 import messagesData from '@/data/messages'
 
 export const useMedia = () => {
@@ -20,6 +20,8 @@ export const useMedia = () => {
       if (messageA.timestamp < messageB.timestamp) return 1
 
       if (messageA.timestamp > messageB.timestamp) return -1
+
+      return 1
     })
   })
 

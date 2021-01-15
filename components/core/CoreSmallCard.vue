@@ -126,6 +126,7 @@ export default {
 
 <style scoped lang="scss">
 $list-item-action-icon-margin: 0;
+
 /*
  * TODO: Convert px to rem
  *
@@ -145,6 +146,7 @@ $cta-width: 40px;
   border-radius: $border-radius / 2;
 
   // color not really looking good
+
   /* &--colored-bg {
     background: #f0f0ff;
     background: linear-gradient(to top right, #f5f5ff, #ffffff);
@@ -194,10 +196,11 @@ $cta-width: 40px;
 
   &__cta {
     $offset: 4px;
+
     position: absolute;
     top: ($gutter / 2);
     right: $gutter / 2;
-    background: rgba($color: #000000, $alpha: 0.4);
+    background: rgba($color: #000, $alpha: 0.4);
     border-radius: 2px;
   }
 

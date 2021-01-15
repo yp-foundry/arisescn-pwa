@@ -1,6 +1,9 @@
 <template>
-  <v-container class="mt-12 mb-8">
-    <h3 shrink class="headline mb-5">Latest Messages</h3>
+  <v-container class="mt-12 mb-2">
+    <h3 shrink class="display-2 font-weight-light mb-5">
+      Latest <br />
+      Messages
+    </h3>
 
     <a-horizontal-swiper>
       <v-layout>
@@ -27,9 +30,7 @@
             the button below
           </p>
 
-          <v-btn color="secondary" href="#messages-section"
-            >More Messages</v-btn
-          >
+          <v-btn color="secondary" href="#messages">More Messages</v-btn>
         </div>
       </v-layout>
     </a-horizontal-swiper>
@@ -91,5 +92,3 @@ export default {
   methods: {}
 }
 </script>
-
-<style lang="scss" scoped></style>

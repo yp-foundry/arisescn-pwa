@@ -1,4 +1,4 @@
-import { reactive, computed } from '@vue/composition-api'
+import { reactive, computed } from '@nuxtjs/composition-api'
 import state from './state'
 
 export const useRoutes = () => {
@@ -6,7 +6,7 @@ export const useRoutes = () => {
 
   const basic = computed(() => filterRoutesBy('basic'))
   const main = computed(() => filterRoutesBy('main'))
-  const social = computed(() => filterRoutesBy('basic'))
+  const social = computed(() => filterRoutesBy('social'))
 
   const filterRoutesBy = (query) => {
     return routes.all.filter((route) => {

@@ -188,20 +188,41 @@ $cta-width: 40px;
   border-radius: $border-radius;
 
   // color not really looking good
+
   /* &--colored-bg {
     background: #f0f0ff;
     background: linear-gradient(to top right, #f5f5ff, #ffffff);
   } */
 
+  &__primary-cta {
+    margin-right: -16px;
+
+    // z-index: 3;
+  }
+
   &__img {
     // height: 160px;
+
     /* margin-left: -1 * #{map-get($spacers, '3')}; */
     // margin-left: -12px;
     // width: calc(100% + 24px);
+
     /* width: calc(100% + (#{map-get($spacers, '3')} * 2)); */
     // object-fit: cover;
     border-radius: $border-radius / 2;
     transition: $primary-transition;
+  }
+
+  &:hover {
+    .a-card {
+      &__img {
+        transform: scale3d(1.05, 1.03, 1);
+      }
+
+      &__primary-cta {
+        transform: scale(1.2);
+      }
+    }
   }
 
   &__content {
@@ -258,14 +279,8 @@ $cta-width: 40px;
     max-width: calc(100% - 56px);
   }
 
-  &__cta {
-  }
-
-  &__primary-cta {
-    margin-right: -16px;
-
-    // z-index: 3;
-  }
+  // &__cta {
+  // }
 
   &.a-card--bordered {
     border: 1px solid rgba(#000, 0.1) !important;
@@ -310,18 +325,6 @@ $cta-width: 40px;
     border-right: none !important;
     border-radius: 0 !important;
     margin-top: -1px;
-  }
-
-  &:hover {
-    .a-card {
-      &__img {
-        transform: scale3d(1.05, 1.03, 1);
-      }
-
-      &__primary-cta {
-        transform: scale(1.2);
-      }
-    }
   }
 
   // TODO: make a-card--list after each other with no borders and margin, but hr

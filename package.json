@@ -1,50 +1,66 @@
 {
-  "name": "arise-scn",
-  "version": "1.0.0",
-  "description": "Arise, a place where an army of men who knows God, loves and lives in the light of God's purpose for their life are raised.",
-  "author": "Opeyemi David",
+  "name": "arisescn-pwa",
+  "version": "0.5.0",
+  "description": "Arise, a place of Encounter with the Holy Spirit. To prepare the saints for the work of the ministry (Ephesians 4:11), which is the ministry of reconciliation (2 Corinthians 5:18)",
   "private": true,
+  "author": {
+    "name": "Opeyemi David",
+    "url": "https://foundry.yahwehsportal.com"
+  },
   "scripts": {
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "yarn lint",
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint:js": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint:js:fix": "eslint --ext .ts,.js,.vue --ignore-path .gitignore . --fix",
+    "lint:style:fix": "stylelint **/*.{vue,css} --ignore-path .gitignore --fix",
+    "lint": "yarn lint:js && yarn lint:style",
+    "lint:fix": "yarn lint:js:fix && yarn lint:style:fix"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint",
+    "*.{css,vue}": "stylelint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "dependencies": {
-    "@mdi/js": "^5.0.45",
+    "@mdi/js": "^5.6.55",
+    "@nuxt/content": "^1.9.0",
     "@nuxtjs/google-analytics": "^2.2.3",
-    "@nuxtjs/pwa": "^2.6.0",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/composition-api": "^0.13.0",
+    "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/sitemap": "^2.1.0",
-    "@vue/composition-api": "^0.5.0",
-    "nuxt": "^2.12.2",
+    "@nuxtjs/svg": "^0.1.12",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
     "nuxt-webfontloader": "^1.1.0",
-    "vue-observe-visibility": "^0.4.6"
+    "vue-observe-visibility": "^1.0.0"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^2.0.2",
-    "@nuxtjs/eslint-module": "^1.1.0",
-    "@nuxtjs/vuetify": "^1.11.0",
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/vuetify": "^1.11.2",
     "babel-eslint": "^10.1.0",
-    "deepmerge": "^4.2.2",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-config-standard": ">=14.1.1",
-    "eslint-plugin-import": ">=2.20.2",
-    "eslint-plugin-jest": ">=23.8.2",
-    "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-nuxt": ">=0.5.2",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-promise": ">=4.2.1",
-    "eslint-plugin-standard": ">=4.0.1",
-    "eslint-plugin-vue": "^6.2.2",
-    "fibers": "^4.0.2",
-    "nodemon": "^2.0.2",
-    "prettier": "^2.0.2",
-    "sass": "^1.26.3",
-    "sass-loader": "^8.0.2",
-    "storyblok-nuxt": "^1.2.0"
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
   }
 }

@@ -1,31 +1,21 @@
 <template>
   <div>
-    <intro-section />
+    <intro-section class="mb-6" />
 
-    <latest-messages-cards-swiper />
+    <latest-messages-cards-swiper class="pb-16" />
 
-    <!-- <live-section /> -->
+    <live-section class="my-8 my-md-16" />
 
     <messages-section />
+
+    <give-online-section />
   </div>
 </template>
 
-<script>
-import IntroSection from '@/components/IntroSection'
-import LatestMessagesCardsSwiper from '@/components/LatestMessagesCardsSwiper'
-// import AHorizontalSwiper from '@/components/core/CoreHorizontalSwiper'
-// import LiveSection from '@/components/LiveSection'
-import MessagesSection from '@/components/MessagesSection'
+<script lang="ts">
+import { defineComponent } from '@nuxtjs/composition-api'
 
-export default {
-  name: 'HomePage',
-
-  components: {
-    IntroSection,
-    LatestMessagesCardsSwiper,
-    // AHorizontalSwiper,
-    // LiveSection,
-    MessagesSection
-  }
-}
+export default defineComponent({
+  name: 'HomePage'
+})
 </script>

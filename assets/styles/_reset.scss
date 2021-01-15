@@ -75,6 +75,11 @@ body::-webkit-scrollbar-track {
   height: 100% !important;
 }
 
+.section-padding {
+  padding-top: 72px !important;
+  padding-bottom: 72px !important;
+}
+
 .filter-elevation-1 {
   filter: drop-shadow(0 2px 3px rgba(0, 20, 50, 0.9));
 }
@@ -97,6 +102,16 @@ body::-webkit-scrollbar-track {
 
 .secondary-transition-time {
   transition-duration: 0.6s;
+}
+
+.rounded-t-curve {
+  border-top-left-radius: 50% 8px !important;
+  border-top-right-radius: 50% 8px !important;
+}
+
+.rounded-b-curve {
+  border-bottom-left-radius: 50% 8px !important;
+  border-bottom-right-radius: 50% 8px !important;
 }
 
 /* .v-input__slot {
