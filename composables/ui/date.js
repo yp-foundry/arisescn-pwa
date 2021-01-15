@@ -1,4 +1,4 @@
-import {} from '@vue/composition-api'
+import {} from '@nuxtjs/composition-api'
 
 /**
  *

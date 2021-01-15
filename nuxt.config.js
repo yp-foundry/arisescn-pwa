@@ -56,7 +56,7 @@ export default {
   css: ['~/assets/styles/main.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/v-composition-api', '@/plugins/vue-observe-visibility'],
+  plugins: ['@/plugins/vue-observe-visibility'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
