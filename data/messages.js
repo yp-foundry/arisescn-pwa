@@ -783,6 +783,16 @@ export default [
     series: '-',
     imgSrc: '/img/album-arts/be-still-and-know.jpg',
     thumbnailSrc: '/img/album-arts/be-still-and-know-thumbnail.jpg'
+  },
+  {
+    title: 'A Prepared Heart',
+    link:
+      'https://a.storyblok.com/f/90098/x/3f66705005/a-prepared-heart-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('January 16, 2021 19:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/2021/a-prepared-heart.jpg',
+    thumbnailSrc: '/img/album-arts/2021/a-prepared-heart-thumbnail.jpg'
   }
 ]
 
