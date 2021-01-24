@@ -793,6 +793,16 @@ export default [
     series: '-',
     imgSrc: '/img/album-arts/2021/a-prepared-heart.jpg',
     thumbnailSrc: '/img/album-arts/2021/a-prepared-heart-thumbnail.jpg'
+  },
+  {
+    title: 'Spiritual Empowerment',
+    link:
+      'https://a.storyblok.com/f/90098/x/b9b3e78a28/spiritual-empowerment-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('January 23, 2021 19:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/2021/spiritual-empowerment.jpg',
+    thumbnailSrc: '/img/album-arts/2021/spiritual-empowerment-thumbnail.jpg'
   }
 ]
 
