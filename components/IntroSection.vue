@@ -10,7 +10,7 @@
         hide-delimiters
         height="100%"
       >
-        <!-- <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
             <v-row
               justify="center"
@@ -27,7 +27,7 @@
                 </h2>
 
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday December 5, 2020
+                  This Saturday January 30, 2020
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
@@ -42,7 +42,7 @@
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/2020/arise-incense-and-healing-service.jpg"
+                  src="/img/flyers/2021/incense-and-healing-arise.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
@@ -53,7 +53,7 @@
               </v-col>
             </v-row>
           </v-container>
-        </v-carousel-item> -->
+        </v-carousel-item>
 
         <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
