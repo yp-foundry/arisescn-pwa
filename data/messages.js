@@ -803,6 +803,17 @@ export default [
     series: '-',
     imgSrc: '/img/album-arts/2021/spiritual-empowerment.jpg',
     thumbnailSrc: '/img/album-arts/2021/spiritual-empowerment-thumbnail.jpg'
+  },
+  {
+    title: 'Spiritual Check Up (Where are You)',
+    link:
+      'https://a.storyblok.com/f/90098/x/628bcf4f10/spiritual-check-up-where-are-you-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 6, 2021 19:30:00'),
+    series: '-',
+    imgSrc: '/img/album-arts/2021/spiritual-check-up-where-are-you.jpg',
+    thumbnailSrc:
+      '/img/album-arts/2021/spiritual-check-up-where-are-you-thumbnail.jpg'
   }
 ]
 
