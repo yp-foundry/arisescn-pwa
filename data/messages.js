@@ -826,6 +826,16 @@ export default [
       '/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-1-In-the-Beginning.jpg',
     thumbnailSrc:
       '/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-1-In-the-Beginning-thumbnail.jpg'
+  },
+  {
+    title: `The Invisible Kingdom 2 (God's Agenda)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/a07c12f326/the-invisible-kingdom-2-god-s-agenda-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 20, 2021 19:30:00'),
+    series: 'The Invisible Kingdom',
+    imgSrc: `/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-2-God's-Agenda.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-2-God's-Agenda-thumbnail.jpg`
   }
 ]
 
