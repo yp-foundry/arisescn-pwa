@@ -846,6 +846,16 @@ export default [
     series: 'The Invisible Kingdom',
     imgSrc: `/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-3-the-Mandate.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-3-the-Mandate-thumbnail.jpg`
+  },
+  {
+    title: `The Invisible Kingdom 4 (The coming move of God)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/49deb33a64/the-invisible-kingdom-4-the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 20, 2021 19:30:00'),
+    series: 'The Invisible Kingdom',
+    imgSrc: `/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-4-the-coming-move-of-God.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Invisible-Kingdom/The-Invisible-Kingdom-4-the-coming-move-of-God-thumbnail.jpg`
   }
 ]
 
