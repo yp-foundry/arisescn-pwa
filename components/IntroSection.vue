@@ -10,7 +10,7 @@
         hide-delimiters
         height="100%"
       >
-        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+        <!-- <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
             <v-row
               justify="center"
@@ -53,7 +53,7 @@
               </v-col>
             </v-row>
           </v-container>
-        </v-carousel-item>
+        </v-carousel-item> -->
 
         <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
