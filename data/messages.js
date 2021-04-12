@@ -870,7 +870,7 @@ export default [
   {
     title: `The Coming Move of God 2`,
     link:
-      'https://a.storyblok.com/f/90098/x/72cab7b431/the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
+      'https://a.storyblok.com/f/90098/x/781d594a37/the-coming-move-of-god-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 10, 2021 19:30:00'),
     series: 'The Coming of Move of God',
