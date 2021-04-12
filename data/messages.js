@@ -866,6 +866,16 @@ export default [
     series: 'The Coming of Move of God',
     imgSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-1.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-1-thumbnail.jpg`
+  },
+  {
+    title: `The Coming Move of God 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/72cab7b431/the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('April 10, 2021 19:30:00'),
+    series: 'The Coming of Move of God',
+    imgSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-2.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-2-thumbnail.jpg`
   }
 ]
 
