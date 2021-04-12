@@ -134,6 +134,7 @@ export default {
   },
 
   mounted() {
+    // FIXME: Add window to $el instead
     window.addEventListener('scroll', this.onScroll, false)
   },
 
