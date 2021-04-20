@@ -863,7 +863,7 @@ export default [
       'https://a.storyblok.com/f/90098/x/72cab7b431/the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 27, 2021 19:30:00'),
-    series: 'The Coming of Move of God',
+    series: 'The Coming Move of God',
     imgSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-1.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-1-thumbnail.jpg`
   },
@@ -873,9 +873,19 @@ export default [
       'https://a.storyblok.com/f/90098/x/781d594a37/the-coming-move-of-god-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 10, 2021 19:30:00'),
-    series: 'The Coming of Move of God',
+    series: 'The Coming Move of God',
     imgSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-2.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Coming-Move-of-God/The-Coming-Move-of-God-2-thumbnail.jpg`
+  },
+  {
+    title: `The Mystery of Salvation 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/8ee71263fd/the-mystery-of-salvation-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('April 10, 2021 19:30:00'),
+    series: 'The Mystery of Salvation',
+    imgSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-1.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-1-thumbnail.jpg`
   }
 ]
 
