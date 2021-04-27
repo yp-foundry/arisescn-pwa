@@ -34,9 +34,35 @@ export default {
         name: 'google-site-verification',
         content: '8D83f7Kyv8icL5vwBbhaT6r2j6A7pp9_Cxd4Wvn7XOM'
       }
-    ]
+    ],
 
     // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+
+    script: [
+      {
+        vmid: 'fb-chat-script',
+        innerHTML: `
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v10.0'
+            });
+          };
+
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+        `,
+        type: 'text/javascript'
+      }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+      'fb-chat-script': ['innerHTML']
+    }
   },
 
   manifest: {

@@ -35,7 +35,7 @@
     <!-- Your Chat Plugin code -->
     <div
       class="fb-customerchat"
-      attribution="setup_tool"
+      attribution="biz_inbox"
       page_id="491337924555024"
     ></div>
   </v-app>
