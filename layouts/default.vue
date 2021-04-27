@@ -28,6 +28,16 @@
         >
       </div>
     </v-btn>
+
+    <!-- Messenger plugin element -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div
+      class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="491337924555024"
+    ></div>
   </v-app>
 </template>
 

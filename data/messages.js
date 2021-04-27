@@ -886,6 +886,16 @@ export default [
     series: 'The Mystery of Salvation',
     imgSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-1.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-1-thumbnail.jpg`
+  },
+  {
+    title: `The Mystery of Salvation 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/d2dde3b334/the-mystery-of-salvation-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('April 24, 2021 19:30:00'),
+    series: 'The Mystery of Salvation',
+    imgSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-2.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-2-thumbnail.jpg`
   }
 ]
 
