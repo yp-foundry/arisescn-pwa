@@ -35,6 +35,7 @@ export default {
         content: '8D83f7Kyv8icL5vwBbhaT6r2j6A7pp9_Cxd4Wvn7XOM'
       }
     ]
+
     // link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
@@ -68,7 +69,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/composition-api
-    '@nuxtjs/composition-api',
+    '@nuxtjs/composition-api/module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     // https://go.nuxtjs.dev/svg
