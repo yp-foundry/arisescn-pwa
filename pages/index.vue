@@ -16,6 +16,10 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
-  name: 'HomePage'
+  name: 'HomePage',
+
+  head: {
+    title: 'Arise!'
+  }
 })
 </script>
