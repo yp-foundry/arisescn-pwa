@@ -108,12 +108,7 @@ export default {
     //   }
     // ],
 
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-162414467-1'
-      }
-    ],
+    '@nuxtjs/google-analytics',
 
     /* make sure @nuxtjs/sitemap module is always at the bottom of the modules */
     '@nuxtjs/sitemap'
@@ -167,6 +162,10 @@ export default {
   sitemap: {
     hostname: 'https://www.ariseshinechritiannetwork.com',
     gzip: true
+  },
+
+  googleAnalytics: {
+    id: 'UA-162414467-1'
   },
 
   modern: 'client',
