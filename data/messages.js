@@ -906,6 +906,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition).jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition)-thumbnail.jpg`
+  },
+  {
+    title: `Worship Chant - Incense and Healing (May Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/84a0de9644/worship-chant-incense-and-healing-may-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 1, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition).jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition)-thumbnail.jpg`
   }
 ]
 
