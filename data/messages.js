@@ -896,6 +896,16 @@ export default [
     series: 'The Mystery of Salvation',
     imgSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-2.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Mystery-of-Salvation/The-Mystery-of-Salvation-2-thumbnail.jpg`
+  },
+  {
+    title: `Incense and Healing (May Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/c78f4f4002/incense-and-healing-may-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 1, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition).jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition)-thumbnail.jpg`
   }
 ]
 
