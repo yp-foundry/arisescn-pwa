@@ -423,6 +423,7 @@ export default {
         this[`isOnly${year}Messages`] = false
         return
       }
+      this.isOnly2021Messages = false
       this.isOnly2020Messages = false
       this.isOnly2019Messages = false
       this.isFilterByYear = year
