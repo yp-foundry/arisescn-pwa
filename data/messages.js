@@ -916,6 +916,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition).jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(May-Edition)-thumbnail.jpg`
+  },
+  {
+    title: `Abba Father 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/9164c6997d/abba-father-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 8, 2021 19:30:00'),
+    series: 'Abba Father',
+    imgSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-1-Arise-thumbnail.jpg`
   }
 ]
 
