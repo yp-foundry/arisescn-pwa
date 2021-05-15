@@ -926,6 +926,16 @@ export default [
     series: 'Abba Father',
     imgSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-1-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-1-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Abba Father 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/ca9c8c1919/abba-father-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 15, 2021 19:30:00'),
+    series: 'Abba Father',
+    imgSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-2-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-2-Arise-thumbnail.jpg`
   }
 ]
 
