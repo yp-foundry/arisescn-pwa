@@ -27,7 +27,7 @@
                 </h2>
 
                 <p class="title accent white--text py-1 px-2">
-                  This Saturday, June 5 2021
+                  4 PM This Saturday, June 5 2021
                 </p>
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
@@ -42,7 +42,7 @@
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/2021/incense-and-healing-june-edition-arise.jpg"
+                  src="/img/flyers/2021/Incense-and-Healing-(June-Edition)-Arise.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
