@@ -948,9 +948,9 @@ export default [
     thumbnailSrc: `/img/album-arts/2021/Abba-Father/Abba-Father-3-Arise-thumbnail.jpg`
   },
   {
-    title: `Immortality`,
+    title: `Immortality (Understanding our Victory over Death)`,
     link:
-      'https://a.storyblok.com/f/90098/x/a17b942c06/immortality-olanrewaju-ilori-arise.mp3',
+      'https://a.storyblok.com/f/90098/x/4ca5b92be3/immortality-understanding-our-victory-over-death-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 29, 2021 19:30:00'),
     series: '-'
