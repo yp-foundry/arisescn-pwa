@@ -954,6 +954,16 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('May 29, 2021 19:30:00'),
     series: '-'
+  },
+  {
+    title: `Incense and Healing (June Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/b7acf76e7e/incense-and-healing-june-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 5, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(June-Edition).jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(June-Edition)-thumbnail.jpg`
   }
 ]
 
