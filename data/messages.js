@@ -964,6 +964,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-(June-Edition).jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(June-Edition)-thumbnail.jpg`
+  },
+  {
+    title: `The Kingdom of Kings 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/00ed84dce7/the-kingdom-of-kings-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 19, 2021 19:30:00'),
+    series: 'The Kingdom of Kings',
+    imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings-1.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings-1-thumbnail.jpg`
   }
 ]
 
