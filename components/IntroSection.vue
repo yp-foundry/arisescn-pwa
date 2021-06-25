@@ -10,7 +10,7 @@
         hide-delimiters
         height="100%"
       >
-        <!-- <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
             <v-row
               justify="center"
@@ -23,26 +23,26 @@
                 <h2
                   class="mt-12 mt-md-0 mb-8 dark-text--primary display-1 font-weight-bold"
                 >
-                  INCENSE & HEALING
+                  THE KINGDOM OF KINGS 2
                 </h2>
 
                 <p class="title accent white--text py-1 px-2">
-                  4 PM This Saturday, June 5 2021
+                  4 PM This Saturday, June 26th 2021
                 </p>
 
-                <p class="headline font-weight-thin dark-text--primary mb-8">
+                <!-- <p class="headline font-weight-thin dark-text--primary mb-8">
                   We raise our incense of <em>Worship</em> to the
                   <em>King of kings</em> and <em>sicknesses</em> find their way
                   out in <em>the atmosphere of Jesus</em>
 
                   <br /><br />
                   Hallelujah!
-                </p>
+                </p> -->
               </v-col>
 
               <v-col cols="12" sm="6">
                 <v-img
-                  src="/img/flyers/2021/Incense-and-Healing-(June-Edition)-Arise.jpg"
+                  src="/img/flyers/2021/The-Kingdom-of-Kings-2.jpg"
                   max-width="100%"
                   width="100%"
                   :max-height="540"
@@ -53,7 +53,7 @@
               </v-col>
             </v-row>
           </v-container>
-        </v-carousel-item> -->
+        </v-carousel-item>
 
         <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
