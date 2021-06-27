@@ -972,8 +972,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('June 19, 2021 19:30:00'),
     series: 'The Kingdom of Kings',
-    imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings-1.jpg`,
-    thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings-1-thumbnail.jpg`
+    imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-1.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-1-thumbnail.jpg`
   },
   {
     title: `The Kingdom of Kings 2`,
@@ -982,8 +982,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('June 26, 2021 19:30:00'),
     series: 'The Kingdom of Kings',
-    imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings-2.jpg`,
-    thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings-2-thumbnail.jpg`
+    imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-2.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-2-thumbnail.jpg`
   }
 ]
 
