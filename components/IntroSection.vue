@@ -10,7 +10,7 @@
         hide-delimiters
         height="100%"
       >
-        <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
+        <!-- <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
             <v-row
               justify="center"
@@ -30,14 +30,14 @@
                   4 PM This Saturday, June 26th 2021
                 </p>
 
-                <!-- <p class="headline font-weight-thin dark-text--primary mb-8">
+                <p class="headline font-weight-thin dark-text--primary mb-8">
                   We raise our incense of <em>Worship</em> to the
                   <em>King of kings</em> and <em>sicknesses</em> find their way
                   out in <em>the atmosphere of Jesus</em>
 
                   <br /><br />
                   Hallelujah!
-                </p> -->
+                </p>
               </v-col>
 
               <v-col cols="12" sm="6">
@@ -53,7 +53,7 @@
               </v-col>
             </v-row>
           </v-container>
-        </v-carousel-item>
+        </v-carousel-item> -->
 
         <v-carousel-item class="pt-4 pb-12 dark-text--secondary">
           <v-container>
