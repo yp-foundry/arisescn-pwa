@@ -984,6 +984,16 @@ export default [
     series: 'The Kingdom of Kings',
     imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-2.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-2-thumbnail.jpg`
+  },
+  {
+    title: `The Kingdom of Kings 3`,
+    link:
+      'https://a.storyblok.com/f/90098/x/b54eb8c885/the-kingdom-of-kings-3-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 3, 2021 19:30:00'),
+    series: 'The Kingdom of Kings',
+    imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-3.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-3-thumbnail.jpg`
   }
 ]
 
