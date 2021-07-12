@@ -1002,8 +1002,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('July 10, 2021 19:30:00'),
     series: '-',
-    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition).jpg`,
-    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition)-thumbnail.jpg`
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition)-2021-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition)-2021-Arise-thumbnail.jpg`
   }
 ]
 
