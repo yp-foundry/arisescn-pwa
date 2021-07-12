@@ -994,6 +994,16 @@ export default [
     series: 'The Kingdom of Kings',
     imgSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-3.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Kingdom-of-Kings/The-Kingdom-of-Kings-3-thumbnail.jpg`
+  },
+  {
+    title: `Incense and Healing (July Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/c8125bbf0b/incense-and-healing-july-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 10, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition).jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition)-thumbnail.jpg`
   }
 ]
 
