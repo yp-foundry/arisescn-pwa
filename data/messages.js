@@ -1004,6 +1004,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition)-2021-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(July-Edition)-2021-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Question & Answer Session (July Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/3d13fe7adb/question-answer-session-july-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 17, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Question-and-Answer-Session(July-Edition)-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Question-and-Answer-Session(July-Edition)-Arise-thumbnail.jpg`
   }
 ]
 
