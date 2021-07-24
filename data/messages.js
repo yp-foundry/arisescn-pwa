@@ -1014,6 +1014,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Question-and-Answer-Session(July-Edition)-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Question-and-Answer-Session(July-Edition)-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Holy Spirit 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/fb60ac99e3/the-holy-spirit-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 24, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Holy-Spirit/The-Holy-Spirit-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Holy-Spirit/The-Holy-Spirit-1-Arise-thumbnail.jpg`
   }
 ]
 
