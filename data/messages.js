@@ -1024,6 +1024,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/The-Holy-Spirit/The-Holy-Spirit-1-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Holy-Spirit/The-Holy-Spirit-1-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Holy Spirit 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/62a966d130/the-holy-spirit-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('July 31, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Holy-Spirit/The-Holy-Spirit-2-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The-Holy-Spirit/The-Holy-Spirit-2-Arise-thumbnail.jpg`
   }
 ]
 
