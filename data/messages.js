@@ -1034,6 +1034,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/The-Holy-Spirit/The-Holy-Spirit-2-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The-Holy-Spirit/The-Holy-Spirit-2-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Incense and Healing (August Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/effaf90754/incense-and-healing-august-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 7, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-(August-Edition)-2021-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(August-Edition)-2021-Arise-thumbnail.jpg`
   }
 ]
 
