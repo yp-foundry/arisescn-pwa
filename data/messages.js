@@ -1044,6 +1044,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-(August-Edition)-2021-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(August-Edition)-2021-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Power House`,
+    link:
+      'https://a.storyblok.com/f/90098/x/4d2669073c/the-power-house-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 14, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Power-House-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Power-House-Arise-thumbnail.jpg`
   }
 ]
 
