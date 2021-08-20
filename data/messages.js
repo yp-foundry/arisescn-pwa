@@ -1052,8 +1052,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('August 14, 2021 19:30:00'),
     series: '-',
-    imgSrc: `/img/album-arts/2021/The-Power-House-Arise.jpg`,
-    thumbnailSrc: `/img/album-arts/2021/The-Power-House-Arise-thumbnail.jpg`
+    imgSrc: `/img/album-arts/2021/The-Power-House/The-Power-House-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Power-House/-Arise-thumbnail.jpg`
   }
 ]
 
