@@ -1053,7 +1053,27 @@ export default [
     date: new Date('August 14, 2021 19:30:00'),
     series: '-',
     imgSrc: `/img/album-arts/2021/The-Power-House/The-Power-House-Arise.jpg`,
-    thumbnailSrc: `/img/album-arts/2021/The-Power-House/-Arise-thumbnail.jpg`
+    thumbnailSrc: `/img/album-arts/2021/The-Power-House/The-Power-House-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Strength of a Youth`,
+    link:
+      'https://a.storyblok.com/f/90098/x/ee7beafa0b/the-strength-of-a-youth-olanrewaju-ilori-at-rccg-jesus-ville.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 15, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Strength-of-a-Youth-RCCG-Jesus-Ville.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Strength-of-a-Youth-RCCG-Jesus-Ville-thumbnail.jpg`
+  },
+  {
+    title: `Kingdom Mindset 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/fa28e3ce3c/kingdom-mindset-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 21, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-1-Arise-thumbnail.jpg`
   }
 ]
 
