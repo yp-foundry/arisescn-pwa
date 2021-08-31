@@ -1074,6 +1074,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-1-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-1-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Kingdom Mindset 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/37f76059b5/kingdom-mindset-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('August 28, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-2-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-2-Arise-thumbnail.jpg`
   }
 ]
 
