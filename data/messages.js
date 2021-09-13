@@ -1094,6 +1094,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-(September-Edition)-2021-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-(September-Edition)-2021-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Kingdom Mindset 3`,
+    link:
+      'https://a.storyblok.com/f/90098/x/ee78526dd5/kingdom-mindset-3-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 11, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-3-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-3-Arise-thumbnail.jpg`
   }
 ]
 
