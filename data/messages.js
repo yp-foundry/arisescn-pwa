@@ -1104,6 +1104,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-3-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Kingdom-Mindset/Kingdom-Mindset-3-Arise-thumbnail.jpg`
+  },
+  {
+    title: `These Two Mysteries 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/56af5d7861/these-two-mysteries-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('September 11, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/These-Two-Mysteries/These-Two-Mysteries-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/These-Two-Mysteries/These-Two-Mysteries-1-Arise-thumbnail.jpg`
   }
 ]
 
