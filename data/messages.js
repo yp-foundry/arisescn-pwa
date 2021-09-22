@@ -1108,7 +1108,7 @@ export default [
   {
     title: `These Two Mysteries 1`,
     link:
-      'https://a.storyblok.com/f/90098/x/56af5d7861/these-two-mysteries-olanrewaju-ilori-arise.mp3',
+      'https://a.storyblok.com/f/90098/x/5735ffb3c9/these-two-mysteries-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 18, 2021 19:30:00'),
     series: '-',
