@@ -1124,6 +1124,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/These-Two-Mysteries/These-Two-Mysteries-2-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/These-Two-Mysteries/These-Two-Mysteries-2-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Service of Wine - Incense and Healing (October Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/1f2ed9c804/service-of-wine-incense-and-healing-october-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 2, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing-October-Edition-2021-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-October-Edition-2021-Arise-thumbnail.jpg`
   }
 ]
 
