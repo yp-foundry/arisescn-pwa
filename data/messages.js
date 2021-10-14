@@ -1134,6 +1134,36 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-October-Edition-2021-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-October-Edition-2021-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Joy and Peace 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/0307c5b02f/joy-and-peace-a-charge-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 6, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/arise-album-art-placeholder.jpg`,
+    thumbnailSrc: `/img/album-arts/arise-album-art-placeholder-thumbnail.jpg`
+  },
+  {
+    title: `The Call of Destiny 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/b573a9061d/the-call-of-destiny-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 9, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-1-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Kingdom Culture called Prayer`,
+    link:
+      'https://a.storyblok.com/f/90098/x/46a3311cb9/the-kingdom-culture-called-prayer-olanrewaju-ilori-at-rccg-jesus-next-level.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 10, 2021 11:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/at-other-ministries/The-Kingdom-Culture-called-Prayer.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/at-other-ministries/The-Kingdom-Culture-called-Prayer-thumbnail.jpg`
   }
 ]
 
