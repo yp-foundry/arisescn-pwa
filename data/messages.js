@@ -1151,7 +1151,7 @@ export default [
       'https://a.storyblok.com/f/90098/x/b573a9061d/the-call-of-destiny-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 9, 2021 19:30:00'),
-    series: '-',
+    series: 'The Call of Destiny',
     imgSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-1-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-1-Arise-thumbnail.jpg`
   },
@@ -1164,6 +1164,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/at-other-ministries/The-Kingdom-Culture-called-Prayer.jpg`,
     thumbnailSrc: `/img/album-arts/2021/at-other-ministries/The-Kingdom-Culture-called-Prayer-thumbnail.jpg`
+  },
+  {
+    title: `The Call of Destiny 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/384b1b3f39/the-call-of-destiny-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 16, 2021 19:30:00'),
+    series: 'The Call of Destiny',
+    imgSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-2-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-2-Arise-thumbnail.jpg`
   }
 ]
 
