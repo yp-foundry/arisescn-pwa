@@ -1174,6 +1174,16 @@ export default [
     series: 'The Call of Destiny',
     imgSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-2-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-2-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Call of Destiny 3`,
+    link:
+      'https://a.storyblok.com/f/90098/x/8d9f5dd1a5/the-call-of-destiny-3-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 23, 2021 19:30:00'),
+    series: 'The Call of Destiny',
+    imgSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-3-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-3-Arise-thumbnail.jpg`
   }
 ]
 
