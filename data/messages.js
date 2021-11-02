@@ -1184,6 +1184,16 @@ export default [
     series: 'The Call of Destiny',
     imgSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-3-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Call-of-Destiny/The-Call-of-Destiny-3-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Reality of Eternity`,
+    link:
+      'https://a.storyblok.com/f/90098/x/6f0caad9ff/the-reality-of-eternity-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('October 30, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Reality-of-Eternity-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Reality-of-Eternity-Arise-thumbnail.jpg`
   }
 ]
 
