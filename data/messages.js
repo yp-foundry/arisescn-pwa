@@ -1202,8 +1202,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('November 6, 2021 19:30:00'),
     series: '-',
-    imgSrc: `/img/album-arts/2021/Incense-and-Healing/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise.jpg`,
-    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise-thumbnail.jpg`
+    imgSrc: `/img/album-arts/2021/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise-thumbnail.jpg`
   }
 ]
 
