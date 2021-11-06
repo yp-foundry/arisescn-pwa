@@ -1194,6 +1194,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/The-Reality-of-Eternity-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Reality-of-Eternity-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Pure Worship - Incense and Healing (November Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/5fb839e3bf/pure-worship-incense-and-healing-november-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 6, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Incense-and-Healing/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise-thumbnail.jpg`
   }
 ]
 
