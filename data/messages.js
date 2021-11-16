@@ -1204,6 +1204,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Pure-Worship-Incense-and-Healing-(November-Edition)-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Living Logos (The Word) 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/8f6952cbec/the-living-logos-the-word-1-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 13, 2021 19:30:00'),
+    series: 'The Living Logos',
+    imgSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-1-Arise-thumbnail.jpg`
   }
 ]
 
