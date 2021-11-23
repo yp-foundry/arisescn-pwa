@@ -1214,6 +1214,16 @@ export default [
     series: 'The Living Logos',
     imgSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-1-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-1-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Living Logos (The Word) 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/e3a10d32cd/the-living-logos-the-word-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 20, 2021 19:30:00'),
+    series: 'The Living Logos',
+    imgSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-2-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-2-Arise-thumbnail.jpg`
   }
 ]
 
