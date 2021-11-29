@@ -1224,6 +1224,16 @@ export default [
     series: 'The Living Logos',
     imgSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-2-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/The-Living-Logos/The-Living-Logos-2-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Ministry of the Word`,
+    link:
+      'https://s3.amazonaws.com/a.storyblok.com/f/90098/x/1f4dff51d5/the-ministry-of-the-word-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('November 27, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/The-Ministry-of-the-Word-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/The-Ministry-of-the-Word-Arise-thumbnail.jpg`
   }
 ]
 
