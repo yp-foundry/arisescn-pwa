@@ -1244,6 +1244,16 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2021/Incense-and-Healing-December-Edition-2021-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2021/Incense-and-Healing-December-Edition-2021-Arise-thumbnail.jpg`
+  },
+  {
+    title: `Question & Answer Session (December Edition)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/d6c986f8df/question-answer-session-december-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('December 11, 2021 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2021/Question-and-Answer-Session-December-Edition-2021-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2021/Question-and-Answer-Session-December-Edition-2021-Arise-thumbnail.jpg`
   }
 ]
 
