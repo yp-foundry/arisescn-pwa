@@ -1261,9 +1261,19 @@ export default [
       'https://a.storyblok.com/f/90098/x/242751941d/that-i-may-know-him-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 15, 2022 19:30:00'),
-    series: '-',
-    imgSrc: `/img/album-arts/2022/That-I-man-know-Him-1-Arise.jpg`,
-    thumbnailSrc: `/img/album-arts/2022/That-I-man-know-Him-1-Arise-thumbnail.jpg`
+    series: 'That I may know Him',
+    imgSrc: `/img/album-arts/2022/That-I-may-know-Him-1-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/That-I-may-know-Him-1-Arise-thumbnail.jpg`
+  },
+  {
+    title: `That I may know Him 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/937724b8ed/that-i-may-know-him-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('January 22, 2022 19:30:00'),
+    series: 'That I may know Him',
+    imgSrc: `/img/album-arts/2022/That-I-may-know-Him-2-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/That-I-may-know-Him-2-Arise-thumbnail.jpg`
   }
 ]
 
