@@ -1274,6 +1274,16 @@ export default [
     series: 'That I may know Him',
     imgSrc: `/img/album-arts/2022/That-I-may-know-Him-2-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2022/That-I-may-know-Him-2-Arise-thumbnail.jpg`
+  },
+  {
+    title: `The Mystery of Oneness`,
+    link:
+      'https://a.storyblok.com/f/90098/x/667fde34fa/the-mystery-of-oneness-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('January 29, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/The-Mystery-of-Oneness-Arise.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The-Mystery-of-Oneness-Arise-thumbnail.jpg`
   }
 ]
 
