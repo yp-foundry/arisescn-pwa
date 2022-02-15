@@ -1293,8 +1293,8 @@ export default [
     minister: 'Olanrewaju Ilori',
     date: new Date('February 12, 2022 19:30:00'),
     series: 'The Season of Light',
-    imgSrc: `/img/album-arts/2022/The-Season-of-Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art.jpg`,
-    thumbnailSrc: `/img/album-arts/2022/The-Season-of-Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art_-_thumbnail.jpg`
+    imgSrc: `/img/album-arts/2022/The_Season_of_Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
