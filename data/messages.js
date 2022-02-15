@@ -1284,6 +1284,17 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2022/The-Mystery-of-Oneness-Arise.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The-Mystery-of-Oneness-Arise-thumbnail.jpg`
+  },
+  // notice the naming convention change
+  {
+    title: `The Exploits of Wisdom`,
+    link:
+      'https://a.storyblok.com/f/90098/x/456c905425/the-exploits-of-wisdom-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 12, 2022 19:30:00'),
+    series: 'The Season of Light',
+    imgSrc: `/img/album-arts/2022/The-Season-of-Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The-Season-of-Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
