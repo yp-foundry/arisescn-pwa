@@ -77,8 +77,8 @@
                 </p> -->
 
                 <p class="headline font-weight-thin dark-text--primary mb-8">
-                  a place where an army of men who know God, love God, and live
-                  in the light of God's purpose for their life are raised
+                  a place where an army of men who knows God, loves God, and
+                  lives in the light of God's purpose for their lives are raised
                 </p>
 
                 <!-- <v-btn nuxt large color="primary" to="/arise" class="mb-12"
