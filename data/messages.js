@@ -1292,9 +1292,19 @@ export default [
       'https://a.storyblok.com/f/90098/x/456c905425/the-exploits-of-wisdom-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 12, 2022 19:30:00'),
-    series: 'The Season of Light',
+    series: 'The Principal of Life',
     imgSrc: `/img/album-arts/2022/The_Season_of_Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Exploit_of_Wisdom_-_Arise_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Excellency of Light (Knowledge)`,
+    link:
+      'https://a.storyblok.com/f/90098/x/f682f2046b/the-excellency-of-light-knowledge-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 12, 2022 19:30:00'),
+    series: 'The Principal of Life',
+    imgSrc: `/img/album-arts/2022/The_Season_of_Light/The_Excellency_of_Light_(Knowledge)_-_Arise_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Excellency_of_Light_(Knowledge)_-_Arise_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
