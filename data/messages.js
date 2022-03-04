@@ -1308,7 +1308,7 @@ export default [
   },
   {
     title: `The Mastery of Understanding`,
-    link: 'https://www.youtube.com/watch?v=DLxYDoN634c',
+    link: 'https://www.youtube.com/watch?v=PO7CNw-tyrQ',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 26, 2022 19:30:00'),
     series: 'The Principal of Life',
