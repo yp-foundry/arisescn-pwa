@@ -1301,10 +1301,19 @@ export default [
     link:
       'https://a.storyblok.com/f/90098/x/f682f2046b/the-excellency-of-light-knowledge-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
-    date: new Date('February 12, 2022 19:30:00'),
+    date: new Date('February 19, 2022 19:30:00'),
     series: 'The Principal of Life',
     imgSrc: `/img/album-arts/2022/The_Season_of_Light/The_Excellency_of_Light_(Knowledge)_-_Arise_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Excellency_of_Light_(Knowledge)_-_Arise_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Mastery of Understanding`,
+    link: 'https://www.youtube.com/watch?v=DLxYDoN634c',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('February 26, 2022 19:30:00'),
+    series: 'The Principal of Life',
+    imgSrc: `/img/album-arts/2022/The_Season_of_Light/The_Mastery_of_Understanding_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Mastery_of_Understanding_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
