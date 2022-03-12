@@ -1314,6 +1314,15 @@ export default [
     series: 'The Principal of Life',
     imgSrc: `/img/album-arts/2022/The_Season_of_Light/The_Mastery_of_Understanding_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Mastery_of_Understanding_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Mystery of Altars`,
+    link: 'https://a.storyblok.com/f/90098/x/ac1a2eccea/the-mystery-of-altars-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 12, 2022 19:30:00'),
+    series: 'The Mystery of Altars',
+    imgSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
