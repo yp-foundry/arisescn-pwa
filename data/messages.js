@@ -1316,13 +1316,24 @@ export default [
     thumbnailSrc: `/img/album-arts/2022/The_Season_of_Light/The_Mastery_of_Understanding_-_Album_Art_-_thumbnail.jpg`
   },
   {
-    title: `The Mystery of Altars`,
-    link: 'https://a.storyblok.com/f/90098/x/ac1a2eccea/the-mystery-of-altars-olanrewaju-ilori-arise.mp3',
+    title: `The Mystery of Altars 1`,
+    link:
+      'https://a.storyblok.com/f/90098/x/ac1a2eccea/the-mystery-of-altars-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 12, 2022 19:30:00'),
     series: 'The Mystery of Altars',
-    imgSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_-_Album_Art.jpg`,
-    thumbnailSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_-_Album_Art_-_thumbnail.jpg`
+    imgSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_1_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_1_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Mystery of Altars 2`,
+    link:
+      'https://a.storyblok.com/f/90098/x/24fe20604b/the-mystery-of-altars-2-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('March 19, 2022 19:30:00'),
+    series: 'The Mystery of Altars',
+    imgSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_2_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_2_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
