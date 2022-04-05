@@ -1344,6 +1344,16 @@ export default [
     series: 'The Mystery of Altars',
     imgSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_3_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The_Mystery_of_Altars/The_Mystery_of_Altars_3_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `Incense & Healing (April Edition) and AriseSCN 5th Anniversary Thanksgiving`,
+    link:
+      'https://a.storyblok.com/f/90098/x/545140f1ea/incense-healing-april-edition-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('April 2, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Incense_and_Healing_(April_Edition)_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Incense_and_Healing_(April_Edition)_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
