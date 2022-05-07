@@ -1,9 +1,13 @@
 <template>
+
   <v-app>
+
     <app-bar />
 
     <v-main>
+
       <nuxt />
+
     </v-main>
 
     <app-drawer />
@@ -22,29 +26,31 @@
       target="_blank"
       rel="noopener noreferrer"
     >
+
       <div class="d-flex flex-column align-center justify-center">
+
         <v-icon v-text="mdiCloudDownload"></v-icon>
 
         <span class="text-center pt-1 pb-2 subtitle-2" style="line-height: 1.2">
-          Latest
+           Latest
           <br />
-          Message
+           Message
         </span>
+
       </div>
+
     </v-btn>
 
-    <!-- Messenger plugin element -->
+    <!-- Messenger Chat plugin Code -->
 
     <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
+    <!-- Your Chat plugin code -->
 
-    <div
-      class="fb-customerchat"
-      attribution="biz_inbox"
-      page_id="491337924555024"
-    ></div>
+    <div id="fb-customer-chat" class="fb-customerchat"> </div>
+
   </v-app>
+
 </template>
 
 <script>
@@ -78,3 +84,4 @@ export default {
   }
 }
 </script>
+

@@ -40,12 +40,20 @@ export default {
 
     script: [
       {
+        vmid: 'fb-chatbox-script',
+        innerHTML: `
+           var chatbox = document.getElementById('fb-customer-chat');
+          chatbox.setAttribute("page_id", "491337924555024");
+          chatbox.setAttribute("attribution", "biz_inbox");
+        `
+      },
+      {
         vmid: 'fb-chat-script',
         innerHTML: `
           window.fbAsyncInit = function() {
             FB.init({
               xfbml            : true,
-              version          : 'v10.0'
+              version          : 'v13.0'
             });
           };
 
