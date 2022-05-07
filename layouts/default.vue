@@ -11,6 +11,7 @@
     <contact-section />
 
     <!-- Download latest message button -->
+
     <v-btn
       fixed
       dark
@@ -23,16 +24,21 @@
     >
       <div class="d-flex flex-column align-center justify-center">
         <v-icon v-text="mdiCloudDownload"></v-icon>
-        <span class="text-center pt-1 pb-2 subtitle-2" style="line-height: 1.2"
-          >Latest<br />Message</span
-        >
+
+        <span class="text-center pt-1 pb-2 subtitle-2" style="line-height: 1.2">
+          Latest
+          <br />
+          Message
+        </span>
       </div>
     </v-btn>
 
     <!-- Messenger plugin element -->
+
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
+
     <div
       class="fb-customerchat"
       attribution="biz_inbox"

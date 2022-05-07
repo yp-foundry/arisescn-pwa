@@ -12,11 +12,12 @@ import {
   mdiYoutube,
   // mdiSpotify,
   // mdiItunes,
+  mdiTelegram,
   mdiFacebook,
   mdiTwitter,
   mdiInstagram,
-  mdiTelegram,
-  mdiWhatsapp
+  mdiMusicNoteEighth
+  // mdiWhatsapp
 } from '@mdi/js'
 
 export default {
@@ -97,23 +98,29 @@ export default {
       type: ['social']
     },
     {
-      title: 'Twitter',
-      route: 'https://twitter.com/ariseSCN',
-      icon: mdiTwitter,
-      type: ['social']
-    },
-    {
       title: 'Instagram',
       route: 'https://instagram.com/ariseSCN',
       icon: mdiInstagram,
       type: ['social']
     },
     {
+      title: 'Tiktok',
+      route: 'https://tiktok.com/@ariseSCN',
+      icon: mdiMusicNoteEighth,
+      type: ['social']
+    },
+    {
+      title: 'Twitter',
+      route: 'https://twitter.com/ariseSCN',
+      icon: mdiTwitter,
+      type: ['social']
+    },
+    /*  {
       title: 'WhatsApp',
       route: 'https://wa.me/message/QZK7TXSI7UBUF1',
       icon: mdiWhatsapp,
       type: ['social']
-    },
+    }, */
     {
       title: 'Telegram',
       route: 'https://telegram.com/ariseSCN',
