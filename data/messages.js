@@ -376,8 +376,7 @@ export default [
   },
   {
     title: 'Sin, Sinner and Righteousness 1',
-    link:
-      'https://a.storyblok.com/f/90098/x/f2729f74fb/sin-sinner-righteousness-olanrewaju-ilori.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/f2729f74fb/sin-sinner-righteousness-olanrewaju-ilori.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 11, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
@@ -388,8 +387,7 @@ export default [
   },
   {
     title: 'Sin, Sinner and Righteousness 2',
-    link:
-      'https://a.storyblok.com/f/90098/x/b7e46e9a08/sin-sinner-righteousness-2-olanrewaju-ilori.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/b7e46e9a08/sin-sinner-righteousness-2-olanrewaju-ilori.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 18, 2020 18:30:00'),
     series: 'Sin, Sinner and Righteousness',
@@ -400,8 +398,7 @@ export default [
   },
   {
     title: 'Arise! The Movement, The Mandate',
-    link:
-      'https://a.storyblok.com/f/90098/x/335b532e5f/arise-the-movement-the-mandate-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/335b532e5f/arise-the-movement-the-mandate-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 25, 2020 18:30:00'),
     series: '-',
@@ -410,8 +407,7 @@ export default [
   },
   {
     title: 'Destiny Definition',
-    link:
-      'https://a.storyblok.com/f/90098/x/a1324cdf42/destiny-definition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/a1324cdf42/destiny-definition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 2, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -422,8 +418,7 @@ export default [
   },
   {
     title: 'Destiny Discovery',
-    link:
-      'https://a.storyblok.com/f/90098/x/be35304473/destiny-discovery-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/be35304473/destiny-discovery-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 9, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -433,8 +428,7 @@ export default [
   },
   {
     title: 'Destiny Activation',
-    link:
-      'https://a.storyblok.com/f/90098/x/f924aa46a8/destiny-activation-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/f924aa46a8/destiny-activation-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 16, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -454,8 +448,7 @@ export default [
   },
   {
     title: 'Destiny Demands',
-    link:
-      'https://a.storyblok.com/f/90098/x/70d54dcdee/destiny-demands-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/70d54dcdee/destiny-demands-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 30, 2020 18:30:00'),
     series: 'This Mystery called Destiny',
@@ -465,8 +458,7 @@ export default [
   },
   {
     title: `Unleash Your War-Ship for the King's Dominion`,
-    link:
-      'https://a.storyblok.com/f/90098/x/fb3c545ec1/unleash-your-war-ship-for-the-king-s-dominion.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/fb3c545ec1/unleash-your-war-ship-for-the-king-s-dominion.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 6, 2020 18:30:00'),
     series: '-',
@@ -475,8 +467,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 1 (The Discipline of Daniel)',
-    link:
-      'https://a.storyblok.com/f/90098/x/570a4f721a/the-ancient-path-of-the-patriarchs-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/570a4f721a/the-ancient-path-of-the-patriarchs-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 13, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -487,8 +478,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 2 (The Dedication of David)',
-    link:
-      'https://a.storyblok.com/f/90098/x/ae2f0cd289/the-ancient-path-of-the-patriarchs-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/ae2f0cd289/the-ancient-path-of-the-patriarchs-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 20, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -499,8 +489,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 3 (The Suffering of Paul)',
-    link:
-      'https://a.storyblok.com/f/90098/x/721b38bd0f/the-ancient-path-of-the-patriarchs-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/721b38bd0f/the-ancient-path-of-the-patriarchs-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 27, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -511,8 +500,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 4 (The Long Suffering of Noah)',
-    link:
-      'https://a.storyblok.com/f/90098/x/65d33f156c/the-ancient-path-of-the-patriarchs-4-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/65d33f156c/the-ancient-path-of-the-patriarchs-4-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 4, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -523,8 +511,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 5 (The Meekness of Moses)',
-    link:
-      'https://a.storyblok.com/f/90098/x/9818fdc28a/the-ancient-path-of-the-patriarchs-5-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/9818fdc28a/the-ancient-path-of-the-patriarchs-5-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 11, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -535,8 +522,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 6 (The Faith of Abraham)',
-    link:
-      'https://a.storyblok.com/f/90098/x/e81150561e/the-ancient-path-of-the-patriarchs-6-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/e81150561e/the-ancient-path-of-the-patriarchs-6-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 18, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -547,8 +533,7 @@ export default [
   },
   {
     title: 'The Ancient Path of the Patriarchs 7 (The Life of Jesus)',
-    link:
-      'https://a.storyblok.com/f/90098/x/22582e6902/the-ancient-path-of-the-patriarchs-7-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/22582e6902/the-ancient-path-of-the-patriarchs-7-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 25, 2020 18:30:00'),
     series: 'The Ancient Path of the Patriarchs',
@@ -559,8 +544,7 @@ export default [
   },
   {
     title: 'Engaging the Mystery of Mercy (A Charge)',
-    link:
-      'https://a.storyblok.com/f/90098/x/22e313ef1f/engaging-the-mystery-of-mercy-a-charge-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/22e313ef1f/engaging-the-mystery-of-mercy-a-charge-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 1, 2020 18:30:00'),
     series: 'Engaging the Mystery of Mercy',
@@ -571,8 +555,7 @@ export default [
   },
   {
     title: 'Complete Deliverance 1',
-    link:
-      'https://a.storyblok.com/f/90098/x/89416f7f76/complete-deliverance-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/89416f7f76/complete-deliverance-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 8, 2020 18:30:00'),
     series: 'Complete Deliverance',
@@ -582,8 +565,7 @@ export default [
   },
   {
     title: 'Complete Deliverance 2',
-    link:
-      'https://a.storyblok.com/f/90098/x/5d2814fb46/complete-deliverance-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/5d2814fb46/complete-deliverance-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 15, 2020 18:30:00'),
     series: 'Complete Deliverance',
@@ -593,8 +575,7 @@ export default [
   },
   {
     title: 'Complete Deliverance 3',
-    link:
-      'https://a.storyblok.com/f/90098/x/83d9666359/complete-deliverance-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/83d9666359/complete-deliverance-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 22, 2020 18:30:00'),
     series: 'Complete Deliverance',
@@ -604,8 +585,7 @@ export default [
   },
   {
     title: 'The Release of Spiritual Gifts (a Charge)',
-    link:
-      'https://a.storyblok.com/f/90098/x/fa029d0b7f/the-release-of-spiritual-gifts-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/fa029d0b7f/the-release-of-spiritual-gifts-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 29, 2020 19:30:00'),
     series: '-',
@@ -615,8 +595,7 @@ export default [
   },
   {
     title: 'Re-alignment with the Spirit (a Charge)',
-    link:
-      'https://a.storyblok.com/f/90098/x/468c0b355c/re-alignment-with-the-spirit-a-charge-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/468c0b355c/re-alignment-with-the-spirit-a-charge-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 5, 2020 19:30:00'),
     series: '-',
@@ -626,8 +605,7 @@ export default [
   },
   {
     title: 'The Power of the Mind 1',
-    link:
-      'https://a.storyblok.com/f/90098/x/aa3307095f/the-power-of-the-mind-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/aa3307095f/the-power-of-the-mind-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 12, 2020 19:30:00'),
     series: 'The Power of the Mind',
@@ -637,8 +615,7 @@ export default [
   },
   {
     title: 'The Power of the Mind 2',
-    link:
-      'https://a.storyblok.com/f/90098/x/953bd881dc/the-power-of-the-mind-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/953bd881dc/the-power-of-the-mind-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 19, 2020 19:30:00'),
     series: 'The Power of the Mind',
@@ -648,8 +625,7 @@ export default [
   },
   {
     title: 'The Power of the Mind 3',
-    link:
-      'https://a.storyblok.com/f/90098/x/c91ecb3474/the-power-of-the-mind-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/c91ecb3474/the-power-of-the-mind-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 19, 2020 19:30:00'),
     series: 'The Power of the Mind',
@@ -659,8 +635,7 @@ export default [
   },
   {
     title: 'The Sons of God 1',
-    link:
-      'https://a.storyblok.com/f/90098/x/9e14d939fe/the-sons-of-god-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/9e14d939fe/the-sons-of-god-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 10, 2020 20:00:00'),
     series: 'The Sons of God',
@@ -670,8 +645,7 @@ export default [
   },
   {
     title: 'The Sons of God 2',
-    link:
-      'https://a.storyblok.com/f/90098/x/168ed13558/the-sons-of-god-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/168ed13558/the-sons-of-god-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 17, 2020 20:00:00'),
     series: 'The Sons of God',
@@ -681,8 +655,7 @@ export default [
   },
   {
     title: 'The Sons of God 3',
-    link:
-      'https://a.storyblok.com/f/90098/x/e7d6eeb976/the-sons-of-god-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/e7d6eeb976/the-sons-of-god-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 24, 2020 20:00:00'),
     series: 'The Sons of God',
@@ -692,8 +665,7 @@ export default [
   },
   {
     title: 'October Healing & Miracle Service',
-    link:
-      'https://a.storyblok.com/f/90098/x/ee1d5a14c8/october-healing-miracle-service-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/ee1d5a14c8/october-healing-miracle-service-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 31, 2020 19:00:00'),
     series: '-',
@@ -702,8 +674,7 @@ export default [
   },
   {
     title: 'New Season Alert (Kingdom Advancement)',
-    link:
-      'https://a.storyblok.com/f/90098/x/a5084a48ee/new-season-alert-kingdom-advancement-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/a5084a48ee/new-season-alert-kingdom-advancement-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 31, 2020 20:00:00'),
     series: '-',
@@ -712,8 +683,7 @@ export default [
   },
   {
     title: 'The Sons of God 4',
-    link:
-      'https://a.storyblok.com/f/90098/x/e8b2af5aab/the-sons-of-god-4-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/e8b2af5aab/the-sons-of-god-4-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 7, 2020 20:00:00'),
     series: 'The Sons of God',
@@ -723,8 +693,7 @@ export default [
   },
   {
     title: 'The Atmosphere of Intimacy',
-    link:
-      'https://a.storyblok.com/f/90098/x/7c336623f7/the-atmosphere-of-intimacy-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/7c336623f7/the-atmosphere-of-intimacy-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 14, 2020 20:00:00'),
     series: '-',
@@ -733,8 +702,7 @@ export default [
   },
   {
     title: 'Destiny Partner 1',
-    link:
-      'https://a.storyblok.com/f/90098/x/27e8dc40a2/destiny-partner-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/27e8dc40a2/destiny-partner-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 21, 2020 20:00:00'),
     series: 'Destiny Partner',
@@ -744,8 +712,7 @@ export default [
   },
   {
     title: 'Destiny Partner 2',
-    link:
-      'https://a.storyblok.com/f/90098/x/47ea45d9d9/the-destiny-partner-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/47ea45d9d9/the-destiny-partner-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 28, 2020 20:00:00'),
     series: 'Destiny Partner',
@@ -755,8 +722,7 @@ export default [
   },
   {
     title: 'Incense & Healing',
-    link:
-      'https://a.storyblok.com/f/90098/x/464352f62b/incense-healing-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/464352f62b/incense-healing-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('December 5, 2020 20:00:00'),
     series: '-',
@@ -765,8 +731,7 @@ export default [
   },
   {
     title: 'Question & Answer Session (December Edition)',
-    link:
-      'https://a.storyblok.com/f/90098/x/346d3bfd4f/question-answer-session-december-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/346d3bfd4f/question-answer-session-december-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('December 12, 2020 20:00:00'),
     series: '-',
@@ -776,8 +741,7 @@ export default [
   },
   {
     title: 'Be Still and Know!',
-    link:
-      'https://a.storyblok.com/f/90098/x/43296cc187/be-still-and-know-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/43296cc187/be-still-and-know-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 9, 2021 19:30:00'),
     series: '-',
@@ -786,8 +750,7 @@ export default [
   },
   {
     title: 'A Prepared Heart',
-    link:
-      'https://a.storyblok.com/f/90098/x/3f66705005/a-prepared-heart-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/3f66705005/a-prepared-heart-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 16, 2021 19:30:00'),
     series: '-',
@@ -796,8 +759,7 @@ export default [
   },
   {
     title: 'Spiritual Empowerment',
-    link:
-      'https://a.storyblok.com/f/90098/x/b9b3e78a28/spiritual-empowerment-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/b9b3e78a28/spiritual-empowerment-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 23, 2021 19:30:00'),
     series: '-',
@@ -806,8 +768,7 @@ export default [
   },
   {
     title: 'Spiritual Checkup (Where are You?)',
-    link:
-      'https://a.storyblok.com/f/90098/x/628bcf4f10/spiritual-check-up-where-are-you-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/628bcf4f10/spiritual-check-up-where-are-you-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 6, 2021 19:30:00'),
     series: '-',
@@ -817,8 +778,7 @@ export default [
   },
   {
     title: 'The Invisible Kingdom 1 (In the Beginning)',
-    link:
-      'https://a.storyblok.com/f/90098/x/259aa57f56/the-invisible-kingdom-in-the-beginning-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/259aa57f56/the-invisible-kingdom-in-the-beginning-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 13, 2021 19:30:00'),
     series: 'The Invisible Kingdom',
@@ -829,8 +789,7 @@ export default [
   },
   {
     title: `The Invisible Kingdom 2 (God's Agenda)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/a07c12f326/the-invisible-kingdom-2-god-s-agenda-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/a07c12f326/the-invisible-kingdom-2-god-s-agenda-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 20, 2021 19:30:00'),
     series: 'The Invisible Kingdom',
@@ -839,8 +798,7 @@ export default [
   },
   {
     title: `The Invisible Kingdom 3 (The Mandate)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/4840ab8efe/the-invisible-kingdom-3-the-mandate-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/4840ab8efe/the-invisible-kingdom-3-the-mandate-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 27, 2021 19:30:00'),
     series: 'The Invisible Kingdom',
@@ -849,8 +807,7 @@ export default [
   },
   {
     title: `The Invisible Kingdom 4 (The coming move of God)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/49deb33a64/the-invisible-kingdom-4-the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/49deb33a64/the-invisible-kingdom-4-the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 20, 2021 19:30:00'),
     series: 'The Invisible Kingdom',
@@ -859,8 +816,7 @@ export default [
   },
   {
     title: `The Coming Move of God 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/72cab7b431/the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/72cab7b431/the-coming-move-of-god-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 27, 2021 19:30:00'),
     series: 'The Coming Move of God',
@@ -869,8 +825,7 @@ export default [
   },
   {
     title: `The Coming Move of God 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/781d594a37/the-coming-move-of-god-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/781d594a37/the-coming-move-of-god-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 10, 2021 19:30:00'),
     series: 'The Coming Move of God',
@@ -879,8 +834,7 @@ export default [
   },
   {
     title: `The Mystery of Salvation 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/8ee71263fd/the-mystery-of-salvation-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/8ee71263fd/the-mystery-of-salvation-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 17, 2021 19:30:00'),
     series: 'The Mystery of Salvation',
@@ -889,8 +843,7 @@ export default [
   },
   {
     title: `The Mystery of Salvation 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/d2dde3b334/the-mystery-of-salvation-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/d2dde3b334/the-mystery-of-salvation-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 24, 2021 19:30:00'),
     series: 'The Mystery of Salvation',
@@ -899,8 +852,7 @@ export default [
   },
   {
     title: `Incense and Healing (May Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/c78f4f4002/incense-and-healing-may-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/c78f4f4002/incense-and-healing-may-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 1, 2021 19:30:00'),
     series: '-',
@@ -909,8 +861,7 @@ export default [
   },
   {
     title: `Worship Chant - Incense and Healing (May Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/84a0de9644/worship-chant-incense-and-healing-may-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/84a0de9644/worship-chant-incense-and-healing-may-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 1, 2021 19:30:00'),
     series: '-',
@@ -919,8 +870,7 @@ export default [
   },
   {
     title: `Abba Father 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/9164c6997d/abba-father-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/9164c6997d/abba-father-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 8, 2021 19:30:00'),
     series: 'Abba Father',
@@ -929,8 +879,7 @@ export default [
   },
   {
     title: `Abba Father 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/ca9c8c1919/abba-father-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/ca9c8c1919/abba-father-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 15, 2021 19:30:00'),
     series: 'Abba Father',
@@ -939,8 +888,7 @@ export default [
   },
   {
     title: `Abba Father 3`,
-    link:
-      'https://a.storyblok.com/f/90098/x/9ce72016a3/abba-father-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/9ce72016a3/abba-father-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 22, 2021 19:30:00'),
     series: 'Abba Father',
@@ -949,16 +897,14 @@ export default [
   },
   {
     title: `Immortality (Understanding our Victory over Death)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/4ca5b92be3/immortality-understanding-our-victory-over-death-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/4ca5b92be3/immortality-understanding-our-victory-over-death-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('May 29, 2021 19:30:00'),
     series: '-'
   },
   {
     title: `Incense and Healing (June Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/b7acf76e7e/incense-and-healing-june-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/b7acf76e7e/incense-and-healing-june-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 5, 2021 19:30:00'),
     series: '-',
@@ -967,8 +913,7 @@ export default [
   },
   {
     title: `The Kingdom of Kings 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/00ed84dce7/the-kingdom-of-kings-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/00ed84dce7/the-kingdom-of-kings-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 19, 2021 19:30:00'),
     series: 'The Kingdom of Kings',
@@ -977,8 +922,7 @@ export default [
   },
   {
     title: `The Kingdom of Kings 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/1e7939e6d2/the-kingdom-of-kings-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/1e7939e6d2/the-kingdom-of-kings-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('June 26, 2021 19:30:00'),
     series: 'The Kingdom of Kings',
@@ -987,8 +931,7 @@ export default [
   },
   {
     title: `The Kingdom of Kings 3`,
-    link:
-      'https://a.storyblok.com/f/90098/x/b54eb8c885/the-kingdom-of-kings-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/b54eb8c885/the-kingdom-of-kings-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 3, 2021 19:30:00'),
     series: 'The Kingdom of Kings',
@@ -997,8 +940,7 @@ export default [
   },
   {
     title: `Incense and Healing (July Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/c8125bbf0b/incense-and-healing-july-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/c8125bbf0b/incense-and-healing-july-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 10, 2021 19:30:00'),
     series: '-',
@@ -1007,8 +949,7 @@ export default [
   },
   {
     title: `Question & Answer Session (July Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/3d13fe7adb/question-answer-session-july-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/3d13fe7adb/question-answer-session-july-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 17, 2021 19:30:00'),
     series: '-',
@@ -1017,8 +958,7 @@ export default [
   },
   {
     title: `The Holy Spirit 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/fb60ac99e3/the-holy-spirit-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/fb60ac99e3/the-holy-spirit-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 24, 2021 19:30:00'),
     series: '-',
@@ -1027,8 +967,7 @@ export default [
   },
   {
     title: `The Holy Spirit 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/62a966d130/the-holy-spirit-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/62a966d130/the-holy-spirit-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('July 31, 2021 19:30:00'),
     series: '-',
@@ -1037,8 +976,7 @@ export default [
   },
   {
     title: `Incense and Healing (August Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/effaf90754/incense-and-healing-august-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/effaf90754/incense-and-healing-august-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 7, 2021 19:30:00'),
     series: '-',
@@ -1047,8 +985,7 @@ export default [
   },
   {
     title: `The Power House`,
-    link:
-      'https://a.storyblok.com/f/90098/x/4d2669073c/the-power-house-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/4d2669073c/the-power-house-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 14, 2021 19:30:00'),
     series: '-',
@@ -1057,8 +994,7 @@ export default [
   },
   {
     title: `The Strength of a Youth`,
-    link:
-      'https://a.storyblok.com/f/90098/x/ee7beafa0b/the-strength-of-a-youth-olanrewaju-ilori-at-rccg-jesus-ville.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/ee7beafa0b/the-strength-of-a-youth-olanrewaju-ilori-at-rccg-jesus-ville.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 15, 2021 19:30:00'),
     series: '-',
@@ -1067,8 +1003,7 @@ export default [
   },
   {
     title: `Kingdom Mindset 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/fa28e3ce3c/kingdom-mindset-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/fa28e3ce3c/kingdom-mindset-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 21, 2021 19:30:00'),
     series: '-',
@@ -1077,8 +1012,7 @@ export default [
   },
   {
     title: `Kingdom Mindset 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/37f76059b5/kingdom-mindset-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/37f76059b5/kingdom-mindset-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('August 28, 2021 19:30:00'),
     series: '-',
@@ -1087,8 +1021,7 @@ export default [
   },
   {
     title: `Incense and Healing (September Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/857712f433/incense-and-healing-september-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/857712f433/incense-and-healing-september-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 4, 2021 19:30:00'),
     series: '-',
@@ -1097,8 +1030,7 @@ export default [
   },
   {
     title: `Kingdom Mindset 3`,
-    link:
-      'https://a.storyblok.com/f/90098/x/ee78526dd5/kingdom-mindset-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/ee78526dd5/kingdom-mindset-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 11, 2021 19:30:00'),
     series: '-',
@@ -1107,8 +1039,7 @@ export default [
   },
   {
     title: `These Two Mysteries 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/5735ffb3c9/these-two-mysteries-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/5735ffb3c9/these-two-mysteries-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 18, 2021 19:30:00'),
     series: '-',
@@ -1117,8 +1048,7 @@ export default [
   },
   {
     title: `These Two Mysteries 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/aad06f7a57/these-two-mysteries-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/aad06f7a57/these-two-mysteries-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('September 25, 2021 19:30:00'),
     series: '-',
@@ -1127,8 +1057,7 @@ export default [
   },
   {
     title: `Service of Wine - Incense and Healing (October Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/1f2ed9c804/service-of-wine-incense-and-healing-october-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/1f2ed9c804/service-of-wine-incense-and-healing-october-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 2, 2021 19:30:00'),
     series: '-',
@@ -1137,8 +1066,7 @@ export default [
   },
   {
     title: `Joy and Peace 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/0307c5b02f/joy-and-peace-a-charge-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/0307c5b02f/joy-and-peace-a-charge-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 6, 2021 19:30:00'),
     series: '-',
@@ -1147,8 +1075,7 @@ export default [
   },
   {
     title: `The Call of Destiny 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/b573a9061d/the-call-of-destiny-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/b573a9061d/the-call-of-destiny-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 9, 2021 19:30:00'),
     series: 'The Call of Destiny',
@@ -1157,8 +1084,7 @@ export default [
   },
   {
     title: `The Kingdom Culture called Prayer`,
-    link:
-      'https://a.storyblok.com/f/90098/x/46a3311cb9/the-kingdom-culture-called-prayer-olanrewaju-ilori-at-rccg-jesus-next-level.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/46a3311cb9/the-kingdom-culture-called-prayer-olanrewaju-ilori-at-rccg-jesus-next-level.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 10, 2021 11:30:00'),
     series: '-',
@@ -1167,8 +1093,7 @@ export default [
   },
   {
     title: `The Call of Destiny 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/384b1b3f39/the-call-of-destiny-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/384b1b3f39/the-call-of-destiny-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 16, 2021 19:30:00'),
     series: 'The Call of Destiny',
@@ -1177,8 +1102,7 @@ export default [
   },
   {
     title: `The Call of Destiny 3`,
-    link:
-      'https://a.storyblok.com/f/90098/x/8d9f5dd1a5/the-call-of-destiny-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/8d9f5dd1a5/the-call-of-destiny-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 23, 2021 19:30:00'),
     series: 'The Call of Destiny',
@@ -1187,8 +1111,7 @@ export default [
   },
   {
     title: `The Reality of Eternity`,
-    link:
-      'https://a.storyblok.com/f/90098/x/6f0caad9ff/the-reality-of-eternity-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/6f0caad9ff/the-reality-of-eternity-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('October 30, 2021 19:30:00'),
     series: '-',
@@ -1197,8 +1120,7 @@ export default [
   },
   {
     title: `Pure Worship - Incense and Healing (November Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/5fb839e3bf/pure-worship-incense-and-healing-november-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/5fb839e3bf/pure-worship-incense-and-healing-november-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 6, 2021 19:30:00'),
     series: '-',
@@ -1207,8 +1129,7 @@ export default [
   },
   {
     title: `The Living Logos (The Word) 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/8f6952cbec/the-living-logos-the-word-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/8f6952cbec/the-living-logos-the-word-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 13, 2021 19:30:00'),
     series: 'The Living Logos',
@@ -1217,8 +1138,7 @@ export default [
   },
   {
     title: `The Living Logos (The Word) 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/e3a10d32cd/the-living-logos-the-word-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/e3a10d32cd/the-living-logos-the-word-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 20, 2021 19:30:00'),
     series: 'The Living Logos',
@@ -1227,8 +1147,7 @@ export default [
   },
   {
     title: `The Ministry of the Word`,
-    link:
-      'https://s3.amazonaws.com/a.storyblok.com/f/90098/x/1f4dff51d5/the-ministry-of-the-word-olanrewaju-ilori-arise.mp3',
+    link: 'https://s3.amazonaws.com/a.storyblok.com/f/90098/x/1f4dff51d5/the-ministry-of-the-word-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('November 27, 2021 19:30:00'),
     series: '-',
@@ -1237,8 +1156,7 @@ export default [
   },
   {
     title: `Communion Service - Incense and Healing (December Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/a95adbdab8/communion-service-incense-and-healing-december-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/a95adbdab8/communion-service-incense-and-healing-december-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('December 4, 2021 19:30:00'),
     series: '-',
@@ -1247,8 +1165,7 @@ export default [
   },
   {
     title: `Question & Answer Session (December Edition)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/d6c986f8df/question-answer-session-december-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/d6c986f8df/question-answer-session-december-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('December 11, 2021 19:30:00'),
     series: '-',
@@ -1257,8 +1174,7 @@ export default [
   },
   {
     title: `That I may know Him 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/242751941d/that-i-may-know-him-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/242751941d/that-i-may-know-him-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 15, 2022 19:30:00'),
     series: 'That I may know Him',
@@ -1267,8 +1183,7 @@ export default [
   },
   {
     title: `That I may know Him 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/937724b8ed/that-i-may-know-him-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/937724b8ed/that-i-may-know-him-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 22, 2022 19:30:00'),
     series: 'That I may know Him',
@@ -1277,8 +1192,7 @@ export default [
   },
   {
     title: `The Mystery of Oneness`,
-    link:
-      'https://a.storyblok.com/f/90098/x/667fde34fa/the-mystery-of-oneness-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/667fde34fa/the-mystery-of-oneness-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('January 29, 2022 19:30:00'),
     series: '-',
@@ -1288,8 +1202,7 @@ export default [
   // notice the naming convention change
   {
     title: `The Exploits of Wisdom`,
-    link:
-      'https://a.storyblok.com/f/90098/x/456c905425/the-exploits-of-wisdom-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/456c905425/the-exploits-of-wisdom-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 12, 2022 19:30:00'),
     series: 'The Principal of Life',
@@ -1298,8 +1211,7 @@ export default [
   },
   {
     title: `The Excellency of Light (Knowledge)`,
-    link:
-      'https://a.storyblok.com/f/90098/x/f682f2046b/the-excellency-of-light-knowledge-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/f682f2046b/the-excellency-of-light-knowledge-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('February 19, 2022 19:30:00'),
     series: 'The Principal of Life',
@@ -1317,8 +1229,7 @@ export default [
   },
   {
     title: `The Mystery of Altars 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/ac1a2eccea/the-mystery-of-altars-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/ac1a2eccea/the-mystery-of-altars-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 12, 2022 19:30:00'),
     series: 'The Mystery of Altars',
@@ -1327,8 +1238,7 @@ export default [
   },
   {
     title: `The Mystery of Altars 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/24fe20604b/the-mystery-of-altars-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/24fe20604b/the-mystery-of-altars-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 19, 2022 19:30:00'),
     series: 'The Mystery of Altars',
@@ -1337,8 +1247,7 @@ export default [
   },
   {
     title: `The Mystery of Altars 3`,
-    link:
-      'https://a.storyblok.com/f/90098/x/fb1f741639/the-mystery-of-altars-3-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/fb1f741639/the-mystery-of-altars-3-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('March 26, 2022 19:30:00'),
     series: 'The Mystery of Altars',
@@ -1347,8 +1256,7 @@ export default [
   },
   {
     title: `Incense & Healing (April Edition) and AriseSCN 5th Anniversary Thanksgiving`,
-    link:
-      'https://a.storyblok.com/f/90098/x/545140f1ea/incense-healing-april-edition-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/545140f1ea/incense-healing-april-edition-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 2, 2022 19:30:00'),
     series: '-',
@@ -1357,8 +1265,7 @@ export default [
   },
   {
     title: `The Believer's Authority 1`,
-    link:
-      'https://a.storyblok.com/f/90098/x/0c3c04ca1e/the-believer-s-authority-1-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/0c3c04ca1e/the-believer-s-authority-1-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 9, 2022 19:30:00'),
     series: '-',
@@ -1367,13 +1274,21 @@ export default [
   },
   {
     title: `The Believer's Authority 2`,
-    link:
-      'https://a.storyblok.com/f/90098/x/e1a4f99e7f/the-believer-s-authority-2-olanrewaju-ilori-arise.mp3',
+    link: 'https://a.storyblok.com/f/90098/x/e1a4f99e7f/the-believer-s-authority-2-olanrewaju-ilori-arise.mp3',
     minister: 'Olanrewaju Ilori',
     date: new Date('April 23, 2022 19:30:00'),
     series: '-',
     imgSrc: `/img/album-arts/2022/The_Believer's_Authority/The_Believer's_Authority_2_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/The_Believer's_Authority/The_Believer's_Authority_2_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Reality of Spiritual Laws`,
+    link: 'https://a.storyblok.com/f/90098/x/004e218955/the-reality-of-spiritual-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 14, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Reality_of_Spiritual_Laws_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Reality_of_Spiritual_Laws_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
