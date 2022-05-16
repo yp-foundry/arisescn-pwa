@@ -1,5 +1,4 @@
 <template>
-
   <v-navigation-drawer
     v-model="isShown"
     :class="[
@@ -16,7 +15,6 @@
     right
     dark
   >
-
     <v-app-bar
       fixed
       dark
@@ -25,11 +23,9 @@
       :height="!$vuetify.breakpoint.xsOnly ? 112 : 104"
       class="app-bar transition-ease-in-out"
     >
-
       <!-- <div> -->
 
       <transition name="slide-y-transition">
-
         <v-btn
           v-show="isShown"
           color="secondary"
@@ -40,13 +36,10 @@
           role="download"
           download
         >
-
           <div class="d-inline-flex w-100">
-
             <v-icon class="mr-4" v-text="mdiCloudDownloadOutline" />
 
             <div class="d-inline-flex flex-column w-100 align-start">
-
               <span class="body-1">Latest message</span>
 
               <span
@@ -54,42 +47,31 @@
                 class="overline text-truncate"
                 v-text="latestMessage.title"
               />
-
             </div>
-
           </div>
-
         </v-btn>
-
       </transition>
 
       <v-app-bar-nav-icon class="ml-4" @click="toggleAppDrawer()">
-
         <a-hamburger-btn v-model="isShown" />
-
       </v-app-bar-nav-icon>
 
       <!-- </div> -->
-
     </v-app-bar>
 
     <v-layout column justify-space-between class="h-100 children-flex-grow-0">
-
       <v-divider />
 
       <v-flex
         class="app-drawer__nav-link-container secondary darken-2 elevation-5 rounded-2 pr-3 pl-1 mt-4 ml-2 mb-2"
       >
-
         <transition name="slide-y-transition">
-
           <v-list
             v-show="isShown"
             class="mt-4"
             style="background: transparent"
             dark
           >
-
             <v-list-item
               v-for="route in mainRoutes"
               :key="route.title"
@@ -100,57 +82,38 @@
               exact-active-class="primary--text"
               nuxt
             >
-
               <v-list-item-content>
-
                 <v-list-item-title>{{ route.title }}</v-list-item-title>
 
                 <v-list-item-subtitle class="caption">
-                   {{ route.description || '' }}
+                  {{ route.description || '' }}
                 </v-list-item-subtitle>
-
               </v-list-item-content>
 
               <v-list-item-icon>
-
                 <div class="pa-4 secondary lighten-1 rounded-2">
-
                   <v-icon>{{ route.icon }}</v-icon>
-
                 </div>
-
               </v-list-item-icon>
-
             </v-list-item>
-
           </v-list>
-
         </transition>
 
         <v-divider />
 
         <v-row class="mx-0 py-5 px-3" justify="center" dense>
-
           <v-col v-for="route in socialRoutes" :key="route.title" cols="auto">
-
-            <v-btn :href="route.route" :title="title" icon small>
-
+            <v-btn :href="route.route" :title="route.title" icon small>
               <v-icon v-text="route.icon"></v-icon>
-
             </v-btn>
-
           </v-col>
 
           <v-col cols="12">
-
             <div class="caption primary--text text--lighten-1 text-center">
-               @ariseSCN
+              @ariseSCN
             </div>
-
           </v-col>
-
         </v-row>
-
       </v-flex>
 
       <v-flex
@@ -158,19 +121,14 @@
         shrink
         class="mx-3 py-4 d-flex flex-column justify-center align-center"
       >
-
         <p class="body-1 font-italic dark-text--secondary">
-           Raising a nation for Christ
+          Raising a nation for Christ
         </p>
 
         <v-divider />
-
       </v-flex>
-
     </v-layout>
-
   </v-navigation-drawer>
-
 </template>
 
 <script>
@@ -279,4 +237,3 @@ export default {
   }
 }
 </style>
-
