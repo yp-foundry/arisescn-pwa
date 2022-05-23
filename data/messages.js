@@ -1289,6 +1289,15 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Reality_of_Spiritual_Laws_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Reality_of_Spiritual_Laws_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Law of Death & Glory`,
+    link: 'https://a.storyblok.com/f/90098/x/9ca5a6ca7d/the-law-of-death-glory-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 21, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Death_&_Glory_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Death_&_Glory_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
