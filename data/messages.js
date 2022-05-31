@@ -1298,6 +1298,15 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Death_&_Glory_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Death_&_Glory_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Law of Transformation`,
+    link: 'https://a.storyblok.com/f/90098/x/3c88ab2c22/the-law-of-transformation-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('May 28, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Transformation_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Transformation_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
