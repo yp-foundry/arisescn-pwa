@@ -18,6 +18,16 @@
       <v-layout class="mb-4">
         <v-flex xs12 sm10 md8 lg6>
           <v-chip
+            :input-value="isOnly2022Messages"
+            class="ma-2"
+            filter
+            color="primary"
+            @click="filterByYear('2022')"
+          >
+            2022 Messages
+          </v-chip>
+
+          <v-chip
             :input-value="isOnly2021Messages"
             class="ma-2"
             filter
@@ -365,6 +375,7 @@ export default {
       showFilters: true,
 
       search: '',
+      isOnly2022Messages: false,
       isOnly2021Messages: false,
       isOnly2020Messages: false,
       isOnly2019Messages: false,
@@ -423,6 +434,7 @@ export default {
         this[`isOnly${year}Messages`] = false
         return
       }
+      this.isOnly2022Messages = false
       this.isOnly2021Messages = false
       this.isOnly2020Messages = false
       this.isOnly2019Messages = false
