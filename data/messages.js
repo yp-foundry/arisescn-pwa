@@ -1307,6 +1307,33 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Transformation_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Transformation_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Power Praise - Incense and Healing (June 2022 Edition)`,
+    link: 'https://a.storyblok.com/f/90098/x/eae6d18b04/the-power-of-praise-incense-healing-june-edition-arise-with-olanrewaju-ilori.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 4, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Incense_and_Healing_(June_Edition)_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Incense_and_Healing_(June_Edition)_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `Worship Session - Incense and Healing (June 2022 Edition)`,
+    link: 'https://a.storyblok.com/f/90098/x/012d2908b5/worship-session-incense-healing-june-edition-arise-with-olanrewaju-ilori.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 4, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Incense_and_Healing_(June_Edition)_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Incense_and_Healing_(June_Edition)_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `The Law of Sound`,
+    link: 'https://a.storyblok.com/f/90098/x/d717093809/the-law-of-sound-olanrewaju-ilori-arise.mp3',
+    minister: 'Olanrewaju Ilori',
+    date: new Date('June 11, 2022 19:30:00'),
+    series: '-',
+    imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Sound_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Sound_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
