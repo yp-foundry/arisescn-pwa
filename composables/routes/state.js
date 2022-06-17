@@ -87,7 +87,7 @@ export default {
     // social links
     {
       title: 'YouTube',
-      route: 'https://www.youtube.com/channel/UC5kh4SGXwp7mWLkR286rnkA',
+      route: 'https://www.youtube.com/c/AriseSCN',
       icon: mdiYoutube,
       type: ['social']
     },
@@ -137,7 +137,7 @@ export default {
   social: [
     {
       text: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC5kh4SGXwp7mWLkR286rnkA',
+      link: 'https://www.youtube.com/c/AriseSCN',
       icon: mdiYoutube
     },
     {
