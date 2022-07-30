@@ -16,7 +16,8 @@ import {
   mdiFacebook,
   mdiTwitter,
   mdiInstagram,
-  mdiMusicNoteEighth
+  mdiMusicNoteEighth,
+  mdiRadio
   // mdiWhatsapp
 } from '@mdi/js'
 
@@ -125,6 +126,12 @@ export default {
       title: 'Telegram',
       route: 'https://telegram.com/ariseSCN',
       icon: mdiTelegram,
+      type: ['social']
+    },
+    {
+      title: 'Mixlr',
+      route: 'https://arisescn.mixlr.com/',
+      icon: mdiRadio,
       type: ['social']
     }
 
