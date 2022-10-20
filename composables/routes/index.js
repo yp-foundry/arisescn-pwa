@@ -1,4 +1,3 @@
-import { reactive, computed } from '@nuxtjs/composition-api'
 import state from './state'
 
 export const useRoutes = () => {

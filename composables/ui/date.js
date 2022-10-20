@@ -1,5 +1,3 @@
-import {} from '@nuxtjs/composition-api'
-
 /**
  *
  * @param {Date} date date to convert

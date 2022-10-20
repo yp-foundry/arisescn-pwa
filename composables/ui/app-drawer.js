@@ -1,5 +1,3 @@
-import { ref, computed } from '@nuxtjs/composition-api'
-
 const _isShown = ref(false)
 
 export const useAppDrawer = () => {
