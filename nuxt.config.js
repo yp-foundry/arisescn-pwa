@@ -1,4 +1,6 @@
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge'
+
+export default defineNuxtConfig({
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -98,12 +100,8 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
-    // https://go.nuxtjs.dev/composition-api
-    '@nuxtjs/composition-api/module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     // https://go.nuxtjs.dev/svg
@@ -188,11 +186,5 @@ export default {
     //     `
     //   }
     // }
-  },
-
-  generate: {
-    // FIXME: we use till @nuxtjs/composition-api issue with
-    // static generation is fixed
-    interval: 2000
   }
-}
+})
