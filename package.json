@@ -9,9 +9,8 @@
   },
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
-    "start": "nuxi start",
-    "generate": "nuxi generate",
+    "build": "nuxi generate",
+    "start": "nuxi preview",
     "lint:js": "eslint --ext .ts,.js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint:js:fix": "eslint --ext .ts,.js,.vue --ignore-path .gitignore . --fix",

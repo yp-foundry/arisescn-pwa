@@ -93,7 +93,7 @@ export default defineNuxtConfig({
   css: ['~/assets/styles/main.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/vue-observe-visibility'],
+  plugins: [],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -106,13 +106,6 @@ export default defineNuxtConfig({
     '@nuxtjs/vuetify',
     // https://go.nuxtjs.dev/svg
     '@nuxtjs/svg',
-    // [
-    //   'storyblok-nuxt',
-    //   {
-    //     accessToken: 'bBST5VQ1LY5JjdkotXvAwAtt',
-    //     cacheProvider: 'memory'
-    //   }
-    // ],
 
     '@nuxtjs/google-analytics',
 
@@ -123,9 +116,7 @@ export default defineNuxtConfig({
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxtjs/pwa'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
