@@ -302,156 +302,180 @@ export default {
   setup() {
     const { messages } = useMedia()
 
-    return { messages }
-  },
+    const itemsPerPage = ref({
+      text: 12,
+      value: 12
+    })
 
-  data() {
-    return {
-      itemsPerPage: {
+    const itemsPerPageArray = ref([
+      {
+        text: 4,
+        value: 4
+      },
+      {
         text: 12,
         value: 12
       },
-
-      itemsPerPageArray: [
-        {
-          text: 4,
-          value: 4
-        },
-        {
-          text: 12,
-          value: 12
-        },
-        {
-          text: 24,
-          value: 24
-        },
-        {
-          text: 'All',
-          value: -1
-        }
-      ],
-
-      filter: {},
-
-      sortBy: 'timestamp',
-
-      keys: [
-        {
-          text: 'Title',
-          value: 'title'
-        },
-        {
-          text: 'Minister',
-          value: 'minister'
-        },
-        {
-          text: 'Date',
-          value: 'timestamp'
-        }
-      ],
-
-      sortKeys: {
-        title: 'Title',
-        minister: 'Minister',
-        timestamp: 'Date'
+      {
+        text: 24,
+        value: 24
       },
+      {
+        text: 'All',
+        value: -1
+      }
+    ])
 
-      page: 1,
+    const keys = ref([
+      {
+        text: 'Title',
+        value: 'title'
+      },
+      {
+        text: 'Minister',
+        value: 'minister'
+      },
+      {
+        text: 'Date',
+        value: 'timestamp'
+      }
+    ])
 
-      sortDesc: true,
+    const filter = ref({})
 
-      mdiMagnify,
+    const sortBy = ref('timestamp')
+    const sortKeys = ref({
+      title: 'Title',
+      minister: 'Minister',
+      timestamp: 'Date'
+    })
+    const sortDesc = ref(true)
 
-      mdiFilter,
+    const page = ref(1)
+    const route = useRoute()
+    const search = ref(route.query.search || '')
 
-      mdiSort,
+    const showFilters = ref(true)
+    const isOnly2022Messages = ref(false)
+    const isOnly2021Messages = ref(false)
+    const isOnly2020Messages = ref(false)
+    const isOnly2019Messages = ref(false)
+    const isFilterByYear = ref('')
 
-      mdiArrowUp,
+    const mdiArrowExpandDown = mdiMenuDown
 
-      mdiArrowDown,
+    const numberOfPages = computed(() => {
+      return Math.ceil(messages.value.length / itemsPerPage.value.value)
+    })
 
-      mdiArrowExpandDown: mdiMenuDown,
+    const filteredKeys = computed(() => {
+      return Object.values(sortKeys.value).filter((key) => key !== `Timestamp`)
+    })
 
-      showFilters: true,
-
-      search: '',
-      isOnly2022Messages: false,
-      isOnly2021Messages: false,
-      isOnly2020Messages: false,
-      isOnly2019Messages: false,
-      isFilterByYear: ''
-    }
-  },
-
-  computed: {
-    // search() {
-    //   return this.$store.state.search
-    // },
-
-    numberOfPages() {
-      return Math.ceil(this.messages.length / this.itemsPerPage.value)
-    },
-
-    filteredKeys() {
-      return Object.values(this.sortKeys).filter((key) => key !== `Timestamp`)
-    }
-  },
-
-  created() {
-    // const search = this.$route.query.search || ''
-    this.search = this.$route.query.search || ''
-
-    // eslint-disable-next-line no-console
-    // console.dir(search)
-
-    // if (search) {
-    //   this.$store.commit('SET_SEARCH', search)
-    // }
-  },
-
-  methods: {
-    filterFn(items) {
+    const filterFn = (items) => {
       if (!items) {
         return []
       }
 
       return items.filter((item) =>
-        String(item.date.getFullYear()).includes(this.isFilterByYear)
+        String(item.date.getFullYear()).includes(isFilterByYear.value)
       )
-    },
+    }
 
-    /* filterFn(value, search, item) {
-      if (!this.isFilterByYear) {
-        return true
+    /**
+     * Utility function to set a year filter to a value
+     * @param {string} year
+     * @param {boolean} val
+     */
+    const setYearFilter = (year, val) => {
+      switch (year) {
+        case '2022':
+          isOnly2022Messages.value = val
+          break
+        case '2021':
+          isOnly2021Messages.value = val
+          break
+        case '2020':
+          isOnly2020Messages.value = val
+          break
+        case '2019':
+          isOnly2019Messages.value = val
+          break
+      }
+    }
+
+    const filterByYear = (year) => {
+      const yearsFilterMap = {
+        2022: isOnly2022Messages.value,
+        2021: isOnly2021Messages.value,
+        2020: isOnly2020Messages.value,
+        2019: isOnly2019Messages.value
       }
 
-      return String(item.date.getFullYear()).includes(this.isFilterByYear)
-    }, */
-
-    filterByYear(year) {
-      if (this[`isOnly${year}Messages`] === true) {
-        this.isFilterByYear = ''
-        this[`isOnly${year}Messages`] = false
+      if (yearsFilterMap[year] === true) {
+        isFilterByYear.value = ''
+        setYearFilter(year, false)
         return
       }
-      this.isOnly2022Messages = false
-      this.isOnly2021Messages = false
-      this.isOnly2020Messages = false
-      this.isOnly2019Messages = false
-      this.isFilterByYear = year
-      this[`isOnly${year}Messages`] = true
-    },
 
-    nextPage() {
-      if (this.page + 1 <= this.numberOfPages) this.page += 1
-    },
+      isOnly2022Messages.value = false
+      isOnly2021Messages.value = false
+      isOnly2020Messages.value = false
+      isOnly2019Messages.value = false
+      isFilterByYear.value = year
+      setYearFilter(year, true)
+    }
 
-    formerPage() {
-      if (this.page - 1 >= 1) this.page -= 1
-    },
+    const nextPage = () => {
+      if (page.value + 1 <= numberOfPages.value) page.value += 1
+    }
 
-    updateItemsPerPage(number) {
-      this.itemsPerPage = number
+    const formerPage = () => {
+      if (page.value - 1 >= 1) page.value -= 1
+    }
+
+    const updateItemsPerPage = (number) => {
+      itemsPerPage.value = number
+    }
+
+    return {
+      messages,
+
+      itemsPerPage,
+      itemsPerPageArray,
+
+      keys,
+      filter,
+
+      sortBy,
+      sortKeys,
+      sortDesc,
+
+      page,
+      search,
+
+      showFilters,
+      isOnly2022Messages,
+      isOnly2021Messages,
+      isOnly2020Messages,
+      isOnly2019Messages,
+      isFilterByYear,
+
+      numberOfPages,
+      filteredKeys,
+
+      filterFn,
+      filterByYear,
+      nextPage,
+      formerPage,
+      updateItemsPerPage,
+
+      mdiArrowExpandDown,
+      mdiMagnify,
+      mdiFilter,
+      mdiSort,
+      mdiArrowUp,
+      mdiArrowDown
     }
   }
 }
