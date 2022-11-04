@@ -372,13 +372,16 @@ export default {
       return Object.values(sortKeys.value).filter((key) => key !== `Timestamp`)
     })
 
-    const filterFn = (items) => {
+    const filterFn = (items, search) => {
       if (!items) {
         return []
       }
 
-      return items.filter((item) =>
-        String(item.date.getFullYear()).includes(isFilterByYear.value)
+      return items.filter(
+        (item) =>
+          String(item.date.getFullYear()).includes(isFilterByYear.value) &&
+          (item.title.toLowerCase().includes(search.toLowerCase()) ||
+            item.series.toLowerCase().includes(search.toLowerCase()))
       )
     }
 
