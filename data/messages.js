@@ -1379,6 +1379,24 @@ export default [
     series: '-',
     imgSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Relationship_2_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/Spiritual_Laws/The_Law_of_Relationship_2_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `Kingdom Wealth System 1`,
+    link: 'https://a.storyblok.com/f/90098/x/8cb2dfc4d6/kingdom-wealth-system-1-apostle-olanrewaju-ilori-arisescn.mp3',
+    minister: 'Apostle Olanrewaju Ilori',
+    date: new Date('November 12, 2022 19:30:00'),
+    series: 'Kingdom Wealth System',
+    imgSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_1_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_1_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `Kingdom Wealth System 2`,
+    link: 'https://a.storyblok.com/f/90098/x/69d069097e/kingdom-wealth-system-2-apostle-olanrewaju-ilori-arisescn.mp3',
+    minister: 'Apostle Olanrewaju Ilori',
+    date: new Date('November 19, 2022 19:30:00'),
+    series: 'Kingdom Wealth System',
+    imgSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_2_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_2_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
