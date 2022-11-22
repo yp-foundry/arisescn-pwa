@@ -63,6 +63,7 @@
       rel="noopener noreferrer"
       role="download"
       download
+      target="_blank"
     >
       <v-icon small v-text="mdiCloudDownload" />
     </v-btn>

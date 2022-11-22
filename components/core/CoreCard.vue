@@ -45,6 +45,7 @@
           large
           role="download"
           download
+          target="_blank"
         >
           <v-icon>{{ mdiCloudDownload }}</v-icon>
         </v-btn>
