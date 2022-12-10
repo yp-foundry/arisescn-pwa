@@ -1397,6 +1397,15 @@ export default [
     series: 'Kingdom Wealth System',
     imgSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_2_-_Album_Art.jpg`,
     thumbnailSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_2_-_Album_Art_-_thumbnail.jpg`
+  },
+  {
+    title: `Kingdom Wealth System 3`,
+    link: 'https://a.storyblok.com/f/90098/x/23a24a5d92/kingdom-wealth-system-3-apostle-olanrewaju-ilori-arisescn.mp3',
+    minister: 'Apostle Olanrewaju Ilori',
+    date: new Date('November 26, 2022 19:30:00'),
+    series: 'Kingdom Wealth System',
+    imgSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_3_-_Album_Art.jpg`,
+    thumbnailSrc: `/img/album-arts/2022/Kingdom_Wealth_System/Kingdom_Wealth_System_3_-_Album_Art_-_thumbnail.jpg`
   }
 ]
 
